@@ -1,0 +1,864 @@
+{
+  "id": 10214,
+  "name": "drednaw-gmax",
+  "displayName": "Drednaw",
+  "species": {
+    "id": 834,
+    "name": "drednaw"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "water",
+    "rock"
+  ],
+  "height": 240,
+  "weight": 10000,
+  "baseExperience": 170,
+  "isDefault": false,
+  "stats": {
+    "hp": 90,
+    "attack": 115,
+    "defense": 90,
+    "specialAttack": 48,
+    "specialDefense": 68,
+    "speed": 74,
+    "total": 485,
+    "effort": {
+      "attack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 173,
+      "name": "strong-jaw",
+      "displayName": "Strong Jaw",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Strengthens biting moves to 1.5× their power.",
+      "effect": "Strengthens biting moves to 1.5× their power.",
+      "flavorText": "The Pokémon's strong jaw boosts the power of its biting moves."
+    },
+    {
+      "id": 75,
+      "name": "shell-armor",
+      "displayName": "Shell Armor",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Protects against critical hits.",
+      "effect": "Moves cannot score critical hits against this Pokémon. This ability functions identically to Battle Armor.",
+      "flavorText": "A hard shell protects the Pokémon from critical hits."
+    },
+    {
+      "id": 33,
+      "name": "swift-swim",
+      "displayName": "Swift Swim",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Doubles Speed during rain.",
+      "effect": "This Pokémon's Speed is doubled during rain. This bonus does not count as a stat modifier.",
+      "flavorText": "Boosts the Pokémon's Speed stat in rain."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/chewtle-drednaw.json",
+    "names": [
+      "chewtle",
+      "drednaw"
+    ]
+  },
+  "forms": [
+    {
+      "id": 834,
+      "name": "drednaw",
+      "displayName": "Drednaw",
+      "formName": "drednaw",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "water",
+        "rock"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/834-drednaw/004-endpoints.pokemon.sprites.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/003-endpoints.pokemon.sprites.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/834-drednaw/001-endpoints.pokemon.sprites.back_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/834-drednaw/002-endpoints.pokemon.sprites.back_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/834-drednaw/008-endpoints.pokemon.sprites.other.official-artwork.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/834-drednaw/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/834-drednaw/006-endpoints.pokemon.sprites.other.home.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/834-drednaw/007-endpoints.pokemon.sprites.other.home.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/012-endpoints.pokemon.sprites.other.showdown.front_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/011-endpoints.pokemon.sprites.other.showdown.back_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/834-drednaw/005-endpoints.pokemon.sprites.other.dream_world.front_default-834.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/834.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/010-endpoints.pokemon.sprites.other.showdown.back_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/013-endpoints.pokemon.sprites.other.showdown.front_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/834-drednaw/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/834-drednaw/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/834-drednaw/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/834.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/834-drednaw/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/834-drednaw/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/834-drednaw/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/026-endpoints.varieties.1.sprites.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/834-drednaw/024-endpoints.varieties.1.sprites.back_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/834-drednaw/027-endpoints.varieties.1.sprites.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/834-drednaw/025-endpoints.varieties.1.sprites.back_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/023-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/834.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/834-drednaw/028-endpoints.varieties.1.sprites.other.home.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/834-drednaw/030-endpoints.varieties.1.sprites.other.official-artwork.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/834-drednaw/031-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/834-drednaw/029-endpoints.varieties.1.sprites.other.home.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/033-endpoints.varieties.1.sprites.other.showdown.back_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10214.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/036-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10214.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/035-endpoints.varieties.1.sprites.other.showdown.front_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10214.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/032-endpoints.varieties.1.sprites.other.showdown.back_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10214.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/834-drednaw/037-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10214.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/834-drednaw/038-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/834-drednaw/039-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/834-drednaw/034-endpoints.varieties.1.sprites.other.showdown.front_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10214.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/834-drednaw/041-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/040-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/834-drednaw/042-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10214.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/003-endpoints.pokemon.sprites.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/002-endpoints.pokemon.sprites.back_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/004-endpoints.pokemon.sprites.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/001-endpoints.pokemon.sprites.back_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10214-drednaw-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10214-drednaw-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/019-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/022-endpoints.varieties.0.sprites.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/020-endpoints.varieties.0.sprites.back_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/023-endpoints.varieties.0.sprites.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10214-drednaw-gmax/024-endpoints.varieties.0.sprites.other.dream_world.front_default-834.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/834.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/021-endpoints.varieties.0.sprites.back_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/025-endpoints.varieties.0.sprites.other.home.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10214-drednaw-gmax/028-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10214-drednaw-gmax/027-endpoints.varieties.0.sprites.other.official-artwork.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/029-endpoints.varieties.0.sprites.other.showdown.back_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/026-endpoints.varieties.0.sprites.other.home.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/030-endpoints.varieties.0.sprites.other.showdown.back_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/032-endpoints.varieties.0.sprites.other.showdown.front_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/033-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/031-endpoints.varieties.0.sprites.other.showdown.front_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/041-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/042-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Drednaw",
+        "formName": "regular",
+        "path": "data/models/834-drednaw/01-regular-Drednaw.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/834.glb"
+      }
+    },
+    {
+      "id": 10214,
+      "name": "drednaw-gmax",
+      "displayName": "Gigantamax Drednaw",
+      "formName": "gmax",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": true,
+      "types": [
+        "water",
+        "rock"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/003-endpoints.pokemon.sprites.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/002-endpoints.pokemon.sprites.back_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/004-endpoints.pokemon.sprites.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/001-endpoints.pokemon.sprites.back_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10214-drednaw-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10214-drednaw-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10214.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10214.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/019-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10214.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10214.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/022-endpoints.varieties.0.sprites.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/020-endpoints.varieties.0.sprites.back_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/023-endpoints.varieties.0.sprites.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10214-drednaw-gmax/024-endpoints.varieties.0.sprites.other.dream_world.front_default-834.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/834.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/021-endpoints.varieties.0.sprites.back_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/025-endpoints.varieties.0.sprites.other.home.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10214-drednaw-gmax/028-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10214-drednaw-gmax/027-endpoints.varieties.0.sprites.other.official-artwork.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/029-endpoints.varieties.0.sprites.other.showdown.back_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10214-drednaw-gmax/026-endpoints.varieties.0.sprites.other.home.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/030-endpoints.varieties.0.sprites.other.showdown.back_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/032-endpoints.varieties.0.sprites.other.showdown.front_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/033-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10214-drednaw-gmax/031-endpoints.varieties.0.sprites.other.showdown.front_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-834.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/834.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10214-drednaw-gmax/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10214-drednaw-gmax/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10214-drednaw-gmax/041-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10214-drednaw-gmax/042-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-834.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/834.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

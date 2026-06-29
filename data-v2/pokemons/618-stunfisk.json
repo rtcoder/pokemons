@@ -1,0 +1,743 @@
+{
+  "id": 618,
+  "name": "stunfisk",
+  "displayName": "Stunfisk",
+  "species": {
+    "id": 618,
+    "name": "stunfisk"
+  },
+  "generation": "generation-v",
+  "types": [
+    "ground",
+    "electric"
+  ],
+  "height": 7,
+  "weight": 110,
+  "baseExperience": 165,
+  "isDefault": true,
+  "stats": {
+    "hp": 109,
+    "attack": 66,
+    "defense": 84,
+    "specialAttack": 81,
+    "specialDefense": 99,
+    "speed": 32,
+    "total": 471,
+    "effort": {
+      "hp": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 9,
+      "name": "static",
+      "displayName": "Static",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed. Pokémon that are immune to Electric-type moves can still be paralyzed by this ability. Overworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable.",
+      "flavorText": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+    },
+    {
+      "id": 7,
+      "name": "limber",
+      "displayName": "Limber",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Prevents paralysis.",
+      "effect": "This Pokémon cannot be paralyzed. If a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle.",
+      "flavorText": "The Pokémon's limber body prevents it from being paralyzed."
+    },
+    {
+      "id": 8,
+      "name": "sand-veil",
+      "displayName": "Sand Veil",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Increases evasion to 1.25× during a sandstorm. Protects against sandstorm damage.",
+      "effect": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type. The evasion bonus does not count as a stat modifier. Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
+      "flavorText": "Boosts the Pokémon's evasiveness in a sandstorm."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/stunfisk.json",
+    "names": [
+      "stunfisk"
+    ]
+  },
+  "forms": [
+    {
+      "id": 618,
+      "name": "stunfisk",
+      "displayName": "Stunfisk",
+      "formName": "stunfisk",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ground",
+        "electric"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/003-endpoints.pokemon.sprites.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/004-endpoints.pokemon.sprites.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/618-stunfisk/001-endpoints.pokemon.sprites.back_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/618-stunfisk/002-endpoints.pokemon.sprites.back_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/618-stunfisk/006-endpoints.pokemon.sprites.other.home.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/618-stunfisk/007-endpoints.pokemon.sprites.other.home.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/618-stunfisk/008-endpoints.pokemon.sprites.other.official-artwork.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/618-stunfisk/005-endpoints.pokemon.sprites.other.dream_world.front_default-618.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/618.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/618-stunfisk/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/010-endpoints.pokemon.sprites.other.showdown.back_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/012-endpoints.pokemon.sprites.other.showdown.front_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/011-endpoints.pokemon.sprites.other.showdown.back_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/013-endpoints.pokemon.sprites.other.showdown.front_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/618-stunfisk/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/618-stunfisk/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/618.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/618-stunfisk/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/618-stunfisk/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/022-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/024-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/026-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/027-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/029-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/618.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/032-endpoints.varieties.1.sprites.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/618-stunfisk/031-endpoints.varieties.1.sprites.back_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/618-stunfisk/030-endpoints.varieties.1.sprites.back_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/033-endpoints.varieties.1.sprites.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/618-stunfisk/034-endpoints.varieties.1.sprites.other.home.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/618-stunfisk/036-endpoints.varieties.1.sprites.other.official-artwork.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/618-stunfisk/037-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/038-endpoints.varieties.1.sprites.other.showdown.back_default-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/618-stunfisk/035-endpoints.varieties.1.sprites.other.home.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/039-endpoints.varieties.1.sprites.other.showdown.back_shiny-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/040-endpoints.varieties.1.sprites.other.showdown.front_default-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/618-stunfisk/042-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/618-stunfisk/043-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/044-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/041-endpoints.varieties.1.sprites.other.showdown.front_shiny-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/045-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Stunfisk",
+        "formName": "regular",
+        "path": "data/models/618-stunfisk/01-regular-Stunfisk.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/618.glb"
+      }
+    },
+    {
+      "id": 10180,
+      "name": "stunfisk-galar",
+      "displayName": "Galarian Stunfisk",
+      "formName": "galar",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/003-endpoints.pokemon.sprites.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10180-stunfisk-galar/001-endpoints.pokemon.sprites.back_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/004-endpoints.pokemon.sprites.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10180-stunfisk-galar/002-endpoints.pokemon.sprites.back_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10180-stunfisk-galar/005-endpoints.pokemon.sprites.other.home.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10180-stunfisk-galar/006-endpoints.pokemon.sprites.other.home.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10180-stunfisk-galar/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10180-stunfisk-galar/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/009-endpoints.pokemon.sprites.other.showdown.back_default-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10180.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10180.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/011-endpoints.pokemon.sprites.other.showdown.front_default-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10180.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10180-stunfisk-galar/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10180.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10180-stunfisk-galar/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10180-stunfisk-galar/017-endpoints.varieties.0.sprites.back_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10180.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/020-endpoints.varieties.0.sprites.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/019-endpoints.varieties.0.sprites.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10180-stunfisk-galar/018-endpoints.varieties.0.sprites.back_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10180-stunfisk-galar/021-endpoints.varieties.0.sprites.other.dream_world.front_default-618.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/618.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10180-stunfisk-galar/023-endpoints.varieties.0.sprites.other.home.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10180-stunfisk-galar/022-endpoints.varieties.0.sprites.other.home.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10180-stunfisk-galar/024-endpoints.varieties.0.sprites.other.official-artwork.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10180-stunfisk-galar/025-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/026-endpoints.varieties.0.sprites.other.showdown.back_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/027-endpoints.varieties.0.sprites.other.showdown.back_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/028-endpoints.varieties.0.sprites.other.showdown.front_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10180-stunfisk-galar/029-endpoints.varieties.0.sprites.other.showdown.front_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10180-stunfisk-galar/031-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10180-stunfisk-galar/030-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10180-stunfisk-galar/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-618.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/618.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10180-stunfisk-galar/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/038-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/039-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/040-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/041-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/042-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/043-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10180-stunfisk-galar/044-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10180-stunfisk-galar/045-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-618.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/618.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/032-endpoints.varieties.1.sprites.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/618-stunfisk/031-endpoints.varieties.1.sprites.back_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/618-stunfisk/030-endpoints.varieties.1.sprites.back_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/033-endpoints.varieties.1.sprites.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/618-stunfisk/034-endpoints.varieties.1.sprites.other.home.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/618-stunfisk/036-endpoints.varieties.1.sprites.other.official-artwork.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/618-stunfisk/037-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/038-endpoints.varieties.1.sprites.other.showdown.back_default-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/618-stunfisk/035-endpoints.varieties.1.sprites.other.home.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/039-endpoints.varieties.1.sprites.other.showdown.back_shiny-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/040-endpoints.varieties.1.sprites.other.showdown.front_default-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/618-stunfisk/042-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/618-stunfisk/043-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/618-stunfisk/044-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/618-stunfisk/041-endpoints.varieties.1.sprites.other.showdown.front_shiny-10180.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10180.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/618-stunfisk/045-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10180.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10180.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

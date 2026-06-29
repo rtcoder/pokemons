@@ -1,0 +1,232 @@
+{
+  "id": 699,
+  "name": "aurorus",
+  "displayName": "Aurorus",
+  "species": {
+    "id": 699,
+    "name": "aurorus"
+  },
+  "generation": "generation-vi",
+  "types": [
+    "rock",
+    "ice"
+  ],
+  "height": 27,
+  "weight": 2250,
+  "baseExperience": 104,
+  "isDefault": true,
+  "stats": {
+    "hp": 123,
+    "attack": 77,
+    "defense": 72,
+    "specialAttack": 99,
+    "specialDefense": 92,
+    "speed": 58,
+    "total": 521,
+    "effort": {
+      "hp": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 174,
+      "name": "refrigerate",
+      "displayName": "Refrigerate",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Turns the bearer's Normal moves into Ice moves and strengthens them to 1.3× their power.",
+      "effect": "Turns the bearer's Normal-type moves into Ice-type moves. Moves changed by this ability have 1.3× their power.",
+      "flavorText": "Normal-type moves become Ice-type moves. The power of those moves is boosted a little."
+    },
+    {
+      "id": 117,
+      "name": "snow-warning",
+      "displayName": "Snow Warning",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Summons hail that lasts indefinitely upon entering battle.",
+      "effect": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition. If multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room. Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+      "flavorText": "The Pokémon makes it snow when it enters a battle."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/amaura-aurorus.json",
+    "names": [
+      "amaura",
+      "aurorus"
+    ]
+  },
+  "forms": [
+    {
+      "id": 699,
+      "name": "aurorus",
+      "displayName": "Aurorus",
+      "formName": "aurorus",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "rock",
+        "ice"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/699-aurorus/003-endpoints.pokemon.sprites.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/699-aurorus/004-endpoints.pokemon.sprites.front_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/699-aurorus/001-endpoints.pokemon.sprites.back_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/699-aurorus/002-endpoints.pokemon.sprites.back_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/699-aurorus/006-endpoints.pokemon.sprites.other.home.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/699-aurorus/008-endpoints.pokemon.sprites.other.official-artwork.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/699-aurorus/005-endpoints.pokemon.sprites.other.dream_world.front_default-699.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/699.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/699-aurorus/007-endpoints.pokemon.sprites.other.home.front_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/699-aurorus/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/699-aurorus/010-endpoints.pokemon.sprites.other.showdown.back_default-699.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/699.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/699-aurorus/011-endpoints.pokemon.sprites.other.showdown.back_shiny-699.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/699.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/699-aurorus/012-endpoints.pokemon.sprites.other.showdown.front_default-699.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/699.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/699-aurorus/013-endpoints.pokemon.sprites.other.showdown.front_shiny-699.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/699.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/699-aurorus/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/699-aurorus/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/699-aurorus/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/699-aurorus/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/699-aurorus/018-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/699-aurorus/019-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/699-aurorus/022-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/699-aurorus/021-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/699-aurorus/020-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/699-aurorus/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/699-aurorus/025-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/699-aurorus/024-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-699.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/699.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Aurorus",
+        "formName": "regular",
+        "path": "data/models/699-aurorus/01-regular-Aurorus.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/699.glb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "id": 235,
+  "name": "smeargle",
+  "displayName": "Smeargle",
+  "species": {
+    "id": 235,
+    "name": "smeargle"
+  },
+  "generation": "generation-ii",
+  "types": [
+    "normal"
+  ],
+  "height": 12,
+  "weight": 580,
+  "baseExperience": 88,
+  "isDefault": true,
+  "stats": {
+    "hp": 55,
+    "attack": 20,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 45,
+    "speed": 75,
+    "total": 250,
+    "effort": {
+      "speed": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 20,
+      "name": "own-tempo",
+      "displayName": "Own Tempo",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Prevents confusion.",
+      "effect": "This Pokémon cannot be confused. If a Pokémon is confused and acquires this ability, its confusion will immediately be healed.",
+      "flavorText": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+    },
+    {
+      "id": 101,
+      "name": "technician",
+      "displayName": "Technician",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Strengthens moves of 60 base power or less to 1.5× their power.",
+      "effect": "This Pokémon's moves have 1.5× their power if their base power is 60 or less. This includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less. Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout.",
+      "flavorText": "Powers up weak moves so the Pokémon can deal more damage with them."
+    },
+    {
+      "id": 141,
+      "name": "moody",
+      "displayName": "Moody",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Raises a random stat two stages and lowers another one stage after each turn.",
+      "effect": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage. If a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively.",
+      "flavorText": "Every turn, one of the Pokémon's stats will be boosted sharply but another stat will be lowered."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/smeargle.json",
+    "names": [
+      "smeargle"
+    ]
+  },
+  "forms": [
+    {
+      "id": 235,
+      "name": "smeargle",
+      "displayName": "Smeargle",
+      "formName": "smeargle",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/004-endpoints.pokemon.sprites.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/003-endpoints.pokemon.sprites.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/001-endpoints.pokemon.sprites.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/002-endpoints.pokemon.sprites.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/235-smeargle/006-endpoints.pokemon.sprites.other.home.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/235-smeargle/008-endpoints.pokemon.sprites.other.official-artwork.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/235-smeargle/005-endpoints.pokemon.sprites.other.dream_world.front_default-235.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/235.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/235-smeargle/007-endpoints.pokemon.sprites.other.home.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/235-smeargle/011-endpoints.pokemon.sprites.other.showdown.back_shiny-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/235-smeargle/012-endpoints.pokemon.sprites.other.showdown.front_default-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/235-smeargle/010-endpoints.pokemon.sprites.other.showdown.back_default-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/235-smeargle/013-endpoints.pokemon.sprites.other.showdown.front_shiny-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/235-smeargle/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/014-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/235-smeargle/017-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/018-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/016-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/015-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/020-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/235-smeargle/021-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/019-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/022-endpoints.pokemon.sprites.versions.generation-ii.gold.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/025-endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/023-endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/024-endpoints.pokemon.sprites.versions.generation-ii.gold.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/235-smeargle/026-endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/027-endpoints.pokemon.sprites.versions.generation-ii.silver.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/028-endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/029-endpoints.pokemon.sprites.versions.generation-ii.silver.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/030-endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/032-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/235-smeargle/031-endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/034-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/033-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/035-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/036-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/038-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/039-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/037-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/041-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/042-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/043-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/040-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/044-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/045-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/046-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/047-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/050-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/048-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/051-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/049-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/053-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/052-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/054-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-235.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/235.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/235-smeargle/055-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/235-smeargle/056-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/058-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/059-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/057-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/060-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/061-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/062-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/064-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/066-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/063-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/235-smeargle/067-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/235-smeargle/065-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-235.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/235.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Smeargle",
+        "formName": "regular",
+        "path": "data/models/235-smeargle/01-regular-Smeargle.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/235.glb"
+      }
+    }
+  ]
+}

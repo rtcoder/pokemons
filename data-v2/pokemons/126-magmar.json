@@ -1,0 +1,579 @@
+{
+  "id": 126,
+  "name": "magmar",
+  "displayName": "Magmar",
+  "species": {
+    "id": 126,
+    "name": "magmar"
+  },
+  "generation": "generation-i",
+  "types": [
+    "fire"
+  ],
+  "height": 13,
+  "weight": 445,
+  "baseExperience": 173,
+  "isDefault": true,
+  "stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "specialAttack": 100,
+    "specialDefense": 85,
+    "speed": 93,
+    "total": 495,
+    "effort": {
+      "specialAttack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 49,
+      "name": "flame-body",
+      "displayName": "Flame Body",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of burning attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned. Overworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly. This effect does not stack if multiple Pokémon have this ability or Magma Armor.",
+      "flavorText": "Contact with the Pokémon may burn the attacker."
+    },
+    {
+      "id": 72,
+      "name": "vital-spirit",
+      "displayName": "Vital Spirit",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Prevents sleep.",
+      "effect": "This Pokémon cannot be asleep. This causes Rest to fail altogether. If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle. This ability functions identically to Insomnia in battle. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+      "flavorText": "The Pokémon is full of vitality, and that prevents it from falling asleep."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/magby-magmar-magmortar.json",
+    "names": [
+      "magby",
+      "magmar",
+      "magmortar"
+    ]
+  },
+  "forms": [
+    {
+      "id": 126,
+      "name": "magmar",
+      "displayName": "Magmar",
+      "formName": "magmar",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "fire"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/003-endpoints.pokemon.sprites.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/126-magmar/005-endpoints.pokemon.sprites.other.dream_world.front_default-126.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/126.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/004-endpoints.pokemon.sprites.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/001-endpoints.pokemon.sprites.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/002-endpoints.pokemon.sprites.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/126-magmar/007-endpoints.pokemon.sprites.other.home.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/126-magmar/006-endpoints.pokemon.sprites.other.home.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/126-magmar/008-endpoints.pokemon.sprites.other.official-artwork.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/126-magmar/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/126-magmar/010-endpoints.pokemon.sprites.other.showdown.back_default-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/126-magmar/011-endpoints.pokemon.sprites.other.showdown.back_shiny-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/126-magmar/013-endpoints.pokemon.sprites.other.showdown.front_shiny-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/015-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/014-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/126-magmar/012-endpoints.pokemon.sprites.other.showdown.front_default-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/016-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/017-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/018-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/019-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/020-endpoints.pokemon.sprites.versions.generation-i.yellow.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/021-endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/023-endpoints.pokemon.sprites.versions.generation-i.yellow.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/022-endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/025-endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/026-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/024-endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/027-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/028-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/029-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/030-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/031-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/033-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/034-endpoints.pokemon.sprites.versions.generation-ii.gold.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/032-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/035-endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/036-endpoints.pokemon.sprites.versions.generation-ii.gold.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/037-endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/038-endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/039-endpoints.pokemon.sprites.versions.generation-ii.silver.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/040-endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/041-endpoints.pokemon.sprites.versions.generation-ii.silver.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/042-endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/044-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/126-magmar/043-endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/045-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/046-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/047-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/049-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/048-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/050-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/051-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/053-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/054-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/052-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/055-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/057-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/056-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/059-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/058-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/060-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/062-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/061-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/063-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/065-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/064-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/066-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/067-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/069-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/068-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/070-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-126.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/126.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/126-magmar/071-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/126-magmar/072-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/073-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/074-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/075-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/077-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/076-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/079-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/078-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/080-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/126-magmar/081-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/083-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/126-magmar/082-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-126.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/126.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        }
+      ],
+      "model": {
+        "name": "Magmar",
+        "formName": "regular",
+        "path": "data/models/126-magmar/01-regular-Magmar.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/126.glb"
+      }
+    }
+  ]
+}

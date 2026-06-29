@@ -1,0 +1,750 @@
+{
+  "id": 10208,
+  "name": "melmetal-gmax",
+  "displayName": "Melmetal",
+  "species": {
+    "id": 809,
+    "name": "melmetal"
+  },
+  "generation": "generation-vii",
+  "types": [
+    "steel"
+  ],
+  "height": 250,
+  "weight": 10000,
+  "baseExperience": 270,
+  "isDefault": false,
+  "stats": {
+    "hp": 135,
+    "attack": 143,
+    "defense": 143,
+    "specialAttack": 80,
+    "specialDefense": 65,
+    "speed": 34,
+    "total": 600,
+    "effort": {
+      "attack": 3
+    }
+  },
+  "abilities": [
+    {
+      "id": 89,
+      "name": "iron-fist",
+      "displayName": "Iron Fist",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Strengthens punch-based moves to 1.2× their power.",
+      "effect": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon. Sucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\".",
+      "flavorText": "Powers up punching moves."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/melmetal.json",
+    "names": [
+      "melmetal"
+    ]
+  },
+  "forms": [
+    {
+      "id": 809,
+      "name": "melmetal",
+      "displayName": "Melmetal",
+      "formName": "melmetal",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "steel"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/809-melmetal/003-endpoints.pokemon.sprites.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/809-melmetal/004-endpoints.pokemon.sprites.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/809-melmetal/001-endpoints.pokemon.sprites.back_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/809-melmetal/002-endpoints.pokemon.sprites.back_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/809-melmetal/008-endpoints.pokemon.sprites.other.official-artwork.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/809-melmetal/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/809-melmetal/006-endpoints.pokemon.sprites.other.home.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/809-melmetal/007-endpoints.pokemon.sprites.other.home.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/809-melmetal/005-endpoints.pokemon.sprites.other.dream_world.front_default-809.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/809.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/011-endpoints.pokemon.sprites.other.showdown.back_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/809.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/010-endpoints.pokemon.sprites.other.showdown.back_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/809.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/809-melmetal/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/809.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/013-endpoints.pokemon.sprites.other.showdown.front_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/809.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/809-melmetal/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/809.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/012-endpoints.pokemon.sprites.other.showdown.front_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/809.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/809-melmetal/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/809-melmetal/017-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/809-melmetal/019-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/809-melmetal/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/809-melmetal/020-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/809.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/809-melmetal/023-endpoints.varieties.1.sprites.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/809-melmetal/022-endpoints.varieties.1.sprites.back_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/809-melmetal/024-endpoints.varieties.1.sprites.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/809-melmetal/021-endpoints.varieties.1.sprites.back_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/809-melmetal/025-endpoints.varieties.1.sprites.other.home.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/809-melmetal/027-endpoints.varieties.1.sprites.other.official-artwork.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/809-melmetal/026-endpoints.varieties.1.sprites.other.home.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/029-endpoints.varieties.1.sprites.other.showdown.back_default-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10208.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/809-melmetal/028-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/031-endpoints.varieties.1.sprites.other.showdown.front_default-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10208.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/809-melmetal/033-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/809-melmetal/034-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/032-endpoints.varieties.1.sprites.other.showdown.front_shiny-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10208.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/809-melmetal/030-endpoints.varieties.1.sprites.other.showdown.back_shiny-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10208.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/809-melmetal/036-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/809-melmetal/037-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/809-melmetal/035-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10208.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/002-endpoints.pokemon.sprites.back_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/003-endpoints.pokemon.sprites.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/001-endpoints.pokemon.sprites.back_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/004-endpoints.pokemon.sprites.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10208-melmetal-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10208-melmetal-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/020-endpoints.varieties.0.sprites.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/021-endpoints.varieties.0.sprites.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/018-endpoints.varieties.0.sprites.back_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/019-endpoints.varieties.0.sprites.back_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10208-melmetal-gmax/022-endpoints.varieties.0.sprites.other.dream_world.front_default-809.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/809.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/023-endpoints.varieties.0.sprites.other.home.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10208-melmetal-gmax/025-endpoints.varieties.0.sprites.other.official-artwork.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/024-endpoints.varieties.0.sprites.other.home.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10208-melmetal-gmax/026-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/027-endpoints.varieties.0.sprites.other.showdown.back_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/028-endpoints.varieties.0.sprites.other.showdown.back_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/029-endpoints.varieties.0.sprites.other.showdown.front_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/031-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/030-endpoints.varieties.0.sprites.other.showdown.front_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/037-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Melmetal",
+        "formName": "regular",
+        "path": "data/models/809-melmetal/01-regular-Melmetal.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/809.glb"
+      }
+    },
+    {
+      "id": 10208,
+      "name": "melmetal-gmax",
+      "displayName": "Gigantamax Melmetal",
+      "formName": "gmax",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": true,
+      "types": [
+        "steel"
+      ],
+      "images": [
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/002-endpoints.pokemon.sprites.back_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/003-endpoints.pokemon.sprites.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/001-endpoints.pokemon.sprites.back_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/004-endpoints.pokemon.sprites.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10208-melmetal-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10208-melmetal-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10208.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10208.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/020-endpoints.varieties.0.sprites.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/021-endpoints.varieties.0.sprites.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10208.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10208.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/018-endpoints.varieties.0.sprites.back_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/019-endpoints.varieties.0.sprites.back_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10208-melmetal-gmax/022-endpoints.varieties.0.sprites.other.dream_world.front_default-809.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/809.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/023-endpoints.varieties.0.sprites.other.home.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10208-melmetal-gmax/025-endpoints.varieties.0.sprites.other.official-artwork.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10208-melmetal-gmax/024-endpoints.varieties.0.sprites.other.home.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10208-melmetal-gmax/026-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/027-endpoints.varieties.0.sprites.other.showdown.back_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/028-endpoints.varieties.0.sprites.other.showdown.back_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/029-endpoints.varieties.0.sprites.other.showdown.front_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/031-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10208-melmetal-gmax/030-endpoints.varieties.0.sprites.other.showdown.front_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-809.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/809.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10208-melmetal-gmax/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10208-melmetal-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10208-melmetal-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10208-melmetal-gmax/037-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-809.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/809.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

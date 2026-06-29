@@ -1,0 +1,207 @@
+{
+  "id": 899,
+  "name": "wyrdeer",
+  "displayName": "Wyrdeer",
+  "species": {
+    "id": 899,
+    "name": "wyrdeer"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "height": 18,
+  "weight": 951,
+  "baseExperience": 263,
+  "isDefault": true,
+  "stats": {
+    "hp": 103,
+    "attack": 105,
+    "defense": 72,
+    "specialAttack": 105,
+    "specialDefense": 75,
+    "speed": 65,
+    "total": 525,
+    "effort": {
+      "attack": 1,
+      "specialAttack": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 22,
+      "name": "intimidate",
+      "displayName": "Intimidate",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Lowers opponents' Attack one stage upon entering battle.",
+      "effect": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage. In a double battle, both opponents are affected. This ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle. This ability has no effect on an opponent that has a Substitute. Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+      "flavorText": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+    },
+    {
+      "id": 119,
+      "name": "frisk",
+      "displayName": "Frisk",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Reveals an opponent's held item upon entering battle.",
+      "effect": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers. In a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random.",
+      "flavorText": "When it enters a battle, the Pokémon can check an opposing Pokémon's held item."
+    },
+    {
+      "id": 157,
+      "name": "sap-sipper",
+      "displayName": "Sap Sipper",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Absorbs Grass moves, raising Attack one stage.",
+      "effect": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it.",
+      "flavorText": "The Pokémon takes no damage when hit by Grass-type moves. Instead, its Attack stat is boosted."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/stantler-wyrdeer.json",
+    "names": [
+      "stantler",
+      "wyrdeer"
+    ]
+  },
+  "forms": [
+    {
+      "id": 899,
+      "name": "wyrdeer",
+      "displayName": "Wyrdeer",
+      "formName": "wyrdeer",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/899-wyrdeer/003-endpoints.pokemon.sprites.front_default-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/899-wyrdeer/005-endpoints.pokemon.sprites.other.home.front_default-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/899-wyrdeer/004-endpoints.pokemon.sprites.front_shiny-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/899-wyrdeer/001-endpoints.pokemon.sprites.back_default-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/899-wyrdeer/002-endpoints.pokemon.sprites.back_shiny-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/899-wyrdeer/006-endpoints.pokemon.sprites.other.home.front_shiny-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/899-wyrdeer/007-endpoints.pokemon.sprites.other.official-artwork.front_default-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/899-wyrdeer/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/899-wyrdeer/009-endpoints.pokemon.sprites.other.showdown.back_default-899.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/899.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/899-wyrdeer/011-endpoints.pokemon.sprites.other.showdown.front_default-899.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/899.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/899-wyrdeer/012-endpoints.pokemon.sprites.other.showdown.front_shiny-899.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/899.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/899-wyrdeer/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/899-wyrdeer/010-endpoints.pokemon.sprites.other.showdown.back_shiny-899.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/899.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/899-wyrdeer/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-899.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/899.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/899-wyrdeer/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/899-wyrdeer/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-899.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/899.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/899-wyrdeer/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/899-wyrdeer/017-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/899-wyrdeer/019-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-899.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/899.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Wyrdeer",
+        "formName": "regular",
+        "path": "data/models/899-wyrdeer/01-regular-Wyrdeer.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/899.glb"
+      }
+    }
+  ]
+}

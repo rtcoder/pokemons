@@ -1,0 +1,900 @@
+{
+  "id": 10150,
+  "name": "ribombee-totem",
+  "displayName": "Ribombee",
+  "species": {
+    "id": 743,
+    "name": "ribombee"
+  },
+  "generation": "generation-vii",
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "height": 4,
+  "weight": 20,
+  "baseExperience": 162,
+  "isDefault": false,
+  "stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 60,
+    "specialAttack": 95,
+    "specialDefense": 70,
+    "speed": 124,
+    "total": 464,
+    "effort": {
+      "speed": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 118,
+      "name": "honey-gather",
+      "displayName": "Honey Gather",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "The Pokémon may pick up Honey after battle.",
+      "effect": "This Pokémon has a chance of picking up Honey after each battle. This chance starts at 5% and rises another 5% after every tenth level: 5% from level 1–10, 10% from 11–20, and so on, up to 50% from 91–100. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+      "flavorText": "The Pokémon may gather Honey after a battle."
+    },
+    {
+      "id": 19,
+      "name": "shield-dust",
+      "displayName": "Shield Dust",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Protects against incoming moves' extra effects.",
+      "effect": "This Pokémon is immune to the extra effects of moves used against it. An extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.",
+      "flavorText": "Protective dust shields the Pokémon from the additional effects of moves."
+    },
+    {
+      "id": 175,
+      "name": "sweet-veil",
+      "displayName": "Sweet Veil",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Prevents friendly Pokémon from sleeping.",
+      "effect": "Prevents friendly Pokémon from sleeping.",
+      "flavorText": "Prevents the Pokémon and its allies from falling asleep."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/cutiefly-ribombee.json",
+    "names": [
+      "cutiefly",
+      "ribombee"
+    ]
+  },
+  "forms": [
+    {
+      "id": 743,
+      "name": "ribombee",
+      "displayName": "Ribombee",
+      "formName": "ribombee",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "bug",
+        "fairy"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/003-endpoints.pokemon.sprites.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/743-ribombee/004-endpoints.pokemon.sprites.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/743-ribombee/001-endpoints.pokemon.sprites.back_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/743-ribombee/002-endpoints.pokemon.sprites.back_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/743-ribombee/008-endpoints.pokemon.sprites.other.official-artwork.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/743-ribombee/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/743-ribombee/005-endpoints.pokemon.sprites.other.dream_world.front_default-743.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/743.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/743-ribombee/006-endpoints.pokemon.sprites.other.home.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/743-ribombee/007-endpoints.pokemon.sprites.other.home.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/013-endpoints.pokemon.sprites.other.showdown.front_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/011-endpoints.pokemon.sprites.other.showdown.back_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/010-endpoints.pokemon.sprites.other.showdown.back_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/012-endpoints.pokemon.sprites.other.showdown.front_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/743-ribombee/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/743-ribombee/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/743-ribombee/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/743.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/743-ribombee/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/743-ribombee/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/743-ribombee/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/023-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/743-ribombee/027-endpoints.varieties.1.sprites.back_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/024-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/743-ribombee/025-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/026-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/743.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/743-ribombee/028-endpoints.varieties.1.sprites.back_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/029-endpoints.varieties.1.sprites.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/743-ribombee/030-endpoints.varieties.1.sprites.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/743-ribombee/031-endpoints.varieties.1.sprites.other.home.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/743-ribombee/032-endpoints.varieties.1.sprites.other.home.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/743-ribombee/033-endpoints.varieties.1.sprites.other.official-artwork.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/035-endpoints.varieties.1.sprites.other.showdown.back_default-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10150.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/036-endpoints.varieties.1.sprites.other.showdown.back_shiny-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10150.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/037-endpoints.varieties.1.sprites.other.showdown.front_default-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10150.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/743-ribombee/034-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/743-ribombee/038-endpoints.varieties.1.sprites.other.showdown.front_shiny-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10150.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/041-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/039-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/743-ribombee/040-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/042-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/743-ribombee/044-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/743-ribombee/043-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10150.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/004-endpoints.pokemon.sprites.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/001-endpoints.pokemon.sprites.back_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/003-endpoints.pokemon.sprites.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/002-endpoints.pokemon.sprites.back_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/006-endpoints.pokemon.sprites.other.home.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10150-ribombee-totem/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/005-endpoints.pokemon.sprites.other.home.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10150-ribombee-totem/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/009-endpoints.pokemon.sprites.other.showdown.back_default-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/011-endpoints.pokemon.sprites.other.showdown.front_default-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/014-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/013-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/016-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/015-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/017-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/019-endpoints.varieties.0.sprites.back_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/018-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/021-endpoints.varieties.0.sprites.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/022-endpoints.varieties.0.sprites.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/020-endpoints.varieties.0.sprites.back_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/024-endpoints.varieties.0.sprites.other.home.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10150-ribombee-totem/023-endpoints.varieties.0.sprites.other.dream_world.front_default-743.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/743.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/025-endpoints.varieties.0.sprites.other.home.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10150-ribombee-totem/026-endpoints.varieties.0.sprites.other.official-artwork.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/028-endpoints.varieties.0.sprites.other.showdown.back_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10150-ribombee-totem/027-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/029-endpoints.varieties.0.sprites.other.showdown.back_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/030-endpoints.varieties.0.sprites.other.showdown.front_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/032-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/031-endpoints.varieties.0.sprites.other.showdown.front_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/041-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/042-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/044-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/043-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Ribombee",
+        "formName": "regular",
+        "path": "data/models/743-ribombee/01-regular-Ribombee.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/743.glb"
+      }
+    },
+    {
+      "id": 10150,
+      "name": "ribombee-totem",
+      "displayName": "Totem Ribombee",
+      "formName": "totem",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "bug",
+        "fairy"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/004-endpoints.pokemon.sprites.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/001-endpoints.pokemon.sprites.back_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/003-endpoints.pokemon.sprites.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/002-endpoints.pokemon.sprites.back_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/006-endpoints.pokemon.sprites.other.home.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10150-ribombee-totem/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/005-endpoints.pokemon.sprites.other.home.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10150-ribombee-totem/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/009-endpoints.pokemon.sprites.other.showdown.back_default-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/011-endpoints.pokemon.sprites.other.showdown.front_default-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10150.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10150.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/014-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/013-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/016-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/015-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/017-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/019-endpoints.varieties.0.sprites.back_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/018-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10150.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10150.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/021-endpoints.varieties.0.sprites.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/022-endpoints.varieties.0.sprites.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/020-endpoints.varieties.0.sprites.back_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/024-endpoints.varieties.0.sprites.other.home.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10150-ribombee-totem/023-endpoints.varieties.0.sprites.other.dream_world.front_default-743.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/743.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10150-ribombee-totem/025-endpoints.varieties.0.sprites.other.home.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10150-ribombee-totem/026-endpoints.varieties.0.sprites.other.official-artwork.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/028-endpoints.varieties.0.sprites.other.showdown.back_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10150-ribombee-totem/027-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/029-endpoints.varieties.0.sprites.other.showdown.back_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/030-endpoints.varieties.0.sprites.other.showdown.front_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/032-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10150-ribombee-totem/031-endpoints.varieties.0.sprites.other.showdown.front_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-743.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/743.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10150-ribombee-totem/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10150-ribombee-totem/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/041-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/042-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10150-ribombee-totem/044-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10150-ribombee-totem/043-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-743.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/743.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

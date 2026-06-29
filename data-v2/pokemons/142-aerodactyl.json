@@ -1,0 +1,1528 @@
+{
+  "id": 142,
+  "name": "aerodactyl",
+  "displayName": "Aerodactyl",
+  "species": {
+    "id": 142,
+    "name": "aerodactyl"
+  },
+  "generation": "generation-i",
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "height": 18,
+  "weight": 590,
+  "baseExperience": 180,
+  "isDefault": true,
+  "stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "specialAttack": 60,
+    "specialDefense": 75,
+    "speed": 130,
+    "total": 515,
+    "effort": {
+      "speed": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 69,
+      "name": "rock-head",
+      "displayName": "Rock Head",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Protects against recoil damage.",
+      "effect": "This Pokémon does not receive recoil damage from its recoil moves. Struggle's recoil is unaffected. This ability does not prevent crash damage from missing with Jump Kick or High Jump Kick.",
+      "flavorText": "Protects the Pokémon from recoil damage."
+    },
+    {
+      "id": 46,
+      "name": "pressure",
+      "displayName": "Pressure",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Increases the PP cost of moves targetting the Pokémon by one.",
+      "effect": "Moves targetting this Pokémon use one extra PP. This ability stacks if multiple targets have it. This ability still affects moves that fail or miss. This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field. If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP. When this Pokémon enters battle, all participating trainers are notified that it has this ability. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+      "flavorText": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+    },
+    {
+      "id": 127,
+      "name": "unnerve",
+      "displayName": "Unnerve",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Prevents opposing Pokémon from eating held Berries.",
+      "effect": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.",
+      "flavorText": "Unnerves opposing Pokémon and makes them unable to eat Berries."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/aerodactyl.json",
+    "names": [
+      "aerodactyl"
+    ]
+  },
+  "forms": [
+    {
+      "id": 142,
+      "name": "aerodactyl",
+      "displayName": "Aerodactyl",
+      "formName": "aerodactyl",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/003-endpoints.pokemon.sprites.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/004-endpoints.pokemon.sprites.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/142-aerodactyl/005-endpoints.pokemon.sprites.other.dream_world.front_default-142.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/142.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/142-aerodactyl/006-endpoints.pokemon.sprites.other.home.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/142-aerodactyl/007-endpoints.pokemon.sprites.other.home.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/002-endpoints.pokemon.sprites.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/001-endpoints.pokemon.sprites.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/142-aerodactyl/008-endpoints.pokemon.sprites.other.official-artwork.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/012-endpoints.pokemon.sprites.other.showdown.front_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/010-endpoints.pokemon.sprites.other.showdown.back_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/011-endpoints.pokemon.sprites.other.showdown.back_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/142-aerodactyl/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/013-endpoints.pokemon.sprites.other.showdown.front_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/014-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/015-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/016-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/017-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/019-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/018-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/020-endpoints.pokemon.sprites.versions.generation-i.yellow.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/021-endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/022-endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/024-endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/023-endpoints.pokemon.sprites.versions.generation-i.yellow.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/026-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/025-endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/027-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/028-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/029-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/030-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/032-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/033-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/031-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/034-endpoints.pokemon.sprites.versions.generation-ii.gold.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/035-endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/038-endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/039-endpoints.pokemon.sprites.versions.generation-ii.silver.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/040-endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/036-endpoints.pokemon.sprites.versions.generation-ii.gold.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/037-endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/041-endpoints.pokemon.sprites.versions.generation-ii.silver.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/042-endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/044-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/142-aerodactyl/043-endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/045-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/046-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/048-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/047-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/049-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/050-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/051-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/052-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/054-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/053-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/055-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/056-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/060-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/057-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/059-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/058-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/063-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/061-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/062-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/064-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/067-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/065-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/066-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/069-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/068-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/142.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/070-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/071-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/072-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/073-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/074-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/076-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/075-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/077-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/078-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/079-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/082-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/080-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/081-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/142.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/085-endpoints.varieties.1.sprites.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/083-endpoints.varieties.1.sprites.back_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/084-endpoints.varieties.1.sprites.back_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/086-endpoints.varieties.1.sprites.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/142-aerodactyl/087-endpoints.varieties.1.sprites.other.home.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/142-aerodactyl/089-endpoints.varieties.1.sprites.other.official-artwork.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/142-aerodactyl/088-endpoints.varieties.1.sprites.other.home.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/142-aerodactyl/090-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/092-endpoints.varieties.1.sprites.other.showdown.back_shiny-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/093-endpoints.varieties.1.sprites.other.showdown.front_default-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/091-endpoints.varieties.1.sprites.other.showdown.back_default-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/095-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/096-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/097-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/094-endpoints.varieties.1.sprites.other.showdown.front_shiny-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/099-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/098-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/100-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/101-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/102-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/103-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/104-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/105-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/106-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Aerodactyl",
+        "formName": "regular",
+        "path": "data/models/142-aerodactyl/01-regular-Aerodactyl.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/142.glb"
+      }
+    },
+    {
+      "id": 10042,
+      "name": "aerodactyl-mega",
+      "displayName": "Mega Aerodactyl",
+      "formName": "mega",
+      "isDefault": false,
+      "isMega": true,
+      "isBattleOnly": true,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/003-endpoints.pokemon.sprites.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/001-endpoints.pokemon.sprites.back_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/004-endpoints.pokemon.sprites.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/002-endpoints.pokemon.sprites.back_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10042-aerodactyl-mega/005-endpoints.pokemon.sprites.other.home.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10042-aerodactyl-mega/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10042-aerodactyl-mega/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10042-aerodactyl-mega/006-endpoints.pokemon.sprites.other.home.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/009-endpoints.pokemon.sprites.other.showdown.back_default-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10042.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10042.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/011-endpoints.pokemon.sprites.other.showdown.front_default-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10042.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10042.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/017-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/018-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/019-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/020-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/021-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/024-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10042.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/027-endpoints.varieties.0.sprites.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/028-endpoints.varieties.0.sprites.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/025-endpoints.varieties.0.sprites.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/026-endpoints.varieties.0.sprites.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10042-aerodactyl-mega/029-endpoints.varieties.0.sprites.other.dream_world.front_default-142.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/142.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10042-aerodactyl-mega/030-endpoints.varieties.0.sprites.other.home.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10042-aerodactyl-mega/032-endpoints.varieties.0.sprites.other.official-artwork.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10042-aerodactyl-mega/031-endpoints.varieties.0.sprites.other.home.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10042-aerodactyl-mega/033-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/034-endpoints.varieties.0.sprites.other.showdown.back_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/036-endpoints.varieties.0.sprites.other.showdown.front_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/035-endpoints.varieties.0.sprites.other.showdown.back_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10042-aerodactyl-mega/037-endpoints.varieties.0.sprites.other.showdown.front_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/038-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/039-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/040-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/041-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/042-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/043-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/044-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/045-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/046-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/047-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/048-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/049-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/050-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/051-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/052-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/054-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/053-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/055-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/056-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/057-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/058-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/059-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/060-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/061-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/062-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/063-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/064-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/065-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/066-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10042-aerodactyl-mega/067-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/069-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/068-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/070-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/071-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/072-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/073-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/074-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/075-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/076-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/077-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/078-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/079-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/080-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/081-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/082-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/083-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/084-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/085-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/086-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/087-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/088-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/089-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/090-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/091-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/092-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/093-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-142.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/142.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10042-aerodactyl-mega/094-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/096-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10042-aerodactyl-mega/095-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/097-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/098-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/099-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/100-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/101-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/102-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/103-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10042-aerodactyl-mega/104-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/105-endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10042-aerodactyl-mega/106-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-142.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/142.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/085-endpoints.varieties.1.sprites.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/083-endpoints.varieties.1.sprites.back_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/084-endpoints.varieties.1.sprites.back_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/086-endpoints.varieties.1.sprites.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/142-aerodactyl/087-endpoints.varieties.1.sprites.other.home.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/142-aerodactyl/089-endpoints.varieties.1.sprites.other.official-artwork.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/142-aerodactyl/088-endpoints.varieties.1.sprites.other.home.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/142-aerodactyl/090-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/092-endpoints.varieties.1.sprites.other.showdown.back_shiny-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/093-endpoints.varieties.1.sprites.other.showdown.front_default-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/091-endpoints.varieties.1.sprites.other.showdown.back_default-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/142-aerodactyl/095-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/142-aerodactyl/096-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/097-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/142-aerodactyl/094-endpoints.varieties.1.sprites.other.showdown.front_shiny-10042.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10042.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/099-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/098-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/100-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/101-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/102-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/103-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/104-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/142-aerodactyl/105-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/142-aerodactyl/106-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10042.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10042.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Mega Aerodactyl",
+        "formName": "mega",
+        "path": "data/models/142-aerodactyl/03-mega-Mega_Aerodactyl.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/mega/142.glb"
+      }
+    }
+  ]
+}

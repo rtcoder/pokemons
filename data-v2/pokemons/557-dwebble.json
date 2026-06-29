@@ -1,0 +1,266 @@
+{
+  "id": 557,
+  "name": "dwebble",
+  "displayName": "Dwebble",
+  "species": {
+    "id": 557,
+    "name": "dwebble"
+  },
+  "generation": "generation-v",
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "height": 3,
+  "weight": 145,
+  "baseExperience": 65,
+  "isDefault": true,
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 85,
+    "specialAttack": 35,
+    "specialDefense": 35,
+    "speed": 55,
+    "total": 325,
+    "effort": {
+      "defense": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 5,
+      "name": "sturdy",
+      "displayName": "Sturdy",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",
+      "effect": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP. Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold. If this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed.",
+      "flavorText": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+    },
+    {
+      "id": 75,
+      "name": "shell-armor",
+      "displayName": "Shell Armor",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Protects against critical hits.",
+      "effect": "Moves cannot score critical hits against this Pokémon. This ability functions identically to Battle Armor.",
+      "flavorText": "A hard shell protects the Pokémon from critical hits."
+    },
+    {
+      "id": 133,
+      "name": "weak-armor",
+      "displayName": "Weak Armor",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
+      "effect": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage. This ability triggers on every hit of a multiple-hit move.",
+      "flavorText": "The Pokémon's Defense stat is lowered when it takes damage from physical moves, but its Speed stat is sharply boosted."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/dwebble-crustle.json",
+    "names": [
+      "dwebble",
+      "crustle"
+    ]
+  },
+  "forms": [
+    {
+      "id": 557,
+      "name": "dwebble",
+      "displayName": "Dwebble",
+      "formName": "dwebble",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/003-endpoints.pokemon.sprites.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/557-dwebble/004-endpoints.pokemon.sprites.front_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/557-dwebble/002-endpoints.pokemon.sprites.back_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/557-dwebble/001-endpoints.pokemon.sprites.back_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/557-dwebble/006-endpoints.pokemon.sprites.other.home.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/557-dwebble/005-endpoints.pokemon.sprites.other.dream_world.front_default-557.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/557.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/557-dwebble/007-endpoints.pokemon.sprites.other.home.front_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/557-dwebble/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/557-dwebble/008-endpoints.pokemon.sprites.other.official-artwork.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/557-dwebble/010-endpoints.pokemon.sprites.other.showdown.back_default-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/557-dwebble/011-endpoints.pokemon.sprites.other.showdown.back_shiny-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/557-dwebble/013-endpoints.pokemon.sprites.other.showdown.front_shiny-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/557-dwebble/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/557-dwebble/012-endpoints.pokemon.sprites.other.showdown.front_default-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/557-dwebble/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/557-dwebble/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-557.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/557.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/557-dwebble/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/557-dwebble/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/022-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/557-dwebble/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/024-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/557-dwebble/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/026-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/557-dwebble/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/027-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/557-dwebble/029-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/557-dwebble/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-557.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/557.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Dwebble",
+        "formName": "regular",
+        "path": "data/models/557-dwebble/01-regular-Dwebble.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/557.glb"
+      }
+    }
+  ]
+}

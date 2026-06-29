@@ -1,0 +1,829 @@
+{
+  "id": 10212,
+  "name": "corviknight-gmax",
+  "displayName": "Corviknight",
+  "species": {
+    "id": 823,
+    "name": "corviknight"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "flying",
+    "steel"
+  ],
+  "height": 140,
+  "weight": 10000,
+  "baseExperience": 248,
+  "isDefault": false,
+  "stats": {
+    "hp": 98,
+    "attack": 87,
+    "defense": 105,
+    "specialAttack": 53,
+    "specialDefense": 85,
+    "speed": 67,
+    "total": 495,
+    "effort": {
+      "defense": 3
+    }
+  },
+  "abilities": [
+    {
+      "id": 46,
+      "name": "pressure",
+      "displayName": "Pressure",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Increases the PP cost of moves targetting the Pokémon by one.",
+      "effect": "Moves targetting this Pokémon use one extra PP. This ability stacks if multiple targets have it. This ability still affects moves that fail or miss. This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field. If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP. When this Pokémon enters battle, all participating trainers are notified that it has this ability. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+      "flavorText": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+    },
+    {
+      "id": 127,
+      "name": "unnerve",
+      "displayName": "Unnerve",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Prevents opposing Pokémon from eating held Berries.",
+      "effect": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.",
+      "flavorText": "Unnerves opposing Pokémon and makes them unable to eat Berries."
+    },
+    {
+      "id": 240,
+      "name": "mirror-armor",
+      "displayName": "Mirror Armor",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Reflects any stat-lowering effects.",
+      "effect": "Bounces back only the stat-lowering effects that the Pokémon receives.",
+      "flavorText": "Bounces back only the stat-lowering effects that the Pokémon receives."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/rookidee-corvisquire-corviknight.json",
+    "names": [
+      "rookidee",
+      "corvisquire",
+      "corviknight"
+    ]
+  },
+  "forms": [
+    {
+      "id": 823,
+      "name": "corviknight",
+      "displayName": "Corviknight",
+      "formName": "corviknight",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "flying",
+        "steel"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/823-corviknight/003-endpoints.pokemon.sprites.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/823-corviknight/004-endpoints.pokemon.sprites.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/823-corviknight/001-endpoints.pokemon.sprites.back_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/823-corviknight/002-endpoints.pokemon.sprites.back_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/823-corviknight/008-endpoints.pokemon.sprites.other.official-artwork.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/823-corviknight/005-endpoints.pokemon.sprites.other.dream_world.front_default-823.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/823.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/823-corviknight/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/823-corviknight/006-endpoints.pokemon.sprites.other.home.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/823-corviknight/007-endpoints.pokemon.sprites.other.home.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/010-endpoints.pokemon.sprites.other.showdown.back_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/011-endpoints.pokemon.sprites.other.showdown.back_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/013-endpoints.pokemon.sprites.other.showdown.front_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/823-corviknight/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/823-corviknight/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/823-corviknight/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/012-endpoints.pokemon.sprites.other.showdown.front_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/823-corviknight/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_female-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/female/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/823-corviknight/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/823.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/823-corviknight/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/823-corviknight/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/823-corviknight/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/823-corviknight/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/823-corviknight/026-endpoints.varieties.1.sprites.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/823-corviknight/023-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/823.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/823-corviknight/024-endpoints.varieties.1.sprites.back_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/823-corviknight/025-endpoints.varieties.1.sprites.back_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/823-corviknight/027-endpoints.varieties.1.sprites.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/823-corviknight/028-endpoints.varieties.1.sprites.other.home.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/823-corviknight/030-endpoints.varieties.1.sprites.other.official-artwork.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/823-corviknight/031-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/032-endpoints.varieties.1.sprites.other.showdown.back_default-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10212.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/823-corviknight/029-endpoints.varieties.1.sprites.other.home.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/033-endpoints.varieties.1.sprites.other.showdown.back_shiny-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10212.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/034-endpoints.varieties.1.sprites.other.showdown.front_default-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10212.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/823-corviknight/036-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/823-corviknight/035-endpoints.varieties.1.sprites.other.showdown.front_shiny-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10212.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/823-corviknight/038-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/823-corviknight/037-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/823-corviknight/040-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/823-corviknight/039-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10212.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/003-endpoints.pokemon.sprites.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/004-endpoints.pokemon.sprites.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/001-endpoints.pokemon.sprites.back_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/002-endpoints.pokemon.sprites.back_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10212-corviknight-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10212-corviknight-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/020-endpoints.varieties.0.sprites.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/021-endpoints.varieties.0.sprites.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/019-endpoints.varieties.0.sprites.back_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/018-endpoints.varieties.0.sprites.back_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10212-corviknight-gmax/022-endpoints.varieties.0.sprites.other.dream_world.front_default-823.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/823.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/023-endpoints.varieties.0.sprites.other.home.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10212-corviknight-gmax/025-endpoints.varieties.0.sprites.other.official-artwork.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/024-endpoints.varieties.0.sprites.other.home.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10212-corviknight-gmax/026-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/027-endpoints.varieties.0.sprites.other.showdown.back_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/028-endpoints.varieties.0.sprites.other.showdown.back_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/029-endpoints.varieties.0.sprites.other.showdown.front_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/030-endpoints.varieties.0.sprites.other.showdown.front_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/031-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10212-corviknight-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/female/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/040-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Corviknight",
+        "formName": "regular",
+        "path": "data/models/823-corviknight/01-regular-Corviknight.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/823.glb"
+      }
+    },
+    {
+      "id": 10212,
+      "name": "corviknight-gmax",
+      "displayName": "Gigantamax Corviknight",
+      "formName": "gmax",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": true,
+      "types": [
+        "flying",
+        "steel"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/003-endpoints.pokemon.sprites.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/004-endpoints.pokemon.sprites.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/001-endpoints.pokemon.sprites.back_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/002-endpoints.pokemon.sprites.back_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10212-corviknight-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10212-corviknight-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10212.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10212.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/020-endpoints.varieties.0.sprites.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/021-endpoints.varieties.0.sprites.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/019-endpoints.varieties.0.sprites.back_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10212.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10212.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/018-endpoints.varieties.0.sprites.back_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10212-corviknight-gmax/022-endpoints.varieties.0.sprites.other.dream_world.front_default-823.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/823.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/023-endpoints.varieties.0.sprites.other.home.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10212-corviknight-gmax/025-endpoints.varieties.0.sprites.other.official-artwork.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10212-corviknight-gmax/024-endpoints.varieties.0.sprites.other.home.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10212-corviknight-gmax/026-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/027-endpoints.varieties.0.sprites.other.showdown.back_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/028-endpoints.varieties.0.sprites.other.showdown.back_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/029-endpoints.varieties.0.sprites.other.showdown.front_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10212-corviknight-gmax/030-endpoints.varieties.0.sprites.other.showdown.front_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/031-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10212-corviknight-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/female/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10212-corviknight-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-823.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/823.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10212-corviknight-gmax/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10212-corviknight-gmax/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10212-corviknight-gmax/040-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-823.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/823.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

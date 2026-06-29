@@ -1,0 +1,183 @@
+{
+  "id": 944,
+  "name": "shroodle",
+  "displayName": "Shroodle",
+  "species": {
+    "id": 944,
+    "name": "shroodle"
+  },
+  "generation": "generation-ix",
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "height": 2,
+  "weight": 7,
+  "baseExperience": 58,
+  "isDefault": true,
+  "stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 35,
+    "specialAttack": 40,
+    "specialDefense": 35,
+    "speed": 75,
+    "total": 290,
+    "effort": {
+      "speed": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 84,
+      "name": "unburden",
+      "displayName": "Unburden",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Doubles Speed upon using or losing a held item.",
+      "effect": "When this Pokémon uses or loses its held item, its Speed is doubled. If it gains another item or leaves battle, this bonus is lost. This includes when the Pokémon drops its item because of Knock Off. This bonus does not count as a stat modifier. There is no notification when this ability takes effect.",
+      "flavorText": "Boosts the Speed stat if the Pokémon's held item is used or lost."
+    },
+    {
+      "id": 124,
+      "name": "pickpocket",
+      "displayName": "Pickpocket",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Steals attacking Pokémon's held items on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item. This Pokémon cannot steal upon being knocked out. It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit. If a move hits multiple times, only the last hit triggers this ability. If this Pokémon is wild, it cannot steal from a trained Pokémon.",
+      "flavorText": "The Pokémon steals the held item from attackers that made direct contact with it."
+    },
+    {
+      "id": 158,
+      "name": "prankster",
+      "displayName": "Prankster",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Raises non-damaging moves' priority by one stage.",
+      "effect": "This Pokémon's non-damaging moves have their priority increased by one stage.",
+      "flavorText": "Gives priority to the Pokémon's status moves."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/shroodle-grafaiai.json",
+    "names": [
+      "shroodle",
+      "grafaiai"
+    ]
+  },
+  "forms": [
+    {
+      "id": 944,
+      "name": "shroodle",
+      "displayName": "Shroodle",
+      "formName": "shroodle",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "poison",
+        "normal"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/944-shroodle/003-endpoints.pokemon.sprites.front_default-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/944-shroodle/001-endpoints.pokemon.sprites.back_default-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/944-shroodle/002-endpoints.pokemon.sprites.back_shiny-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/944-shroodle/005-endpoints.pokemon.sprites.other.dream_world.front_default-944.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/944.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/944-shroodle/004-endpoints.pokemon.sprites.front_shiny-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/944-shroodle/006-endpoints.pokemon.sprites.other.home.front_default-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/944-shroodle/007-endpoints.pokemon.sprites.other.home.front_shiny-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/944-shroodle/008-endpoints.pokemon.sprites.other.official-artwork.front_default-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/944-shroodle/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/944-shroodle/010-endpoints.pokemon.sprites.other.showdown.back_default-944.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/944.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/944-shroodle/012-endpoints.pokemon.sprites.other.showdown.front_default-944.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/944.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/944-shroodle/013-endpoints.pokemon.sprites.other.showdown.front_shiny-944.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/944.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/944-shroodle/011-endpoints.pokemon.sprites.other.showdown.back_shiny-944.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/944.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/944-shroodle/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/944-shroodle/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/944-shroodle/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-944.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/944.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

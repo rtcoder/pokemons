@@ -1,0 +1,994 @@
+{
+  "id": 641,
+  "name": "tornadus-incarnate",
+  "displayName": "Tornadus",
+  "species": {
+    "id": 641,
+    "name": "tornadus"
+  },
+  "generation": "generation-v",
+  "types": [
+    "flying"
+  ],
+  "height": 15,
+  "weight": 630,
+  "baseExperience": 261,
+  "isDefault": true,
+  "stats": {
+    "hp": 79,
+    "attack": 115,
+    "defense": 70,
+    "specialAttack": 125,
+    "specialDefense": 80,
+    "speed": 111,
+    "total": 580,
+    "effort": {
+      "attack": 3
+    }
+  },
+  "abilities": [
+    {
+      "id": 158,
+      "name": "prankster",
+      "displayName": "Prankster",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Raises non-damaging moves' priority by one stage.",
+      "effect": "This Pokémon's non-damaging moves have their priority increased by one stage.",
+      "flavorText": "Gives priority to the Pokémon's status moves."
+    },
+    {
+      "id": 128,
+      "name": "defiant",
+      "displayName": "Defiant",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Raises Attack two stages upon having any stat lowered.",
+      "effect": "When any of this Pokémon's stats are lowered, its Attack rises by two stages. If multiple stats are lowered at once, this ability takes effect with each stat lowered.",
+      "flavorText": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/tornadus.json",
+    "names": [
+      "tornadus"
+    ]
+  },
+  "forms": [
+    {
+      "id": 641,
+      "name": "tornadus-incarnate",
+      "displayName": "Incarnate Tornadus",
+      "formName": "incarnate",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "flying"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/003-endpoints.pokemon.sprites.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/004-endpoints.pokemon.sprites.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/001-endpoints.pokemon.sprites.back_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/641-tornadus-incarnate/006-endpoints.pokemon.sprites.other.home.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/641-tornadus-incarnate/005-endpoints.pokemon.sprites.other.dream_world.front_default-641.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/641.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/641-tornadus-incarnate/007-endpoints.pokemon.sprites.other.home.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/002-endpoints.pokemon.sprites.back_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/641-tornadus-incarnate/008-endpoints.pokemon.sprites.other.official-artwork.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/641-tornadus-incarnate/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/013-endpoints.pokemon.sprites.other.showdown.front_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/012-endpoints.pokemon.sprites.other.showdown.front_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/011-endpoints.pokemon.sprites.other.showdown.back_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/010-endpoints.pokemon.sprites.other.showdown.back_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/641.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/031-endpoints.varieties.1.sprites.back_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/032-endpoints.varieties.1.sprites.back_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/641.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/641-tornadus-incarnate/035-endpoints.varieties.1.sprites.other.dream_world.front_default-10019.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10019.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/641-tornadus-incarnate/036-endpoints.varieties.1.sprites.other.home.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/033-endpoints.varieties.1.sprites.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/034-endpoints.varieties.1.sprites.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/641-tornadus-incarnate/038-endpoints.varieties.1.sprites.other.official-artwork.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/641-tornadus-incarnate/037-endpoints.varieties.1.sprites.other.home.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/641-tornadus-incarnate/039-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/041-endpoints.varieties.1.sprites.other.showdown.back_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/042-endpoints.varieties.1.sprites.other.showdown.front_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/040-endpoints.varieties.1.sprites.other.showdown.back_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/043-endpoints.varieties.1.sprites.other.showdown.front_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/044-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/045-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/046-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/047-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/048-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/050-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/049-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/051-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/052-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/053-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/054-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/055-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/056-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/057-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/058-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/059-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/060-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Tornadus",
+        "formName": "regular",
+        "path": "data/models/641-tornadus-incarnate/01-regular-Tornadus.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/641.glb"
+      }
+    },
+    {
+      "id": 10019,
+      "name": "tornadus-therian",
+      "displayName": "Therian Tornadus",
+      "formName": "therian",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "flying"
+      ],
+      "images": [
+        {
+          "kind": "back",
+          "path": "data/images/10019-tornadus-therian/001-endpoints.pokemon.sprites.back_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/003-endpoints.pokemon.sprites.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10019-tornadus-therian/002-endpoints.pokemon.sprites.back_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/004-endpoints.pokemon.sprites.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10019-tornadus-therian/007-endpoints.pokemon.sprites.other.home.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10019-tornadus-therian/006-endpoints.pokemon.sprites.other.home.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10019-tornadus-therian/005-endpoints.pokemon.sprites.other.dream_world.front_default-10019.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10019.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10019-tornadus-therian/008-endpoints.pokemon.sprites.other.official-artwork.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/011-endpoints.pokemon.sprites.other.showdown.back_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10019-tornadus-therian/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/010-endpoints.pokemon.sprites.other.showdown.back_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/012-endpoints.pokemon.sprites.other.showdown.front_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/013-endpoints.pokemon.sprites.other.showdown.front_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10019-tornadus-therian/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10019-tornadus-therian/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10019.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10019-tornadus-therian/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10019-tornadus-therian/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10019.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10019-tornadus-therian/032-endpoints.varieties.0.sprites.back_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10019-tornadus-therian/031-endpoints.varieties.0.sprites.back_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/033-endpoints.varieties.0.sprites.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/034-endpoints.varieties.0.sprites.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10019-tornadus-therian/036-endpoints.varieties.0.sprites.other.home.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10019-tornadus-therian/035-endpoints.varieties.0.sprites.other.dream_world.front_default-641.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/641.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10019-tornadus-therian/038-endpoints.varieties.0.sprites.other.official-artwork.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10019-tornadus-therian/037-endpoints.varieties.0.sprites.other.home.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10019-tornadus-therian/039-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/040-endpoints.varieties.0.sprites.other.showdown.back_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/041-endpoints.varieties.0.sprites.other.showdown.back_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/042-endpoints.varieties.0.sprites.other.showdown.front_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10019-tornadus-therian/043-endpoints.varieties.0.sprites.other.showdown.front_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/044-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10019-tornadus-therian/045-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10019-tornadus-therian/046-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/047-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/048-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-641.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/641.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10019-tornadus-therian/049-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10019-tornadus-therian/050-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/051-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/052-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/053-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/054-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/055-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/056-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/058-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/057-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10019-tornadus-therian/059-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10019-tornadus-therian/060-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-641.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/641.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/031-endpoints.varieties.1.sprites.back_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/032-endpoints.varieties.1.sprites.back_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/641-tornadus-incarnate/035-endpoints.varieties.1.sprites.other.dream_world.front_default-10019.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10019.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/641-tornadus-incarnate/036-endpoints.varieties.1.sprites.other.home.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/033-endpoints.varieties.1.sprites.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/034-endpoints.varieties.1.sprites.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/641-tornadus-incarnate/038-endpoints.varieties.1.sprites.other.official-artwork.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/641-tornadus-incarnate/037-endpoints.varieties.1.sprites.other.home.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/641-tornadus-incarnate/039-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/041-endpoints.varieties.1.sprites.other.showdown.back_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/042-endpoints.varieties.1.sprites.other.showdown.front_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/040-endpoints.varieties.1.sprites.other.showdown.back_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/641-tornadus-incarnate/043-endpoints.varieties.1.sprites.other.showdown.front_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/044-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/045-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/046-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/047-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/048-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10019.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10019.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/641-tornadus-incarnate/050-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/641-tornadus-incarnate/049-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/051-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/052-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/053-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/054-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/055-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/056-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/057-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/058-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/641-tornadus-incarnate/059-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/641-tornadus-incarnate/060-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10019.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10019.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

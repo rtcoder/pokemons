@@ -1,0 +1,590 @@
+{
+  "id": 91,
+  "name": "cloyster",
+  "displayName": "Cloyster",
+  "species": {
+    "id": 91,
+    "name": "cloyster"
+  },
+  "generation": "generation-i",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "height": 15,
+  "weight": 1325,
+  "baseExperience": 184,
+  "isDefault": true,
+  "stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "specialAttack": 85,
+    "specialDefense": 45,
+    "speed": 70,
+    "total": 525,
+    "effort": {
+      "defense": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 75,
+      "name": "shell-armor",
+      "displayName": "Shell Armor",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Protects against critical hits.",
+      "effect": "Moves cannot score critical hits against this Pokémon. This ability functions identically to Battle Armor.",
+      "flavorText": "A hard shell protects the Pokémon from critical hits."
+    },
+    {
+      "id": 92,
+      "name": "skill-link",
+      "displayName": "Skill Link",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Extends two-to-five-hit moves and Triple Kick to their full length every time.",
+      "effect": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear. It also bypasses the accuracy checks on Triple Kick's second and third hits.",
+      "flavorText": "Maximizes the number of times multistrike moves hit."
+    },
+    {
+      "id": 142,
+      "name": "overcoat",
+      "displayName": "Overcoat",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Protects against damage from weather.",
+      "effect": "This Pokémon does not take damage from weather.",
+      "flavorText": "The Pokémon takes no damage from sandstorms. It is also protected from the effects of powders and spores."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/shellder-cloyster.json",
+    "names": [
+      "shellder",
+      "cloyster"
+    ]
+  },
+  "forms": [
+    {
+      "id": 91,
+      "name": "cloyster",
+      "displayName": "Cloyster",
+      "formName": "cloyster",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "water",
+        "ice"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/004-endpoints.pokemon.sprites.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/003-endpoints.pokemon.sprites.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/001-endpoints.pokemon.sprites.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/002-endpoints.pokemon.sprites.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/91-cloyster/006-endpoints.pokemon.sprites.other.home.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/91-cloyster/005-endpoints.pokemon.sprites.other.dream_world.front_default-91.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/91.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/91-cloyster/008-endpoints.pokemon.sprites.other.official-artwork.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/91-cloyster/007-endpoints.pokemon.sprites.other.home.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/91-cloyster/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/91-cloyster/010-endpoints.pokemon.sprites.other.showdown.back_default-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/91-cloyster/012-endpoints.pokemon.sprites.other.showdown.front_default-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/91-cloyster/013-endpoints.pokemon.sprites.other.showdown.front_shiny-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/014-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/91-cloyster/011-endpoints.pokemon.sprites.other.showdown.back_shiny-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/015-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/016-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/017-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/018-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/021-endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/020-endpoints.pokemon.sprites.versions.generation-i.yellow.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/019-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/022-endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/023-endpoints.pokemon.sprites.versions.generation-i.yellow.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/025-endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/024-endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/027-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/028-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/029-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/026-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/031-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/032-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/030-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/033-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/034-endpoints.pokemon.sprites.versions.generation-ii.gold.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/035-endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/037-endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/038-endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/036-endpoints.pokemon.sprites.versions.generation-ii.gold.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/040-endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/039-endpoints.pokemon.sprites.versions.generation-ii.silver.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/042-endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/041-endpoints.pokemon.sprites.versions.generation-ii.silver.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/044-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/046-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/045-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/91-cloyster/043-endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/047-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/048-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/050-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/049-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/051-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/053-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/052-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/054-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/055-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/056-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/057-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/059-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/058-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/061-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/062-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/060-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/063-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/067-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/064-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/065-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/066-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/069-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/068-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/070-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-91.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/91.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/91-cloyster/071-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/91-cloyster/072-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/073-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/075-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/074-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/077-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/078-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/076-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/079-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/083-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/080-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/91-cloyster/082-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/91-cloyster/081-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-91.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/91.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Cloyster",
+        "formName": "regular",
+        "path": "data/models/91-cloyster/01-regular-Cloyster.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/91.glb"
+      }
+    }
+  ]
+}

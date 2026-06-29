@@ -1,0 +1,2052 @@
+{
+  "id": 10113,
+  "name": "muk-alola",
+  "displayName": "Muk",
+  "species": {
+    "id": 89,
+    "name": "muk"
+  },
+  "generation": "generation-i",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "height": 10,
+  "weight": 520,
+  "baseExperience": 175,
+  "isDefault": false,
+  "stats": {
+    "hp": 105,
+    "attack": 105,
+    "defense": 75,
+    "specialAttack": 65,
+    "specialDefense": 100,
+    "speed": 50,
+    "total": 500,
+    "effort": {
+      "hp": 1,
+      "attack": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 143,
+      "name": "poison-touch",
+      "displayName": "Poison Touch",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of poisoning target Pokémon upon contact.",
+      "effect": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit. This counts as an extra effect for the purposes of Shield Dust. This ability takes effect before Mummy.",
+      "flavorText": "May poison a target when the Pokémon makes contact."
+    },
+    {
+      "id": 82,
+      "name": "gluttony",
+      "displayName": "Gluttony",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+      "effect": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold.",
+      "flavorText": "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less."
+    },
+    {
+      "id": 223,
+      "name": "power-of-alchemy",
+      "displayName": "Power of Alchemy",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "When an ally faints, this Pokémon gains its Ability.",
+      "effect": "When an ally faints, this Pokémon gains its Ability.",
+      "flavorText": "The Pokémon copies the Ability of a defeated ally."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/grimer-muk.json",
+    "names": [
+      "grimer",
+      "muk"
+    ]
+  },
+  "forms": [
+    {
+      "id": 89,
+      "name": "muk",
+      "displayName": "Muk",
+      "formName": "muk",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "poison"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/004-endpoints.pokemon.sprites.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/003-endpoints.pokemon.sprites.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/89-muk/006-endpoints.pokemon.sprites.other.home.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/001-endpoints.pokemon.sprites.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/89-muk/005-endpoints.pokemon.sprites.other.dream_world.front_default-89.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/89.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/89-muk/007-endpoints.pokemon.sprites.other.home.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/002-endpoints.pokemon.sprites.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/89-muk/008-endpoints.pokemon.sprites.other.official-artwork.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/010-endpoints.pokemon.sprites.other.showdown.back_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/011-endpoints.pokemon.sprites.other.showdown.back_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/012-endpoints.pokemon.sprites.other.showdown.front_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/89-muk/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/014-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/015-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/016-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/013-endpoints.pokemon.sprites.other.showdown.front_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/017-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/019-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/018-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/020-endpoints.pokemon.sprites.versions.generation-i.yellow.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/021-endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/023-endpoints.pokemon.sprites.versions.generation-i.yellow.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/022-endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/024-endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/025-endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/026-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/027-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/028-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/029-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/030-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/031-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/032-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/034-endpoints.pokemon.sprites.versions.generation-ii.gold.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/033-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/035-endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/036-endpoints.pokemon.sprites.versions.generation-ii.gold.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/038-endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/037-endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/039-endpoints.pokemon.sprites.versions.generation-ii.silver.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/040-endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/041-endpoints.pokemon.sprites.versions.generation-ii.silver.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/042-endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/89-muk/043-endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/044-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/045-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/046-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/047-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/048-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/049-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/050-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/053-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/052-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/051-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/054-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/056-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/057-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/058-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/055-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/059-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/060-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/061-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/062-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/063-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/067-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/065-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/066-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/064-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/069-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/068-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/071-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/073-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/072-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/070-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/89.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/076-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/074-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/077-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/075-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/078-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/079-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/083-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/080-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/081-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/086-endpoints.varieties.1.sprites.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/084-endpoints.varieties.1.sprites.back_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/085-endpoints.varieties.1.sprites.back_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/89-muk/088-endpoints.varieties.1.sprites.other.home.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/082-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/89.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/087-endpoints.varieties.1.sprites.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/89-muk/090-endpoints.varieties.1.sprites.other.official-artwork.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/89-muk/089-endpoints.varieties.1.sprites.other.home.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/89-muk/091-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/092-endpoints.varieties.1.sprites.other.showdown.back_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/095-endpoints.varieties.1.sprites.other.showdown.front_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/096-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/094-endpoints.varieties.1.sprites.other.showdown.front_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/097-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/89-muk/093-endpoints.varieties.1.sprites.other.showdown.back_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/098-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/099-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/100-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10113.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/89-muk/101-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/89-muk/102-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/103-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/104-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/105-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/106-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/89-muk/107-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/89-muk/108-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10113.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/002-endpoints.pokemon.sprites.back_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/003-endpoints.pokemon.sprites.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/004-endpoints.pokemon.sprites.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/001-endpoints.pokemon.sprites.back_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10113-muk-alola/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/005-endpoints.pokemon.sprites.other.home.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10113-muk-alola/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/006-endpoints.pokemon.sprites.other.home.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/009-endpoints.pokemon.sprites.other.showdown.back_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/011-endpoints.pokemon.sprites.other.showdown.front_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/022-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/024-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/028-endpoints.varieties.0.sprites.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/025-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/026-endpoints.varieties.0.sprites.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/027-endpoints.varieties.0.sprites.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/029-endpoints.varieties.0.sprites.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10113-muk-alola/033-endpoints.varieties.0.sprites.other.official-artwork.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10113-muk-alola/030-endpoints.varieties.0.sprites.other.dream_world.front_default-89.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/89.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/031-endpoints.varieties.0.sprites.other.home.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/032-endpoints.varieties.0.sprites.other.home.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10113-muk-alola/034-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/035-endpoints.varieties.0.sprites.other.showdown.back_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/036-endpoints.varieties.0.sprites.other.showdown.back_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/037-endpoints.varieties.0.sprites.other.showdown.front_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/038-endpoints.varieties.0.sprites.other.showdown.front_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/040-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/039-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/041-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/042-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/044-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/043-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/045-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/046-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/047-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/048-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/049-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/050-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/051-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/052-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/053-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/054-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/055-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/056-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/057-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/058-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/059-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/060-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/061-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/062-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/063-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/064-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/065-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/066-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/067-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/068-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/069-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/070-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/072-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/071-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/073-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/074-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/075-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/076-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/077-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/078-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/079-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/081-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/080-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/083-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/082-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/085-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/087-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/086-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/084-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/088-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/092-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/090-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/089-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/091-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/093-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/094-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/096-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/095-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/097-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/098-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/099-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/100-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/101-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/102-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/103-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/104-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/108-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/105-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/107-endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/106-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Muk",
+        "formName": "regular",
+        "path": "data/models/89-muk/01-regular-Muk.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/89.glb"
+      }
+    },
+    {
+      "id": 10113,
+      "name": "muk-alola",
+      "displayName": "Alolan Muk",
+      "formName": "alola",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "images": [
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/002-endpoints.pokemon.sprites.back_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/003-endpoints.pokemon.sprites.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/004-endpoints.pokemon.sprites.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/001-endpoints.pokemon.sprites.back_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10113-muk-alola/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/005-endpoints.pokemon.sprites.other.home.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10113-muk-alola/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/006-endpoints.pokemon.sprites.other.home.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/009-endpoints.pokemon.sprites.other.showdown.back_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/011-endpoints.pokemon.sprites.other.showdown.front_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10113.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10113.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/022-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/024-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/028-endpoints.varieties.0.sprites.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/025-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10113.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10113.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/026-endpoints.varieties.0.sprites.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/027-endpoints.varieties.0.sprites.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/029-endpoints.varieties.0.sprites.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10113-muk-alola/033-endpoints.varieties.0.sprites.other.official-artwork.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10113-muk-alola/030-endpoints.varieties.0.sprites.other.dream_world.front_default-89.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/89.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/031-endpoints.varieties.0.sprites.other.home.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10113-muk-alola/032-endpoints.varieties.0.sprites.other.home.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10113-muk-alola/034-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/035-endpoints.varieties.0.sprites.other.showdown.back_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/036-endpoints.varieties.0.sprites.other.showdown.back_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/037-endpoints.varieties.0.sprites.other.showdown.front_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10113-muk-alola/038-endpoints.varieties.0.sprites.other.showdown.front_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/040-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/039-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/041-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/042-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/044-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/043-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/045-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/046-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/047-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/048-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/049-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/050-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/051-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/052-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/053-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/054-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/055-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/056-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/057-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/058-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/059-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/060-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/061-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/062-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/063-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/064-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/065-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/066-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/067-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10113-muk-alola/068-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/069-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/070-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/072-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/071-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/073-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/074-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/075-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/076-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/077-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/078-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/079-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/081-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/080-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/083-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/082-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/085-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/087-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/086-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/084-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/088-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/092-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/090-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/089-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/091-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/093-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/094-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10113-muk-alola/096-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/095-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-89.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/89.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10113-muk-alola/097-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/098-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/099-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/100-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/101-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/102-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/103-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/104-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/108-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/105-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10113-muk-alola/107-endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10113-muk-alola/106-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-89.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/89.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

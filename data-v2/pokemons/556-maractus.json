@@ -1,0 +1,263 @@
+{
+  "id": 556,
+  "name": "maractus",
+  "displayName": "Maractus",
+  "species": {
+    "id": 556,
+    "name": "maractus"
+  },
+  "generation": "generation-v",
+  "types": [
+    "grass"
+  ],
+  "height": 10,
+  "weight": 280,
+  "baseExperience": 161,
+  "isDefault": true,
+  "stats": {
+    "hp": 75,
+    "attack": 86,
+    "defense": 67,
+    "specialAttack": 106,
+    "specialDefense": 67,
+    "speed": 60,
+    "total": 461,
+    "effort": {
+      "specialAttack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 11,
+      "name": "water-absorb",
+      "displayName": "Water Absorb",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Absorbs Water moves, healing for 1/4 max HP.",
+      "effect": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it. Water moves will ignore this Pokémon's Substitute.",
+      "flavorText": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+    },
+    {
+      "id": 34,
+      "name": "chlorophyll",
+      "displayName": "Chlorophyll",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Doubles Speed during strong sunlight.",
+      "effect": "This Pokémon's Speed is doubled during strong sunlight. This bonus does not count as a stat modifier.",
+      "flavorText": "Boosts the Pokémon's Speed stat in harsh sunlight."
+    },
+    {
+      "id": 114,
+      "name": "storm-drain",
+      "displayName": "Storm Drain",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Redirects single-target Water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage.",
+      "effect": "All other Pokémon's single-target Water-type moves are redirected to this Pokémon, if it is an eligible target. Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it. If the move's intended target also has this ability, the move is not redirected. When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon. Follow Me takes precedence over this ability.",
+      "flavorText": "The Pokémon draws in all Water-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/maractus.json",
+    "names": [
+      "maractus"
+    ]
+  },
+  "forms": [
+    {
+      "id": 556,
+      "name": "maractus",
+      "displayName": "Maractus",
+      "formName": "maractus",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/003-endpoints.pokemon.sprites.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/556-maractus/004-endpoints.pokemon.sprites.front_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/556-maractus/002-endpoints.pokemon.sprites.back_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/556-maractus/001-endpoints.pokemon.sprites.back_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/556-maractus/005-endpoints.pokemon.sprites.other.dream_world.front_default-556.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/556.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/556-maractus/006-endpoints.pokemon.sprites.other.home.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/556-maractus/008-endpoints.pokemon.sprites.other.official-artwork.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/556-maractus/007-endpoints.pokemon.sprites.other.home.front_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/556-maractus/010-endpoints.pokemon.sprites.other.showdown.back_default-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/556-maractus/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/556-maractus/011-endpoints.pokemon.sprites.other.showdown.back_shiny-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/556-maractus/012-endpoints.pokemon.sprites.other.showdown.front_default-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/556-maractus/013-endpoints.pokemon.sprites.other.showdown.front_shiny-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/556-maractus/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/556-maractus/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/556-maractus/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-556.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/556.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/556-maractus/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/556-maractus/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/556-maractus/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/022-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/024-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/556-maractus/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/556-maractus/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/029-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/026-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/556-maractus/027-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/556-maractus/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-556.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/556.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Maractus",
+        "formName": "regular",
+        "path": "data/models/556-maractus/01-regular-Maractus.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/556.glb"
+      }
+    }
+  ]
+}

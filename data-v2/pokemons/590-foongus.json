@@ -1,0 +1,262 @@
+{
+  "id": 590,
+  "name": "foongus",
+  "displayName": "Foongus",
+  "species": {
+    "id": 590,
+    "name": "foongus"
+  },
+  "generation": "generation-v",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 2,
+  "weight": 10,
+  "baseExperience": 59,
+  "isDefault": true,
+  "stats": {
+    "hp": 69,
+    "attack": 55,
+    "defense": 45,
+    "specialAttack": 55,
+    "specialDefense": 55,
+    "speed": 15,
+    "total": 294,
+    "effort": {
+      "hp": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 27,
+      "name": "effect-spore",
+      "displayName": "Effect Spore",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random. Nothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected.",
+      "flavorText": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+    },
+    {
+      "id": 144,
+      "name": "regenerator",
+      "displayName": "Regenerator",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Heals for 1/3 max HP upon switching out.",
+      "effect": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted. This ability does not take effect when a battle ends.",
+      "flavorText": "The Pokémon has a little of its HP restored when withdrawn from battle."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/foongus-amoonguss.json",
+    "names": [
+      "foongus",
+      "amoonguss"
+    ]
+  },
+  "forms": [
+    {
+      "id": 590,
+      "name": "foongus",
+      "displayName": "Foongus",
+      "formName": "foongus",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/003-endpoints.pokemon.sprites.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/590-foongus/004-endpoints.pokemon.sprites.front_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/590-foongus/002-endpoints.pokemon.sprites.back_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/590-foongus/006-endpoints.pokemon.sprites.other.home.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/590-foongus/005-endpoints.pokemon.sprites.other.dream_world.front_default-590.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/590.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/590-foongus/001-endpoints.pokemon.sprites.back_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/590-foongus/007-endpoints.pokemon.sprites.other.home.front_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/590-foongus/008-endpoints.pokemon.sprites.other.official-artwork.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/590-foongus/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/590-foongus/010-endpoints.pokemon.sprites.other.showdown.back_default-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/590-foongus/012-endpoints.pokemon.sprites.other.showdown.front_default-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/590-foongus/013-endpoints.pokemon.sprites.other.showdown.front_shiny-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/590-foongus/011-endpoints.pokemon.sprites.other.showdown.back_shiny-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/590-foongus/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/590-foongus/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/590-foongus/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/590-foongus/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/590-foongus/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-590.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/590.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/590-foongus/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/590-foongus/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/590-foongus/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/590-foongus/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/590-foongus/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-590.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/590.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Foongus",
+        "formName": "regular",
+        "path": "data/models/590-foongus/01-regular-Foongus.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/590.glb"
+      }
+    }
+  ]
+}

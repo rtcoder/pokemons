@@ -1,0 +1,270 @@
+{
+  "id": 522,
+  "name": "blitzle",
+  "displayName": "Blitzle",
+  "species": {
+    "id": 522,
+    "name": "blitzle"
+  },
+  "generation": "generation-v",
+  "types": [
+    "electric"
+  ],
+  "height": 8,
+  "weight": 298,
+  "baseExperience": 59,
+  "isDefault": true,
+  "stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 32,
+    "specialAttack": 50,
+    "specialDefense": 32,
+    "speed": 76,
+    "total": 295,
+    "effort": {
+      "speed": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 31,
+      "name": "lightning-rod",
+      "displayName": "Lightning Rod",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Redirects single-target Electric moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage.",
+      "effect": "All other Pokémon's single-target Electric-type moves are redirected to this Pokémon if it is an eligible target. Other Pokémon's Electric moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it. If the move's intended target also has this ability, the move is not redirected. When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon. Follow Me takes precedence over this ability. If the Pokémon is a Ground-type and thus immune to Electric moves, its immunity prevents the Special Attack boost.",
+      "flavorText": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+    },
+    {
+      "id": 78,
+      "name": "motor-drive",
+      "displayName": "Motor Drive",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Absorbs Electric moves, raising Speed one stage.",
+      "effect": "Whenever an Electric-type move hits this Pokémon, its Speed rises one stage, negating any other effect on it. This ability will not take effect if this Pokémon is immune to Electric moves. Electric moves will ignore this Pokémon's Substitute. This effect includes non-damaging moves, i.e. Thunder Wave.",
+      "flavorText": "The Pokémon takes no damage when hit by Electric-type moves. Instead, its Speed stat is boosted."
+    },
+    {
+      "id": 157,
+      "name": "sap-sipper",
+      "displayName": "Sap Sipper",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Absorbs Grass moves, raising Attack one stage.",
+      "effect": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it.",
+      "flavorText": "The Pokémon takes no damage when hit by Grass-type moves. Instead, its Attack stat is boosted."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/blitzle-zebstrika.json",
+    "names": [
+      "blitzle",
+      "zebstrika"
+    ]
+  },
+  "forms": [
+    {
+      "id": 522,
+      "name": "blitzle",
+      "displayName": "Blitzle",
+      "formName": "blitzle",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "electric"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/003-endpoints.pokemon.sprites.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/522-blitzle/004-endpoints.pokemon.sprites.front_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/522-blitzle/001-endpoints.pokemon.sprites.back_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/522-blitzle/002-endpoints.pokemon.sprites.back_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/522-blitzle/005-endpoints.pokemon.sprites.other.dream_world.front_default-522.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/522.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/522-blitzle/006-endpoints.pokemon.sprites.other.home.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/522-blitzle/007-endpoints.pokemon.sprites.other.home.front_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/522-blitzle/008-endpoints.pokemon.sprites.other.official-artwork.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/522-blitzle/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/522-blitzle/010-endpoints.pokemon.sprites.other.showdown.back_default-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/522-blitzle/013-endpoints.pokemon.sprites.other.showdown.front_shiny-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/522-blitzle/012-endpoints.pokemon.sprites.other.showdown.front_default-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/522-blitzle/011-endpoints.pokemon.sprites.other.showdown.back_shiny-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/522-blitzle/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/522-blitzle/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/522-blitzle/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-522.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/522.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/522-blitzle/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/522-blitzle/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/522-blitzle/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/522-blitzle/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/522-blitzle/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/522-blitzle/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/522-blitzle/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-522.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/522.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Blitzle",
+        "formName": "regular",
+        "path": "data/models/522-blitzle/01-regular-Blitzle.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/522.glb"
+      }
+    }
+  ]
+}

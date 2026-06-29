@@ -1,0 +1,698 @@
+{
+  "id": 422,
+  "name": "shellos",
+  "displayName": "Shellos",
+  "species": {
+    "id": 422,
+    "name": "shellos"
+  },
+  "generation": "generation-iv",
+  "types": [
+    "water"
+  ],
+  "height": 3,
+  "weight": 63,
+  "baseExperience": 65,
+  "isDefault": true,
+  "stats": {
+    "hp": 76,
+    "attack": 48,
+    "defense": 48,
+    "specialAttack": 57,
+    "specialDefense": 62,
+    "speed": 34,
+    "total": 325,
+    "effort": {
+      "hp": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 60,
+      "name": "sticky-hold",
+      "displayName": "Sticky Hold",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Prevents a held item from being removed by other Pokémon.",
+      "effect": "This Pokémon's hold item cannot be removed by other Pokémon. Damaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck. This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick. Overworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased.",
+      "flavorText": "The Pokémon's held items cling to its sticky body and cannot be removed by other Pokémon."
+    },
+    {
+      "id": 114,
+      "name": "storm-drain",
+      "displayName": "Storm Drain",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Redirects single-target Water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage.",
+      "effect": "All other Pokémon's single-target Water-type moves are redirected to this Pokémon, if it is an eligible target. Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it. If the move's intended target also has this ability, the move is not redirected. When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon. Follow Me takes precedence over this ability.",
+      "flavorText": "The Pokémon draws in all Water-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+    },
+    {
+      "id": 159,
+      "name": "sand-force",
+      "displayName": "Sand Force",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm. Protects against sandstorm damage.",
+      "effect": "During a sandstorm, this Pokémon's Rock-, Ground-, and Steel-type moves have 1.3× their base power. This Pokémon does not take sandstorm damage, regardless of type.",
+      "flavorText": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/shellos-gastrodon.json",
+    "names": [
+      "shellos",
+      "gastrodon"
+    ]
+  },
+  "forms": [
+    {
+      "id": 422,
+      "name": "shellos-west",
+      "displayName": "West Shellos",
+      "formName": "west",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "water"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/003-endpoints.pokemon.sprites.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/004-endpoints.pokemon.sprites.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/422-shellos/006-endpoints.pokemon.sprites.other.home.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/422-shellos/007-endpoints.pokemon.sprites.other.home.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/422-shellos/008-endpoints.pokemon.sprites.other.official-artwork.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/001-endpoints.pokemon.sprites.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/002-endpoints.pokemon.sprites.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/422-shellos/005-endpoints.pokemon.sprites.other.dream_world.front_default-422.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/422.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/012-endpoints.pokemon.sprites.other.showdown.front_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/011-endpoints.pokemon.sprites.other.showdown.back_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/010-endpoints.pokemon.sprites.other.showdown.back_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/422-shellos/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/014-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/015-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/013-endpoints.pokemon.sprites.other.showdown.front_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/017-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/016-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/019-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/018-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/020-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/021-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/022-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/023-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/024-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/025-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/027-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/026-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/028-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/029-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/030-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/031-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/032-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/033-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/035-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/034-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/036-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/037-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/039-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/038-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/040-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/041-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/042-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/043-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/044-endpoints.forms.1.sprites.back_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/045-endpoints.forms.1.sprites.back_shiny-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/047-endpoints.forms.1.sprites.front_shiny-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/046-endpoints.forms.1.sprites.front_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/049-endpoints.forms.1.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/048-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        }
+      ],
+      "model": {
+        "name": "Shellos",
+        "formName": "regular",
+        "path": "data/models/422-shellos/01-regular-Shellos.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/422.glb"
+      }
+    },
+    {
+      "id": 422,
+      "name": "shellos-east",
+      "displayName": "East Shellos",
+      "formName": "east",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "water"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/003-endpoints.pokemon.sprites.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/004-endpoints.pokemon.sprites.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/422-shellos/006-endpoints.pokemon.sprites.other.home.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/422-shellos/007-endpoints.pokemon.sprites.other.home.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/422-shellos/008-endpoints.pokemon.sprites.other.official-artwork.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/001-endpoints.pokemon.sprites.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/002-endpoints.pokemon.sprites.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/422-shellos/005-endpoints.pokemon.sprites.other.dream_world.front_default-422.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/422.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/012-endpoints.pokemon.sprites.other.showdown.front_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/011-endpoints.pokemon.sprites.other.showdown.back_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/010-endpoints.pokemon.sprites.other.showdown.back_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/422-shellos/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/014-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/015-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/422-shellos/013-endpoints.pokemon.sprites.other.showdown.front_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/017-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/016-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/019-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/018-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/020-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/021-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/022-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/023-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/024-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/025-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/027-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/026-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/028-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/029-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/030-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-422.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/422.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/031-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/032-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/033-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/035-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/034-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/036-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/037-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/039-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/038-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/040-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/041-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/042-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/043-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-422.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/422.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/422-shellos/044-endpoints.forms.1.sprites.back_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/422-shellos/045-endpoints.forms.1.sprites.back_shiny-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/422-shellos/047-endpoints.forms.1.sprites.front_shiny-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/046-endpoints.forms.1.sprites.front_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/049-endpoints.forms.1.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/422-shellos/048-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-422-east.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/422-east.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        }
+      ],
+      "model": {
+        "name": "Shellos",
+        "formName": "regular",
+        "path": "data/models/422-shellos/01-regular-Shellos.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/422.glb"
+      }
+    }
+  ]
+}

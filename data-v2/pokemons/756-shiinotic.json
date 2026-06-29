@@ -1,0 +1,242 @@
+{
+  "id": 756,
+  "name": "shiinotic",
+  "displayName": "Shiinotic",
+  "species": {
+    "id": 756,
+    "name": "shiinotic"
+  },
+  "generation": "generation-vii",
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "height": 10,
+  "weight": 115,
+  "baseExperience": 142,
+  "isDefault": true,
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 80,
+    "specialAttack": 90,
+    "specialDefense": 100,
+    "speed": 30,
+    "total": 405,
+    "effort": {
+      "specialDefense": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 35,
+      "name": "illuminate",
+      "displayName": "Illuminate",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Doubles the wild encounter rate.",
+      "effect": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled. This ability has no effect in battle.",
+      "flavorText": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered."
+    },
+    {
+      "id": 27,
+      "name": "effect-spore",
+      "displayName": "Effect Spore",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random. Nothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected.",
+      "flavorText": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+    },
+    {
+      "id": 44,
+      "name": "rain-dish",
+      "displayName": "Rain Dish",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Heals for 1/16 max HP after each turn during rain.",
+      "effect": "This Pokémon heals for 1/16 of its maximum HP after each turn during rain.",
+      "flavorText": "The Pokémon gradually regains HP in rain."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/morelull-shiinotic.json",
+    "names": [
+      "morelull",
+      "shiinotic"
+    ]
+  },
+  "forms": [
+    {
+      "id": 756,
+      "name": "shiinotic",
+      "displayName": "Shiinotic",
+      "formName": "shiinotic",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/756-shiinotic/003-endpoints.pokemon.sprites.front_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/756-shiinotic/001-endpoints.pokemon.sprites.back_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/756-shiinotic/004-endpoints.pokemon.sprites.front_shiny-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/756-shiinotic/002-endpoints.pokemon.sprites.back_shiny-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/756-shiinotic/008-endpoints.pokemon.sprites.other.official-artwork.front_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/756-shiinotic/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/756-shiinotic/006-endpoints.pokemon.sprites.other.home.front_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/756-shiinotic/007-endpoints.pokemon.sprites.other.home.front_shiny-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/756-shiinotic/005-endpoints.pokemon.sprites.other.dream_world.front_default-756.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/756.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/756-shiinotic/010-endpoints.pokemon.sprites.other.showdown.back_default-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/756-shiinotic/012-endpoints.pokemon.sprites.other.showdown.front_default-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/756-shiinotic/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/756-shiinotic/011-endpoints.pokemon.sprites.other.showdown.back_shiny-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/756-shiinotic/013-endpoints.pokemon.sprites.other.showdown.front_shiny-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/756-shiinotic/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/756-shiinotic/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/756-shiinotic/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-756.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/756.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/756-shiinotic/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/756-shiinotic/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/756-shiinotic/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/756-shiinotic/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/756-shiinotic/022-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/756-shiinotic/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/756-shiinotic/024-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/756-shiinotic/025-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-756.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/756.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Shiinotic",
+        "formName": "regular",
+        "path": "data/models/756-shiinotic/01-regular-Shiinotic.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/756.glb"
+      }
+    }
+  ]
+}

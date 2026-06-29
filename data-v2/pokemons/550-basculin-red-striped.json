@@ -1,0 +1,1884 @@
+{
+  "id": 550,
+  "name": "basculin-red-striped",
+  "displayName": "Basculin",
+  "species": {
+    "id": 550,
+    "name": "basculin"
+  },
+  "generation": "generation-v",
+  "types": [
+    "water"
+  ],
+  "height": 10,
+  "weight": 180,
+  "baseExperience": 161,
+  "isDefault": true,
+  "stats": {
+    "hp": 70,
+    "attack": 92,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 55,
+    "speed": 98,
+    "total": 460,
+    "effort": {
+      "speed": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 120,
+      "name": "reckless",
+      "displayName": "Reckless",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Strengthens recoil moves to 1.2× their power.",
+      "effect": "This Pokémon's recoil moves and crash moves have 1.2× their base power. Struggle is unaffected. The \"crash moves\" are the moves that damage the user upon missing: Jump Kick and High Jump Kick.",
+      "flavorText": "Powers up moves that have recoil damage."
+    },
+    {
+      "id": 91,
+      "name": "adaptability",
+      "displayName": "Adaptability",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Increases the same-type attack bonus from 1.5× to 2×.",
+      "effect": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
+      "flavorText": "Powers up moves of the same type as the Pokémon."
+    },
+    {
+      "id": 104,
+      "name": "mold-breaker",
+      "displayName": "Mold Breaker",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Bypasses targets' abilities if they could hinder or prevent a move.",
+      "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target. For example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat. If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way. Abilities that do not fit this description, even if they could hinder moves in some other way, are not affected. For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user. This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle. This ability cannot ignore Multitype at all. An ability ignored by this ability is only nullified while the move is being used. For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed. When this Pokémon enters battle, all participating trainers are notified that it has this ability. This ability functions identically to Teravolt and Turboblaze.",
+      "flavorText": "The Pokémon's moves are unimpeded by the Ability of the target."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/basculin-basculegion.json",
+    "names": [
+      "basculin",
+      "basculegion"
+    ]
+  },
+  "forms": [
+    {
+      "id": 550,
+      "name": "basculin-red-striped",
+      "displayName": "Red-Striped Basculin",
+      "formName": "red-striped",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "water"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/004-endpoints.pokemon.sprites.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/003-endpoints.pokemon.sprites.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/006-endpoints.pokemon.sprites.other.home.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/001-endpoints.pokemon.sprites.back_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/002-endpoints.pokemon.sprites.back_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/007-endpoints.pokemon.sprites.other.home.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/550-basculin-red-striped/005-endpoints.pokemon.sprites.other.dream_world.front_default-550.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/550.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/550-basculin-red-striped/008-endpoints.pokemon.sprites.other.official-artwork.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/550-basculin-red-striped/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/010-endpoints.pokemon.sprites.other.showdown.back_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/012-endpoints.pokemon.sprites.other.showdown.front_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/011-endpoints.pokemon.sprites.other.showdown.back_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/013-endpoints.pokemon.sprites.other.showdown.front_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/550.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/550.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/031-endpoints.varieties.1.sprites.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/033-endpoints.varieties.1.sprites.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/032-endpoints.varieties.1.sprites.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/034-endpoints.varieties.1.sprites.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/550-basculin-red-striped/035-endpoints.varieties.1.sprites.other.dream_world.front_default-10016.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10016.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/036-endpoints.varieties.1.sprites.other.home.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/037-endpoints.varieties.1.sprites.other.home.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/550-basculin-red-striped/038-endpoints.varieties.1.sprites.other.official-artwork.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/550-basculin-red-striped/039-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/041-endpoints.varieties.1.sprites.other.showdown.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/040-endpoints.varieties.1.sprites.other.showdown.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/042-endpoints.varieties.1.sprites.other.showdown.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/044-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/043-endpoints.varieties.1.sprites.other.showdown.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/045-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/046-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/048-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/049-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/047-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/051-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/052-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/053-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/050-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/054-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/055-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/056-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/057-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/058-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/060-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/059-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/062-endpoints.varieties.2.sprites.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/061-endpoints.varieties.2.sprites.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/063-endpoints.varieties.2.sprites.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/065-endpoints.varieties.2.sprites.other.home.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/064-endpoints.varieties.2.sprites.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/550-basculin-red-striped/067-endpoints.varieties.2.sprites.other.official-artwork.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/066-endpoints.varieties.2.sprites.other.home.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/550-basculin-red-striped/068-endpoints.varieties.2.sprites.other.official-artwork.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/069-endpoints.varieties.2.sprites.other.showdown.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/070-endpoints.varieties.2.sprites.other.showdown.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/071-endpoints.varieties.2.sprites.other.showdown.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/072-endpoints.varieties.2.sprites.other.showdown.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/073-endpoints.varieties.2.sprites.versions.generation-ix.scarlet-violet.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/075-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/076-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/077-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/074-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/078-endpoints.varieties.2.sprites.versions.generation-v.black-white.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/079-endpoints.varieties.2.sprites.versions.generation-v.black-white.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/080-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/081-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Basculin",
+        "formName": "regular",
+        "path": "data/models/550-basculin-red-striped/01-regular-Basculin.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/550.glb"
+      }
+    },
+    {
+      "id": 10016,
+      "name": "basculin-blue-striped",
+      "displayName": "Blue-Striped Basculin",
+      "formName": "blue-striped",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "water"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/003-endpoints.pokemon.sprites.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/001-endpoints.pokemon.sprites.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/004-endpoints.pokemon.sprites.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/002-endpoints.pokemon.sprites.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10016-basculin-blue-striped/006-endpoints.pokemon.sprites.other.home.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10016-basculin-blue-striped/008-endpoints.pokemon.sprites.other.official-artwork.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10016-basculin-blue-striped/005-endpoints.pokemon.sprites.other.dream_world.front_default-10016.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10016.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10016-basculin-blue-striped/007-endpoints.pokemon.sprites.other.home.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/010-endpoints.pokemon.sprites.other.showdown.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10016-basculin-blue-striped/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/012-endpoints.pokemon.sprites.other.showdown.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/011-endpoints.pokemon.sprites.other.showdown.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/013-endpoints.pokemon.sprites.other.showdown.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10016.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/033-endpoints.varieties.0.sprites.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/034-endpoints.varieties.0.sprites.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10016.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10016-basculin-blue-striped/036-endpoints.varieties.0.sprites.other.home.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/032-endpoints.varieties.0.sprites.back_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/031-endpoints.varieties.0.sprites.back_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10016-basculin-blue-striped/035-endpoints.varieties.0.sprites.other.dream_world.front_default-550.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/550.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10016-basculin-blue-striped/039-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10016-basculin-blue-striped/037-endpoints.varieties.0.sprites.other.home.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10016-basculin-blue-striped/038-endpoints.varieties.0.sprites.other.official-artwork.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/040-endpoints.varieties.0.sprites.other.showdown.back_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/041-endpoints.varieties.0.sprites.other.showdown.back_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/043-endpoints.varieties.0.sprites.other.showdown.front_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/042-endpoints.varieties.0.sprites.other.showdown.front_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/044-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/045-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/046-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/047-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/048-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/049-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/050-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/051-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/052-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/054-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/053-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/055-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/056-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/058-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/057-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/059-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/062-endpoints.varieties.2.sprites.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/063-endpoints.varieties.2.sprites.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/061-endpoints.varieties.2.sprites.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10016-basculin-blue-striped/065-endpoints.varieties.2.sprites.other.home.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/060-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/064-endpoints.varieties.2.sprites.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10016-basculin-blue-striped/066-endpoints.varieties.2.sprites.other.home.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10016-basculin-blue-striped/067-endpoints.varieties.2.sprites.other.official-artwork.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10016-basculin-blue-striped/068-endpoints.varieties.2.sprites.other.official-artwork.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/069-endpoints.varieties.2.sprites.other.showdown.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/070-endpoints.varieties.2.sprites.other.showdown.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/071-endpoints.varieties.2.sprites.other.showdown.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10016-basculin-blue-striped/072-endpoints.varieties.2.sprites.other.showdown.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/074-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/073-endpoints.varieties.2.sprites.versions.generation-ix.scarlet-violet.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/075-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/077-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/076-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10016-basculin-blue-striped/079-endpoints.varieties.2.sprites.versions.generation-v.black-white.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10016-basculin-blue-striped/078-endpoints.varieties.2.sprites.versions.generation-v.black-white.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10016-basculin-blue-striped/080-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10016-basculin-blue-striped/081-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/031-endpoints.varieties.1.sprites.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/033-endpoints.varieties.1.sprites.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/032-endpoints.varieties.1.sprites.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/034-endpoints.varieties.1.sprites.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/550-basculin-red-striped/035-endpoints.varieties.1.sprites.other.dream_world.front_default-10016.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10016.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/036-endpoints.varieties.1.sprites.other.home.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/037-endpoints.varieties.1.sprites.other.home.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/550-basculin-red-striped/038-endpoints.varieties.1.sprites.other.official-artwork.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/550-basculin-red-striped/039-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/041-endpoints.varieties.1.sprites.other.showdown.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/040-endpoints.varieties.1.sprites.other.showdown.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/042-endpoints.varieties.1.sprites.other.showdown.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/044-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/043-endpoints.varieties.1.sprites.other.showdown.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/045-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/046-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/048-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/049-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/047-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/051-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/052-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/053-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/050-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/054-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/055-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/056-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/057-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/058-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/060-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/059-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": null
+    },
+    {
+      "id": 10247,
+      "name": "basculin-white-striped",
+      "displayName": "White-Striped Basculin",
+      "formName": "white-striped",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "water"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/004-endpoints.pokemon.sprites.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/001-endpoints.pokemon.sprites.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/003-endpoints.pokemon.sprites.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/002-endpoints.pokemon.sprites.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10247-basculin-white-striped/006-endpoints.pokemon.sprites.other.home.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10247-basculin-white-striped/005-endpoints.pokemon.sprites.other.home.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10247-basculin-white-striped/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10247-basculin-white-striped/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/009-endpoints.pokemon.sprites.other.showdown.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/011-endpoints.pokemon.sprites.other.showdown.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10247.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/024-endpoints.varieties.0.sprites.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/025-endpoints.varieties.0.sprites.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/023-endpoints.varieties.0.sprites.back_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10247.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/022-endpoints.varieties.0.sprites.back_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10247-basculin-white-striped/026-endpoints.varieties.0.sprites.other.dream_world.front_default-550.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/550.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10247-basculin-white-striped/027-endpoints.varieties.0.sprites.other.home.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10247-basculin-white-striped/029-endpoints.varieties.0.sprites.other.official-artwork.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10247-basculin-white-striped/028-endpoints.varieties.0.sprites.other.home.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10247-basculin-white-striped/030-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/031-endpoints.varieties.0.sprites.other.showdown.back_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/032-endpoints.varieties.0.sprites.other.showdown.back_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/033-endpoints.varieties.0.sprites.other.showdown.front_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/034-endpoints.varieties.0.sprites.other.showdown.front_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/035-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-550.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/550.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/041-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/042-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/043-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/044-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/046-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/045-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/047-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/048-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/049-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/050-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/051-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-550.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/550.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/052-endpoints.varieties.1.sprites.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/054-endpoints.varieties.1.sprites.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/053-endpoints.varieties.1.sprites.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/055-endpoints.varieties.1.sprites.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10247-basculin-white-striped/056-endpoints.varieties.1.sprites.other.dream_world.front_default-10016.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10016.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10247-basculin-white-striped/057-endpoints.varieties.1.sprites.other.home.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10247-basculin-white-striped/058-endpoints.varieties.1.sprites.other.home.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10247-basculin-white-striped/059-endpoints.varieties.1.sprites.other.official-artwork.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10247-basculin-white-striped/060-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/061-endpoints.varieties.1.sprites.other.showdown.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/062-endpoints.varieties.1.sprites.other.showdown.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/063-endpoints.varieties.1.sprites.other.showdown.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10247-basculin-white-striped/064-endpoints.varieties.1.sprites.other.showdown.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/066-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/065-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/067-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/068-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/069-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10016.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10016.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10247-basculin-white-striped/070-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10247-basculin-white-striped/071-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/072-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/073-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/074-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/075-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/076-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/077-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/078-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10247-basculin-white-striped/080-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/079-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10247-basculin-white-striped/081-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10016.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10016.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/062-endpoints.varieties.2.sprites.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/061-endpoints.varieties.2.sprites.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/063-endpoints.varieties.2.sprites.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/065-endpoints.varieties.2.sprites.other.home.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/064-endpoints.varieties.2.sprites.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/550-basculin-red-striped/067-endpoints.varieties.2.sprites.other.official-artwork.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/550-basculin-red-striped/066-endpoints.varieties.2.sprites.other.home.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/550-basculin-red-striped/068-endpoints.varieties.2.sprites.other.official-artwork.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/069-endpoints.varieties.2.sprites.other.showdown.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/070-endpoints.varieties.2.sprites.other.showdown.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/071-endpoints.varieties.2.sprites.other.showdown.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/550-basculin-red-striped/072-endpoints.varieties.2.sprites.other.showdown.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/073-endpoints.varieties.2.sprites.versions.generation-ix.scarlet-violet.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/075-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/076-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/077-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_shiny-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/074-endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_default-10247.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10247.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/550-basculin-red-striped/078-endpoints.varieties.2.sprites.versions.generation-v.black-white.back_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/550-basculin-red-striped/079-endpoints.varieties.2.sprites.versions.generation-v.black-white.back_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/550-basculin-red-striped/080-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/550-basculin-red-striped/081-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny-10247.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10247.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

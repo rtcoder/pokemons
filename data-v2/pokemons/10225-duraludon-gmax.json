@@ -1,0 +1,810 @@
+{
+  "id": 10225,
+  "name": "duraludon-gmax",
+  "displayName": "Duraludon",
+  "species": {
+    "id": 884,
+    "name": "duraludon"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "height": 430,
+  "weight": 10000,
+  "baseExperience": 187,
+  "isDefault": false,
+  "stats": {
+    "hp": 70,
+    "attack": 95,
+    "defense": 115,
+    "specialAttack": 120,
+    "specialDefense": 50,
+    "speed": 85,
+    "total": 535,
+    "effort": {
+      "specialAttack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 135,
+      "name": "light-metal",
+      "displayName": "Light Metal",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Halves the Pokémon's weight.",
+      "effect": "This Pokémon has half the usual weight for its species.",
+      "flavorText": "Halves the Pokémon's weight."
+    },
+    {
+      "id": 134,
+      "name": "heavy-metal",
+      "displayName": "Heavy Metal",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Doubles the Pokémon's weight.",
+      "effect": "This Pokémon has double the usual weight for its species.",
+      "flavorText": "Doubles the Pokémon's weight."
+    },
+    {
+      "id": 242,
+      "name": "stalwart",
+      "displayName": "Stalwart",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Ignores moves and abilities that draw in moves.",
+      "effect": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.",
+      "flavorText": "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/duraludon-archaludon.json",
+    "names": [
+      "duraludon",
+      "archaludon"
+    ]
+  },
+  "forms": [
+    {
+      "id": 884,
+      "name": "duraludon",
+      "displayName": "Duraludon",
+      "formName": "duraludon",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/884-duraludon/003-endpoints.pokemon.sprites.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/884-duraludon/002-endpoints.pokemon.sprites.back_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/884-duraludon/005-endpoints.pokemon.sprites.other.home.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/884-duraludon/004-endpoints.pokemon.sprites.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/884-duraludon/001-endpoints.pokemon.sprites.back_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/884-duraludon/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/884-duraludon/006-endpoints.pokemon.sprites.other.home.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/884-duraludon/007-endpoints.pokemon.sprites.other.official-artwork.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/009-endpoints.pokemon.sprites.other.showdown.back_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/011-endpoints.pokemon.sprites.other.showdown.front_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/012-endpoints.pokemon.sprites.other.showdown.front_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/884-duraludon/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/010-endpoints.pokemon.sprites.other.showdown.back_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/884-duraludon/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/884-duraludon/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/884-duraludon/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_female-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/female/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/884-duraludon/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/884-duraludon/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/884-duraludon/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/884.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/884-duraludon/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/884-duraludon/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/884-duraludon/022-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/884.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/884-duraludon/025-endpoints.varieties.1.sprites.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/884-duraludon/026-endpoints.varieties.1.sprites.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/884-duraludon/023-endpoints.varieties.1.sprites.back_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/884-duraludon/024-endpoints.varieties.1.sprites.back_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/884-duraludon/027-endpoints.varieties.1.sprites.other.home.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/884-duraludon/028-endpoints.varieties.1.sprites.other.home.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/884-duraludon/029-endpoints.varieties.1.sprites.other.official-artwork.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/884-duraludon/030-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/033-endpoints.varieties.1.sprites.other.showdown.front_default-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10225.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/034-endpoints.varieties.1.sprites.other.showdown.front_shiny-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10225.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/031-endpoints.varieties.1.sprites.other.showdown.back_default-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10225.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/884-duraludon/035-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/884-duraludon/036-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/884-duraludon/032-endpoints.varieties.1.sprites.other.showdown.back_shiny-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10225.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/884-duraludon/039-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/884-duraludon/038-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/884-duraludon/037-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10225.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/003-endpoints.pokemon.sprites.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/004-endpoints.pokemon.sprites.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/001-endpoints.pokemon.sprites.back_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/002-endpoints.pokemon.sprites.back_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10225-duraludon-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10225-duraludon-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/020-endpoints.varieties.0.sprites.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/021-endpoints.varieties.0.sprites.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/018-endpoints.varieties.0.sprites.back_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/019-endpoints.varieties.0.sprites.back_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/023-endpoints.varieties.0.sprites.other.home.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/022-endpoints.varieties.0.sprites.other.home.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10225-duraludon-gmax/024-endpoints.varieties.0.sprites.other.official-artwork.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10225-duraludon-gmax/025-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/026-endpoints.varieties.0.sprites.other.showdown.back_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/027-endpoints.varieties.0.sprites.other.showdown.back_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/028-endpoints.varieties.0.sprites.other.showdown.front_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/029-endpoints.varieties.0.sprites.other.showdown.front_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/030-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/031-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10225-duraludon-gmax/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/female/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/039-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Duraludon",
+        "formName": "regular",
+        "path": "data/models/884-duraludon/01-regular-Duraludon.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/884.glb"
+      }
+    },
+    {
+      "id": 10225,
+      "name": "duraludon-gmax",
+      "displayName": "Gigantamax Duraludon",
+      "formName": "gmax",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": true,
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/003-endpoints.pokemon.sprites.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/004-endpoints.pokemon.sprites.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/001-endpoints.pokemon.sprites.back_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/002-endpoints.pokemon.sprites.back_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10225-duraludon-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10225-duraludon-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10225.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10225.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10225.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10225.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/020-endpoints.varieties.0.sprites.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/021-endpoints.varieties.0.sprites.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/018-endpoints.varieties.0.sprites.back_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/019-endpoints.varieties.0.sprites.back_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/023-endpoints.varieties.0.sprites.other.home.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10225-duraludon-gmax/022-endpoints.varieties.0.sprites.other.home.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10225-duraludon-gmax/024-endpoints.varieties.0.sprites.other.official-artwork.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10225-duraludon-gmax/025-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/026-endpoints.varieties.0.sprites.other.showdown.back_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/027-endpoints.varieties.0.sprites.other.showdown.back_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/028-endpoints.varieties.0.sprites.other.showdown.front_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10225-duraludon-gmax/029-endpoints.varieties.0.sprites.other.showdown.front_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/030-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/031-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10225-duraludon-gmax/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/female/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10225-duraludon-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-884.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/884.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10225-duraludon-gmax/036-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10225-duraludon-gmax/039-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10225-duraludon-gmax/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-884.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/884.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

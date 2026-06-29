@@ -1,0 +1,195 @@
+{
+  "id": 903,
+  "name": "sneasler",
+  "displayName": "Sneasler",
+  "species": {
+    "id": 903,
+    "name": "sneasler"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "fighting",
+    "poison"
+  ],
+  "height": 13,
+  "weight": 430,
+  "baseExperience": 102,
+  "isDefault": true,
+  "stats": {
+    "hp": 80,
+    "attack": 130,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 80,
+    "speed": 120,
+    "total": 510,
+    "effort": {
+      "attack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 46,
+      "name": "pressure",
+      "displayName": "Pressure",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Increases the PP cost of moves targetting the Pokémon by one.",
+      "effect": "Moves targetting this Pokémon use one extra PP. This ability stacks if multiple targets have it. This ability still affects moves that fail or miss. This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field. If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP. When this Pokémon enters battle, all participating trainers are notified that it has this ability. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+      "flavorText": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+    },
+    {
+      "id": 84,
+      "name": "unburden",
+      "displayName": "Unburden",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Doubles Speed upon using or losing a held item.",
+      "effect": "When this Pokémon uses or loses its held item, its Speed is doubled. If it gains another item or leaves battle, this bonus is lost. This includes when the Pokémon drops its item because of Knock Off. This bonus does not count as a stat modifier. There is no notification when this ability takes effect.",
+      "flavorText": "Boosts the Speed stat if the Pokémon's held item is used or lost."
+    },
+    {
+      "id": 143,
+      "name": "poison-touch",
+      "displayName": "Poison Touch",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Has a 30% chance of poisoning target Pokémon upon contact.",
+      "effect": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit. This counts as an extra effect for the purposes of Shield Dust. This ability takes effect before Mummy.",
+      "flavorText": "May poison a target when the Pokémon makes contact."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/sneasel-weavile-sneasler.json",
+    "names": [
+      "sneasel",
+      "weavile",
+      "sneasler"
+    ]
+  },
+  "forms": [
+    {
+      "id": 903,
+      "name": "sneasler",
+      "displayName": "Sneasler",
+      "formName": "sneasler",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "fighting",
+        "poison"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/903-sneasler/003-endpoints.pokemon.sprites.front_default-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/903-sneasler/005-endpoints.pokemon.sprites.other.home.front_default-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/903-sneasler/002-endpoints.pokemon.sprites.back_shiny-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/903-sneasler/001-endpoints.pokemon.sprites.back_default-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/903-sneasler/004-endpoints.pokemon.sprites.front_shiny-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/903-sneasler/007-endpoints.pokemon.sprites.other.official-artwork.front_default-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/903-sneasler/006-endpoints.pokemon.sprites.other.home.front_shiny-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/903-sneasler/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/903-sneasler/010-endpoints.pokemon.sprites.other.showdown.back_shiny-903.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/903.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/903-sneasler/009-endpoints.pokemon.sprites.other.showdown.back_default-903.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/903.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/903-sneasler/012-endpoints.pokemon.sprites.other.showdown.front_shiny-903.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/903.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/903-sneasler/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/903-sneasler/011-endpoints.pokemon.sprites.other.showdown.front_default-903.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/903.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/903-sneasler/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/903-sneasler/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/903-sneasler/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/903-sneasler/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-903.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/903.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Sneasler",
+        "formName": "regular",
+        "path": "data/models/903-sneasler/01-regular-Sneasler.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/903.glb"
+      }
+    }
+  ]
+}

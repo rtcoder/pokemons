@@ -1,0 +1,597 @@
+{
+  "id": 274,
+  "name": "nuzleaf",
+  "displayName": "Nuzleaf",
+  "species": {
+    "id": 274,
+    "name": "nuzleaf"
+  },
+  "generation": "generation-iii",
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "height": 10,
+  "weight": 280,
+  "baseExperience": 119,
+  "isDefault": true,
+  "stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 40,
+    "specialAttack": 60,
+    "specialDefense": 40,
+    "speed": 60,
+    "total": 340,
+    "effort": {
+      "attack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 34,
+      "name": "chlorophyll",
+      "displayName": "Chlorophyll",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Doubles Speed during strong sunlight.",
+      "effect": "This Pokémon's Speed is doubled during strong sunlight. This bonus does not count as a stat modifier.",
+      "flavorText": "Boosts the Pokémon's Speed stat in harsh sunlight."
+    },
+    {
+      "id": 48,
+      "name": "early-bird",
+      "displayName": "Early Bird",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Makes sleep pass twice as quickly.",
+      "effect": "This Pokémon's remaining sleep turn count falls by 2 rather than 1. If this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up.",
+      "flavorText": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+    },
+    {
+      "id": 124,
+      "name": "pickpocket",
+      "displayName": "Pickpocket",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Steals attacking Pokémon's held items on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item. This Pokémon cannot steal upon being knocked out. It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit. If a move hits multiple times, only the last hit triggers this ability. If this Pokémon is wild, it cannot steal from a trained Pokémon.",
+      "flavorText": "The Pokémon steals the held item from attackers that made direct contact with it."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/seedot-nuzleaf-shiftry.json",
+    "names": [
+      "seedot",
+      "nuzleaf",
+      "shiftry"
+    ]
+  },
+  "forms": [
+    {
+      "id": 274,
+      "name": "nuzleaf",
+      "displayName": "Nuzleaf",
+      "formName": "nuzleaf",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "grass",
+        "dark"
+      ],
+      "images": [
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/003-endpoints.pokemon.sprites.back_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/005-endpoints.pokemon.sprites.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/004-endpoints.pokemon.sprites.back_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/274-nuzleaf/001-endpoints.pokemon.sprites.back_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/002-endpoints.pokemon.sprites.back_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/007-endpoints.pokemon.sprites.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/008-endpoints.pokemon.sprites.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny_female"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/274-nuzleaf/010-endpoints.pokemon.sprites.other.home.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/006-endpoints.pokemon.sprites.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_female"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/274-nuzleaf/012-endpoints.pokemon.sprites.other.home.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/274-nuzleaf/009-endpoints.pokemon.sprites.other.dream_world.front_default-274.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/274.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/274-nuzleaf/011-endpoints.pokemon.sprites.other.home.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_female"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/274-nuzleaf/014-endpoints.pokemon.sprites.other.official-artwork.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/274-nuzleaf/013-endpoints.pokemon.sprites.other.home.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny_female"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/274-nuzleaf/015-endpoints.pokemon.sprites.other.official-artwork.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/274-nuzleaf/016-endpoints.pokemon.sprites.other.showdown.back_default-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/274-nuzleaf/017-endpoints.pokemon.sprites.other.showdown.back_female-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/female/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_female"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/274-nuzleaf/018-endpoints.pokemon.sprites.other.showdown.back_shiny-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/274-nuzleaf/019-endpoints.pokemon.sprites.other.showdown.front_default-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/274-nuzleaf/020-endpoints.pokemon.sprites.other.showdown.front_female-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/female/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_female"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/023-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/274-nuzleaf/021-endpoints.pokemon.sprites.other.showdown.front_shiny-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/274-nuzleaf/022-endpoints.pokemon.sprites.other.showdown.front_shiny_female-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/female/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/024-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/274-nuzleaf/025-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/026-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/027-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/274-nuzleaf/029-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/028-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/030-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_female"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/031-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/034-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_female"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/032-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/035-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/033-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/274-nuzleaf/037-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/036-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny_female"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/038-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_female"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/039-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/041-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/040-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny_female"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/042-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/043-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/044-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/274-nuzleaf/045-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/046-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_female"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/047-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/048-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny_female"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/049-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/051-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/050-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/052-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny_female"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/274-nuzleaf/054-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/055-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_female-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/female/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_female"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/058-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/056-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/053-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/057-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny_female-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/female/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny_female"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/059-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_female-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/female/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/060-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/274-nuzleaf/062-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/061-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny_female-274.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/female/274.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny_female"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/063-endpoints.pokemon.sprites.versions.generation-v.black-white.back_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_female"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/065-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny_female"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/274-nuzleaf/064-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/066-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/067-endpoints.pokemon.sprites.versions.generation-v.black-white.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/069-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/068-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/070-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/071-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/072-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/073-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny_female"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/074-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/075-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_female"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/076-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/077-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny_female"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/079-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/274-nuzleaf/080-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_female"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/078-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/081-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/274-nuzleaf/082-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny_female-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/female/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny_female"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/084-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/274-nuzleaf/083-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-274.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/274.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        }
+      ],
+      "model": {
+        "name": "Nuzleaf",
+        "formName": "regular",
+        "path": "data/models/274-nuzleaf/01-regular-Nuzleaf.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/274.glb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "id": 545,
+  "name": "scolipede",
+  "displayName": "Scolipede",
+  "species": {
+    "id": 545,
+    "name": "scolipede"
+  },
+  "generation": "generation-v",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "height": 25,
+  "weight": 2005,
+  "baseExperience": 218,
+  "isDefault": true,
+  "stats": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 89,
+    "specialAttack": 55,
+    "specialDefense": 69,
+    "speed": 112,
+    "total": 485,
+    "effort": {
+      "speed": 3
+    }
+  },
+  "abilities": [
+    {
+      "id": 38,
+      "name": "poison-point",
+      "displayName": "Poison Point",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned.",
+      "flavorText": "Contact with the Pokémon may poison the attacker."
+    },
+    {
+      "id": 68,
+      "name": "swarm",
+      "displayName": "Swarm",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: If the lead Pokémon has this ability, the wild encounter rate is increased.",
+      "flavorText": "Powers up Bug-type moves when the Pokémon's HP is low."
+    },
+    {
+      "id": 3,
+      "name": "speed-boost",
+      "displayName": "Speed Boost",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Raises Speed one stage after each turn.",
+      "effect": "This Pokémon's Speed rises one stage after each turn.",
+      "flavorText": "The Pokémon's Speed stat is boosted every turn."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/venipede-whirlipede-scolipede.json",
+    "names": [
+      "venipede",
+      "whirlipede",
+      "scolipede"
+    ]
+  },
+  "forms": [
+    {
+      "id": 545,
+      "name": "scolipede",
+      "displayName": "Scolipede",
+      "formName": "scolipede",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/003-endpoints.pokemon.sprites.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/004-endpoints.pokemon.sprites.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/545-scolipede/006-endpoints.pokemon.sprites.other.home.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/545-scolipede/001-endpoints.pokemon.sprites.back_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/545-scolipede/002-endpoints.pokemon.sprites.back_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/545-scolipede/005-endpoints.pokemon.sprites.other.dream_world.front_default-545.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/545.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/545-scolipede/008-endpoints.pokemon.sprites.other.official-artwork.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/545-scolipede/007-endpoints.pokemon.sprites.other.home.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/545-scolipede/012-endpoints.pokemon.sprites.other.showdown.front_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/545-scolipede/011-endpoints.pokemon.sprites.other.showdown.back_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/545-scolipede/010-endpoints.pokemon.sprites.other.showdown.back_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/545-scolipede/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/545-scolipede/013-endpoints.pokemon.sprites.other.showdown.front_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/545-scolipede/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/545-scolipede/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/545-scolipede/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/545.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/545-scolipede/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/022-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/024-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/027-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/026-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/029-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/545.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/032-endpoints.varieties.1.sprites.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/545-scolipede/030-endpoints.varieties.1.sprites.back_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/033-endpoints.varieties.1.sprites.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/545-scolipede/034-endpoints.varieties.1.sprites.other.home.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/545-scolipede/031-endpoints.varieties.1.sprites.back_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/545-scolipede/035-endpoints.varieties.1.sprites.other.home.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/545-scolipede/036-endpoints.varieties.1.sprites.other.official-artwork.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/545-scolipede/037-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Scolipede",
+        "formName": "regular",
+        "path": "data/models/545-scolipede/01-regular-Scolipede.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/545.glb"
+      }
+    },
+    {
+      "id": 10288,
+      "name": "scolipede-mega",
+      "displayName": "Mega Scolipede",
+      "formName": "mega",
+      "isDefault": false,
+      "isMega": true,
+      "isBattleOnly": true,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/003-endpoints.pokemon.sprites.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10288-scolipede-mega/001-endpoints.pokemon.sprites.back_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10288-scolipede-mega/004-endpoints.pokemon.sprites.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10288-scolipede-mega/002-endpoints.pokemon.sprites.back_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10288-scolipede-mega/005-endpoints.pokemon.sprites.other.home.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10288-scolipede-mega/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10288-scolipede-mega/006-endpoints.pokemon.sprites.other.home.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10288-scolipede-mega/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10288.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/011-endpoints.varieties.0.sprites.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10288-scolipede-mega/009-endpoints.varieties.0.sprites.back_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10288-scolipede-mega/012-endpoints.varieties.0.sprites.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10288-scolipede-mega/010-endpoints.varieties.0.sprites.back_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10288-scolipede-mega/015-endpoints.varieties.0.sprites.other.home.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10288-scolipede-mega/013-endpoints.varieties.0.sprites.other.dream_world.front_default-545.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/545.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10288-scolipede-mega/014-endpoints.varieties.0.sprites.other.home.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10288-scolipede-mega/016-endpoints.varieties.0.sprites.other.official-artwork.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10288-scolipede-mega/018-endpoints.varieties.0.sprites.other.showdown.back_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10288-scolipede-mega/017-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10288-scolipede-mega/019-endpoints.varieties.0.sprites.other.showdown.back_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10288-scolipede-mega/020-endpoints.varieties.0.sprites.other.showdown.front_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10288-scolipede-mega/021-endpoints.varieties.0.sprites.other.showdown.front_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10288-scolipede-mega/022-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/024-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10288-scolipede-mega/023-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10288-scolipede-mega/025-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-545.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/545.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10288-scolipede-mega/026-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10288-scolipede-mega/027-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/028-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10288-scolipede-mega/029-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/030-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/032-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10288-scolipede-mega/031-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10288-scolipede-mega/033-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/034-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/035-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10288-scolipede-mega/036-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10288-scolipede-mega/037-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-545.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/545.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/545-scolipede/032-endpoints.varieties.1.sprites.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/545-scolipede/030-endpoints.varieties.1.sprites.back_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/545-scolipede/033-endpoints.varieties.1.sprites.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/545-scolipede/034-endpoints.varieties.1.sprites.other.home.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/545-scolipede/031-endpoints.varieties.1.sprites.back_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/545-scolipede/035-endpoints.varieties.1.sprites.other.home.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/545-scolipede/036-endpoints.varieties.1.sprites.other.official-artwork.front_default-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/545-scolipede/037-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10288.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10288.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

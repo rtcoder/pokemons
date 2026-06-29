@@ -1,0 +1,655 @@
+{
+  "id": 826,
+  "name": "orbeetle",
+  "displayName": "Orbeetle",
+  "species": {
+    "id": 826,
+    "name": "orbeetle"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "height": 4,
+  "weight": 408,
+  "baseExperience": 253,
+  "isDefault": true,
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 110,
+    "specialAttack": 80,
+    "specialDefense": 120,
+    "speed": 90,
+    "total": 505,
+    "effort": {
+      "specialDefense": 3
+    }
+  },
+  "abilities": [
+    {
+      "id": 68,
+      "name": "swarm",
+      "displayName": "Swarm",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: If the lead Pokémon has this ability, the wild encounter rate is increased.",
+      "flavorText": "Powers up Bug-type moves when the Pokémon's HP is low."
+    },
+    {
+      "id": 119,
+      "name": "frisk",
+      "displayName": "Frisk",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Reveals an opponent's held item upon entering battle.",
+      "effect": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers. In a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random.",
+      "flavorText": "When it enters a battle, the Pokémon can check an opposing Pokémon's held item."
+    },
+    {
+      "id": 140,
+      "name": "telepathy",
+      "displayName": "Telepathy",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Protects against friendly Pokémon's damaging moves.",
+      "effect": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it.",
+      "flavorText": "The Pokémon anticipates and dodges the attacks of its allies."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/blipbug-dottler-orbeetle.json",
+    "names": [
+      "blipbug",
+      "dottler",
+      "orbeetle"
+    ]
+  },
+  "forms": [
+    {
+      "id": 826,
+      "name": "orbeetle",
+      "displayName": "Orbeetle",
+      "formName": "orbeetle",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "bug",
+        "psychic"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/003-endpoints.pokemon.sprites.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/826-orbeetle/002-endpoints.pokemon.sprites.back_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/004-endpoints.pokemon.sprites.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/826-orbeetle/001-endpoints.pokemon.sprites.back_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/826-orbeetle/007-endpoints.pokemon.sprites.other.official-artwork.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/826-orbeetle/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/826-orbeetle/005-endpoints.pokemon.sprites.other.home.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/826-orbeetle/006-endpoints.pokemon.sprites.other.home.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/009-endpoints.pokemon.sprites.other.showdown.back_default-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/826.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/010-endpoints.pokemon.sprites.other.showdown.back_shiny-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/826.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/011-endpoints.pokemon.sprites.other.showdown.front_default-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/826.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/012-endpoints.pokemon.sprites.other.showdown.front_shiny-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/826.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/826-orbeetle/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/826-orbeetle/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/826-orbeetle/018-endpoints.varieties.1.sprites.back_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/020-endpoints.varieties.1.sprites.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/826-orbeetle/019-endpoints.varieties.1.sprites.back_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/826.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/021-endpoints.varieties.1.sprites.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/826-orbeetle/022-endpoints.varieties.1.sprites.other.home.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/826-orbeetle/024-endpoints.varieties.1.sprites.other.official-artwork.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/026-endpoints.varieties.1.sprites.other.showdown.back_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/826-orbeetle/023-endpoints.varieties.1.sprites.other.home.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/027-endpoints.varieties.1.sprites.other.showdown.back_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/826-orbeetle/025-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/030-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/029-endpoints.varieties.1.sprites.other.showdown.front_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/031-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/826-orbeetle/032-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/826-orbeetle/033-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/028-endpoints.varieties.1.sprites.other.showdown.front_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/034-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/035-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/036-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Orbeetle",
+        "formName": "regular",
+        "path": "data/models/826-orbeetle/01-regular-Orbeetle.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/826.glb"
+      }
+    },
+    {
+      "id": 10213,
+      "name": "orbeetle-gmax",
+      "displayName": "Gigantamax Orbeetle",
+      "formName": "gmax",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": true,
+      "types": [
+        "bug",
+        "psychic"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10213-orbeetle-gmax/003-endpoints.pokemon.sprites.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10213-orbeetle-gmax/001-endpoints.pokemon.sprites.back_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10213-orbeetle-gmax/002-endpoints.pokemon.sprites.back_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10213-orbeetle-gmax/004-endpoints.pokemon.sprites.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10213-orbeetle-gmax/005-endpoints.pokemon.sprites.other.home.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10213-orbeetle-gmax/006-endpoints.pokemon.sprites.other.home.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10213-orbeetle-gmax/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10213-orbeetle-gmax/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/009-endpoints.pokemon.sprites.other.showdown.back_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10213.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/011-endpoints.pokemon.sprites.other.showdown.front_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10213.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10213.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10213.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10213-orbeetle-gmax/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10213-orbeetle-gmax/013-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10213.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10213-orbeetle-gmax/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10213.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10213-orbeetle-gmax/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10213-orbeetle-gmax/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10213-orbeetle-gmax/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10213-orbeetle-gmax/020-endpoints.varieties.0.sprites.back_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10213-orbeetle-gmax/019-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10213.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10213-orbeetle-gmax/022-endpoints.varieties.0.sprites.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10213-orbeetle-gmax/023-endpoints.varieties.0.sprites.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10213-orbeetle-gmax/021-endpoints.varieties.0.sprites.back_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10213-orbeetle-gmax/024-endpoints.varieties.0.sprites.other.home.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10213-orbeetle-gmax/025-endpoints.varieties.0.sprites.other.home.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10213-orbeetle-gmax/026-endpoints.varieties.0.sprites.other.official-artwork.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10213-orbeetle-gmax/027-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/028-endpoints.varieties.0.sprites.other.showdown.back_default-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/826.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/029-endpoints.varieties.0.sprites.other.showdown.back_shiny-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/826.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/030-endpoints.varieties.0.sprites.other.showdown.front_default-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/826.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10213-orbeetle-gmax/031-endpoints.varieties.0.sprites.other.showdown.front_shiny-826.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/826.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10213-orbeetle-gmax/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10213-orbeetle-gmax/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10213-orbeetle-gmax/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10213-orbeetle-gmax/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10213-orbeetle-gmax/036-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-826.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/826.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/826-orbeetle/018-endpoints.varieties.1.sprites.back_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/020-endpoints.varieties.1.sprites.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/826-orbeetle/019-endpoints.varieties.1.sprites.back_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/021-endpoints.varieties.1.sprites.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/826-orbeetle/022-endpoints.varieties.1.sprites.other.home.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/826-orbeetle/024-endpoints.varieties.1.sprites.other.official-artwork.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/026-endpoints.varieties.1.sprites.other.showdown.back_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/826-orbeetle/023-endpoints.varieties.1.sprites.other.home.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/027-endpoints.varieties.1.sprites.other.showdown.back_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/826-orbeetle/025-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/030-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/029-endpoints.varieties.1.sprites.other.showdown.front_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/031-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/826-orbeetle/032-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/826-orbeetle/033-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/826-orbeetle/028-endpoints.varieties.1.sprites.other.showdown.front_default-10213.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10213.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/034-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/826-orbeetle/035-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/826-orbeetle/036-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10213.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10213.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

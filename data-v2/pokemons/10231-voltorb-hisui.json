@@ -1,0 +1,1943 @@
+{
+  "id": 10231,
+  "name": "voltorb-hisui",
+  "displayName": "Voltorb",
+  "species": {
+    "id": 100,
+    "name": "voltorb"
+  },
+  "generation": "generation-i",
+  "types": [
+    "electric",
+    "grass"
+  ],
+  "height": 5,
+  "weight": 130,
+  "baseExperience": 66,
+  "isDefault": false,
+  "stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 50,
+    "specialAttack": 55,
+    "specialDefense": 55,
+    "speed": 100,
+    "total": 330,
+    "effort": {
+      "speed": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 43,
+      "name": "soundproof",
+      "displayName": "Soundproof",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Protects against sound-based moves.",
+      "effect": "This Pokémon is immune to moves flagged as being sound-based. Heal Bell is unaffected. Uproar still prevents this Pokémon from sleeping. This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used. Howl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based.",
+      "flavorText": "Soundproofing gives the Pokémon full immunity to all sound-based moves."
+    },
+    {
+      "id": 9,
+      "name": "static",
+      "displayName": "Static",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed. Pokémon that are immune to Electric-type moves can still be paralyzed by this ability. Overworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable.",
+      "flavorText": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+    },
+    {
+      "id": 106,
+      "name": "aftermath",
+      "displayName": "Aftermath",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
+      "effect": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage.",
+      "flavorText": "Damages the attacker if it knocks out the Pokémon with a move that makes direct contact."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/voltorb-electrode.json",
+    "names": [
+      "voltorb",
+      "electrode"
+    ]
+  },
+  "forms": [
+    {
+      "id": 100,
+      "name": "voltorb",
+      "displayName": "Voltorb",
+      "formName": "voltorb",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "electric"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/003-endpoints.pokemon.sprites.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/004-endpoints.pokemon.sprites.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/100-voltorb/005-endpoints.pokemon.sprites.other.dream_world.front_default-100.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/002-endpoints.pokemon.sprites.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/100-voltorb/007-endpoints.pokemon.sprites.other.home.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/100-voltorb/006-endpoints.pokemon.sprites.other.home.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/001-endpoints.pokemon.sprites.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/100-voltorb/008-endpoints.pokemon.sprites.other.official-artwork.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/100-voltorb/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/010-endpoints.pokemon.sprites.other.showdown.back_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/012-endpoints.pokemon.sprites.other.showdown.front_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/014-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/011-endpoints.pokemon.sprites.other.showdown.back_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/015-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/013-endpoints.pokemon.sprites.other.showdown.front_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/017-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/016-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/019-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/018-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/020-endpoints.pokemon.sprites.versions.generation-i.yellow.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/021-endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/023-endpoints.pokemon.sprites.versions.generation-i.yellow.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/024-endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/022-endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/025-endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/026-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/027-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/028-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/029-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/030-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/031-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/032-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/033-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/035-endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/036-endpoints.pokemon.sprites.versions.generation-ii.gold.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/037-endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/034-endpoints.pokemon.sprites.versions.generation-ii.gold.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/038-endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/040-endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/039-endpoints.pokemon.sprites.versions.generation-ii.silver.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/041-endpoints.pokemon.sprites.versions.generation-ii.silver.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/042-endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/100-voltorb/043-endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/044-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/045-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/046-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/048-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/047-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/049-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/052-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/050-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/051-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/054-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/053-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/055-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/056-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/057-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/060-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/059-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/058-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/062-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/061-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/063-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/064-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/065-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/066-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/068-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/069-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/067-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/071-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/070-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/100.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/072-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/073-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/075-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/076-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/077-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/074-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/079-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/078-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/080-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/083-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/081-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/086-endpoints.varieties.1.sprites.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/084-endpoints.varieties.1.sprites.back_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/085-endpoints.varieties.1.sprites.back_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/087-endpoints.varieties.1.sprites.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/082-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/100.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/100-voltorb/088-endpoints.varieties.1.sprites.other.home.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/100-voltorb/089-endpoints.varieties.1.sprites.other.home.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/100-voltorb/090-endpoints.varieties.1.sprites.other.official-artwork.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/100-voltorb/091-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/093-endpoints.varieties.1.sprites.other.showdown.back_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10231.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/094-endpoints.varieties.1.sprites.other.showdown.front_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10231.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/095-endpoints.varieties.1.sprites.other.showdown.front_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10231.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/100-voltorb/092-endpoints.varieties.1.sprites.other.showdown.back_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10231.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/097-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10231.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/096-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/100-voltorb/099-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/098-endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10231.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/100-voltorb/100-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/100-voltorb/102-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/100-voltorb/101-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10231.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/004-endpoints.pokemon.sprites.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/003-endpoints.pokemon.sprites.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/002-endpoints.pokemon.sprites.back_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/001-endpoints.pokemon.sprites.back_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/005-endpoints.pokemon.sprites.other.home.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/006-endpoints.pokemon.sprites.other.home.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10231-voltorb-hisui/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10231-voltorb-hisui/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/009-endpoints.pokemon.sprites.other.showdown.back_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/011-endpoints.pokemon.sprites.other.showdown.front_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/017-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/022-endpoints.varieties.0.sprites.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/019-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/023-endpoints.varieties.0.sprites.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/020-endpoints.varieties.0.sprites.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/021-endpoints.varieties.0.sprites.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10231-voltorb-hisui/027-endpoints.varieties.0.sprites.other.official-artwork.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10231-voltorb-hisui/024-endpoints.varieties.0.sprites.other.dream_world.front_default-100.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/025-endpoints.varieties.0.sprites.other.home.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/026-endpoints.varieties.0.sprites.other.home.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10231-voltorb-hisui/028-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/029-endpoints.varieties.0.sprites.other.showdown.back_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/030-endpoints.varieties.0.sprites.other.showdown.back_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/031-endpoints.varieties.0.sprites.other.showdown.front_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/033-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/032-endpoints.varieties.0.sprites.other.showdown.front_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/034-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/035-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/036-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/037-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/038-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/039-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/040-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/041-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/042-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/043-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/044-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/045-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/046-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/047-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/049-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/048-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/050-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/051-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/052-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/053-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/054-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/055-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/057-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/058-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/056-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/059-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/061-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/060-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/062-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/063-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/064-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/066-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/065-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/067-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/070-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/068-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/069-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/071-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/072-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/073-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/074-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/075-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/076-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/077-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/078-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/079-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/080-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/081-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/082-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/083-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/084-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/085-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/086-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/087-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/088-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/089-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/090-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/091-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/092-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/093-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/094-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/095-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/096-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/097-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/098-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/099-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/100-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/102-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/101-endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        }
+      ],
+      "model": {
+        "name": "Voltorb",
+        "formName": "regular",
+        "path": "data/models/100-voltorb/01-regular-Voltorb.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/100.glb"
+      }
+    },
+    {
+      "id": 10231,
+      "name": "voltorb-hisui",
+      "displayName": "Hisuian Voltorb",
+      "formName": "hisui",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "electric",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/004-endpoints.pokemon.sprites.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/003-endpoints.pokemon.sprites.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/002-endpoints.pokemon.sprites.back_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/001-endpoints.pokemon.sprites.back_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/005-endpoints.pokemon.sprites.other.home.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/006-endpoints.pokemon.sprites.other.home.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10231-voltorb-hisui/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10231-voltorb-hisui/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/009-endpoints.pokemon.sprites.other.showdown.back_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/011-endpoints.pokemon.sprites.other.showdown.front_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-10231.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10231.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/017-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/022-endpoints.varieties.0.sprites.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/019-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10231.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10231.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/023-endpoints.varieties.0.sprites.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/020-endpoints.varieties.0.sprites.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/021-endpoints.varieties.0.sprites.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10231-voltorb-hisui/027-endpoints.varieties.0.sprites.other.official-artwork.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10231-voltorb-hisui/024-endpoints.varieties.0.sprites.other.dream_world.front_default-100.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/025-endpoints.varieties.0.sprites.other.home.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10231-voltorb-hisui/026-endpoints.varieties.0.sprites.other.home.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10231-voltorb-hisui/028-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/029-endpoints.varieties.0.sprites.other.showdown.back_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/030-endpoints.varieties.0.sprites.other.showdown.back_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/031-endpoints.varieties.0.sprites.other.showdown.front_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/033-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10231-voltorb-hisui/032-endpoints.varieties.0.sprites.other.showdown.front_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/034-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/035-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/036-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/037-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/038-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/039-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/040-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/041-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/042-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/043-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/044-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/045-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/046-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/047-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/049-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/048-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/050-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/051-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/052-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/053-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/054-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/055-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/057-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/058-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/056-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/059-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/061-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/060-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10231-voltorb-hisui/062-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/063-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/064-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/066-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/065-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/067-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/070-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/068-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/069-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/071-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/072-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/073-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/074-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/075-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/076-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/077-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/078-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/079-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/080-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/081-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/082-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/083-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/084-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/085-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/086-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/087-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/088-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/089-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-100.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/100.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10231-voltorb-hisui/090-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10231-voltorb-hisui/091-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/092-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/093-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/094-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/095-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/096-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/097-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/098-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/099-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10231-voltorb-hisui/100-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/102-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10231-voltorb-hisui/101-endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-100.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/100.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

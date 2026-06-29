@@ -1,0 +1,1999 @@
+{
+  "id": 10040,
+  "name": "pinsir-mega",
+  "displayName": "Pinsir",
+  "species": {
+    "id": 127,
+    "name": "pinsir"
+  },
+  "generation": "generation-i",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 17,
+  "weight": 590,
+  "baseExperience": 210,
+  "isDefault": false,
+  "stats": {
+    "hp": 65,
+    "attack": 155,
+    "defense": 120,
+    "specialAttack": 65,
+    "specialDefense": 90,
+    "speed": 105,
+    "total": 600,
+    "effort": {
+      "attack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 184,
+      "name": "aerilate",
+      "displayName": "Aerilate",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Turns the bearer's Normal moves into Flying moves and strengthens them to 1.3× their power.",
+      "effect": "Turns the bearer's Normal-type moves into Flying-type moves. Moves changed by this ability have 1.3× their power.",
+      "flavorText": "Normal-type moves become Flying-type moves. The power of those moves is boosted a little."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/pinsir.json",
+    "names": [
+      "pinsir"
+    ]
+  },
+  "forms": [
+    {
+      "id": 127,
+      "name": "pinsir",
+      "displayName": "Pinsir",
+      "formName": "pinsir",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "bug"
+      ],
+      "images": [
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/004-endpoints.pokemon.sprites.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/003-endpoints.pokemon.sprites.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/127-pinsir/005-endpoints.pokemon.sprites.other.dream_world.front_default-127.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/127-pinsir/006-endpoints.pokemon.sprites.other.home.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/127-pinsir/007-endpoints.pokemon.sprites.other.home.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/002-endpoints.pokemon.sprites.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/127-pinsir/008-endpoints.pokemon.sprites.other.official-artwork.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/001-endpoints.pokemon.sprites.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/127-pinsir/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/010-endpoints.pokemon.sprites.other.showdown.back_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/011-endpoints.pokemon.sprites.other.showdown.back_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/012-endpoints.pokemon.sprites.other.showdown.front_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/013-endpoints.pokemon.sprites.other.showdown.front_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/014-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/015-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/017-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/016-endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/018-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/019-endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/020-endpoints.pokemon.sprites.versions.generation-i.yellow.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/021-endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/023-endpoints.pokemon.sprites.versions.generation-i.yellow.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/024-endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/022-endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/025-endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/026-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/027-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/028-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/030-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/031-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/032-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/029-endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/033-endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/034-endpoints.pokemon.sprites.versions.generation-ii.gold.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/036-endpoints.pokemon.sprites.versions.generation-ii.gold.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/035-endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/037-endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/038-endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/040-endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/039-endpoints.pokemon.sprites.versions.generation-ii.silver.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/042-endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/041-endpoints.pokemon.sprites.versions.generation-ii.silver.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/127-pinsir/043-endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/045-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/046-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/044-endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/050-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/047-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/048-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/049-endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/053-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/051-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/052-endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/054-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/057-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/055-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/056-endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/060-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/059-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/058-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/061-endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/063-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/065-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/064-endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/062-endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/066-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/068-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/069-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/067-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/127.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/070-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/072-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/071-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/073-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/074-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/075-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/077-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/076-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/078-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/079-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/081-endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/080-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/082-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/127.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/085-endpoints.varieties.1.sprites.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/083-endpoints.varieties.1.sprites.back_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/086-endpoints.varieties.1.sprites.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/084-endpoints.varieties.1.sprites.back_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/127-pinsir/087-endpoints.varieties.1.sprites.other.home.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/127-pinsir/089-endpoints.varieties.1.sprites.other.official-artwork.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/127-pinsir/088-endpoints.varieties.1.sprites.other.home.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/127-pinsir/090-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/092-endpoints.varieties.1.sprites.other.showdown.back_shiny-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10040.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/094-endpoints.varieties.1.sprites.other.showdown.front_shiny-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10040.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/091-endpoints.varieties.1.sprites.other.showdown.back_default-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10040.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/127-pinsir/095-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/127-pinsir/096-endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/127-pinsir/093-endpoints.varieties.1.sprites.other.showdown.front_default-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10040.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/097-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/098-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/099-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/100-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/102-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/103-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/101-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/104-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/127-pinsir/105-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/127-pinsir/106-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10040.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/003-endpoints.pokemon.sprites.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/004-endpoints.pokemon.sprites.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/001-endpoints.pokemon.sprites.back_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/002-endpoints.pokemon.sprites.back_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/005-endpoints.pokemon.sprites.other.home.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10040-pinsir-mega/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/006-endpoints.pokemon.sprites.other.home.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10040-pinsir-mega/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/009-endpoints.pokemon.sprites.other.showdown.back_default-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/011-endpoints.pokemon.sprites.other.showdown.front_default-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/017-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/019-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/018-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/021-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/020-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/024-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/027-endpoints.varieties.0.sprites.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/028-endpoints.varieties.0.sprites.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/025-endpoints.varieties.0.sprites.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/026-endpoints.varieties.0.sprites.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10040-pinsir-mega/032-endpoints.varieties.0.sprites.other.official-artwork.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10040-pinsir-mega/029-endpoints.varieties.0.sprites.other.dream_world.front_default-127.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/030-endpoints.varieties.0.sprites.other.home.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/031-endpoints.varieties.0.sprites.other.home.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10040-pinsir-mega/033-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/034-endpoints.varieties.0.sprites.other.showdown.back_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/036-endpoints.varieties.0.sprites.other.showdown.front_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/035-endpoints.varieties.0.sprites.other.showdown.back_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/037-endpoints.varieties.0.sprites.other.showdown.front_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/038-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/039-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/040-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/041-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/042-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/043-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/044-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/045-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/046-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/047-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/048-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/049-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/050-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/051-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/052-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/053-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/054-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/055-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/056-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/057-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/058-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/059-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/060-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/061-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/062-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/063-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/064-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/065-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/066-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/067-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/068-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/069-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/070-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/071-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/072-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/073-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/074-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/075-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/076-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/077-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/078-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/079-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/080-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/081-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/082-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/083-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/084-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/086-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/085-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/087-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/088-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/092-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/089-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/090-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/091-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/093-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/094-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/095-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/096-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/097-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/098-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/099-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/100-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/102-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/101-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/103-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/104-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/105-endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/106-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Pinsir",
+        "formName": "regular",
+        "path": "data/models/127-pinsir/01-regular-Pinsir.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/127.glb"
+      }
+    },
+    {
+      "id": 10040,
+      "name": "pinsir-mega",
+      "displayName": "Mega Pinsir",
+      "formName": "mega",
+      "isDefault": false,
+      "isMega": true,
+      "isBattleOnly": true,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/003-endpoints.pokemon.sprites.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/004-endpoints.pokemon.sprites.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/001-endpoints.pokemon.sprites.back_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/002-endpoints.pokemon.sprites.back_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/005-endpoints.pokemon.sprites.other.home.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10040-pinsir-mega/007-endpoints.pokemon.sprites.other.official-artwork.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/006-endpoints.pokemon.sprites.other.home.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10040-pinsir-mega/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/009-endpoints.pokemon.sprites.other.showdown.back_default-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/010-endpoints.pokemon.sprites.other.showdown.back_shiny-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/012-endpoints.pokemon.sprites.other.showdown.front_shiny-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/011-endpoints.pokemon.sprites.other.showdown.front_default-10040.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10040.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/017-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/019-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/018-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/021-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/020-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/024-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10040.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10040.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/027-endpoints.varieties.0.sprites.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/028-endpoints.varieties.0.sprites.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/025-endpoints.varieties.0.sprites.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/026-endpoints.varieties.0.sprites.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10040-pinsir-mega/032-endpoints.varieties.0.sprites.other.official-artwork.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10040-pinsir-mega/029-endpoints.varieties.0.sprites.other.dream_world.front_default-127.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/030-endpoints.varieties.0.sprites.other.home.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10040-pinsir-mega/031-endpoints.varieties.0.sprites.other.home.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10040-pinsir-mega/033-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/034-endpoints.varieties.0.sprites.other.showdown.back_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/036-endpoints.varieties.0.sprites.other.showdown.front_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/035-endpoints.varieties.0.sprites.other.showdown.back_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10040-pinsir-mega/037-endpoints.varieties.0.sprites.other.showdown.front_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/038-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/039-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/back/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/040-endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/041-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/042-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/043-endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.red-blue.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/044-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/045-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/back/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/046-endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/047-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_default"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/048-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_gray"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/049-endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-i.yellow.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/050-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/051-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/052-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/053-endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.back_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/054-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/055-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/056-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_shiny_transparent"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/057-endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.crystal.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/058-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/059-endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/060-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/061-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/062-endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/gold/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.gold.front_transparent"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/063-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/064-endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/065-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/066-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_shiny"
+        },
+        {
+          "kind": "sprite",
+          "path": "data/images/10040-pinsir-mega/067-endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/silver/transparent/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ii.silver.front_transparent"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/068-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/069-endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.emerald.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/070-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/071-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/072-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/073-endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.firered-leafgreen.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/074-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/075-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/076-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/077-endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iii.ruby-sapphire.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/078-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/079-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/080-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/081-endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.diamond-pearl.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/082-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/083-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/084-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/086-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/085-endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.heartgold-soulsilver.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/087-endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/088-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/092-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/089-endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-iv.platinum.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/090-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/091-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/093-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-127.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/127.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10040-pinsir-mega/094-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10040-pinsir-mega/095-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/096-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/097-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/098-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/099-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/100-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/102-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/101-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/103-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10040-pinsir-mega/104-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/105-endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10040-pinsir-mega/106-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-127.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/127.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Mega Pinsir",
+        "formName": "mega",
+        "path": "data/models/127-pinsir/03-mega-Mega_Pinsir.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/mega/127.glb"
+      }
+    }
+  ]
+}

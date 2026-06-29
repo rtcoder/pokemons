@@ -1,0 +1,236 @@
+{
+  "id": 755,
+  "name": "morelull",
+  "displayName": "Morelull",
+  "species": {
+    "id": 755,
+    "name": "morelull"
+  },
+  "generation": "generation-vii",
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "height": 2,
+  "weight": 15,
+  "baseExperience": 57,
+  "isDefault": true,
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 75,
+    "speed": 15,
+    "total": 285,
+    "effort": {
+      "specialDefense": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 35,
+      "name": "illuminate",
+      "displayName": "Illuminate",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Doubles the wild encounter rate.",
+      "effect": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled. This ability has no effect in battle.",
+      "flavorText": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered."
+    },
+    {
+      "id": 27,
+      "name": "effect-spore",
+      "displayName": "Effect Spore",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random. Nothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected.",
+      "flavorText": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+    },
+    {
+      "id": 44,
+      "name": "rain-dish",
+      "displayName": "Rain Dish",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Heals for 1/16 max HP after each turn during rain.",
+      "effect": "This Pokémon heals for 1/16 of its maximum HP after each turn during rain.",
+      "flavorText": "The Pokémon gradually regains HP in rain."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/morelull-shiinotic.json",
+    "names": [
+      "morelull",
+      "shiinotic"
+    ]
+  },
+  "forms": [
+    {
+      "id": 755,
+      "name": "morelull",
+      "displayName": "Morelull",
+      "formName": "morelull",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/755-morelull/003-endpoints.pokemon.sprites.front_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/755-morelull/004-endpoints.pokemon.sprites.front_shiny-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/755-morelull/001-endpoints.pokemon.sprites.back_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/755-morelull/005-endpoints.pokemon.sprites.other.home.front_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/755-morelull/006-endpoints.pokemon.sprites.other.home.front_shiny-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/755-morelull/007-endpoints.pokemon.sprites.other.official-artwork.front_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/755-morelull/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/755-morelull/002-endpoints.pokemon.sprites.back_shiny-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/755-morelull/009-endpoints.pokemon.sprites.other.showdown.back_default-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/755-morelull/011-endpoints.pokemon.sprites.other.showdown.front_default-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/755-morelull/010-endpoints.pokemon.sprites.other.showdown.back_shiny-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/755-morelull/012-endpoints.pokemon.sprites.other.showdown.front_shiny-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/755-morelull/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/755-morelull/013-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/755-morelull/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/755-morelull/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-755.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/755.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/755-morelull/017-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/755-morelull/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/755-morelull/019-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/755-morelull/021-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/755-morelull/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/755-morelull/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/755-morelull/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/755-morelull/024-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-755.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/755.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Morelull",
+        "formName": "regular",
+        "path": "data/models/755-morelull/01-regular-Morelull.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/755.glb"
+      }
+    }
+  ]
+}

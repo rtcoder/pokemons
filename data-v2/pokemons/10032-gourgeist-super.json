@@ -1,0 +1,2960 @@
+{
+  "id": 10032,
+  "name": "gourgeist-super",
+  "displayName": "Gourgeist",
+  "species": {
+    "id": 711,
+    "name": "gourgeist"
+  },
+  "generation": "generation-vi",
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "height": 17,
+  "weight": 390,
+  "baseExperience": 173,
+  "isDefault": false,
+  "stats": {
+    "hp": 85,
+    "attack": 100,
+    "defense": 122,
+    "specialAttack": 58,
+    "specialDefense": 75,
+    "speed": 54,
+    "total": 494,
+    "effort": {
+      "defense": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 53,
+      "name": "pickup",
+      "displayName": "Pickup",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",
+      "effect": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one. After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The Air Balloon and Eject Button cannot be picked up. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+      "flavorText": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too."
+    },
+    {
+      "id": 119,
+      "name": "frisk",
+      "displayName": "Frisk",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Reveals an opponent's held item upon entering battle.",
+      "effect": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers. In a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random.",
+      "flavorText": "When it enters a battle, the Pokémon can check an opposing Pokémon's held item."
+    },
+    {
+      "id": 15,
+      "name": "insomnia",
+      "displayName": "Insomnia",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Prevents sleep.",
+      "effect": "This Pokémon cannot be asleep. This causes Rest to fail altogether. If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle. This ability functions identically to Vital Spirit in battle.",
+      "flavorText": "The Pokémon's insomnia prevents it from falling asleep."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/pumpkaboo-gourgeist.json",
+    "names": [
+      "pumpkaboo",
+      "gourgeist"
+    ]
+  },
+  "forms": [
+    {
+      "id": 711,
+      "name": "gourgeist-average",
+      "displayName": "Average Gourgeist",
+      "formName": "average",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/003-endpoints.pokemon.sprites.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/004-endpoints.pokemon.sprites.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/711-gourgeist-average/001-endpoints.pokemon.sprites.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/711-gourgeist-average/002-endpoints.pokemon.sprites.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/711-gourgeist-average/008-endpoints.pokemon.sprites.other.official-artwork.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/711-gourgeist-average/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/006-endpoints.pokemon.sprites.other.home.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/711-gourgeist-average/005-endpoints.pokemon.sprites.other.dream_world.front_default-711.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/711.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/007-endpoints.pokemon.sprites.other.home.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/012-endpoints.pokemon.sprites.other.showdown.front_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/711.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/010-endpoints.pokemon.sprites.other.showdown.back_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/711.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/011-endpoints.pokemon.sprites.other.showdown.back_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/711.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/013-endpoints.pokemon.sprites.other.showdown.front_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/711.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/711-gourgeist-average/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/711-gourgeist-average/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/019-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/020-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/018-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/021-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/022-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/024-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/023-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/025-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/711.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/711-gourgeist-average/026-endpoints.varieties.1.sprites.back_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/711-gourgeist-average/027-endpoints.varieties.1.sprites.back_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/028-endpoints.varieties.1.sprites.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/029-endpoints.varieties.1.sprites.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/711-gourgeist-average/030-endpoints.varieties.1.sprites.other.dream_world.front_default-10030.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10030.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/031-endpoints.varieties.1.sprites.other.home.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/711-gourgeist-average/033-endpoints.varieties.1.sprites.other.official-artwork.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/711-gourgeist-average/034-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/035-endpoints.varieties.1.sprites.other.showdown.back_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/036-endpoints.varieties.1.sprites.other.showdown.back_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/032-endpoints.varieties.1.sprites.other.home.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/037-endpoints.varieties.1.sprites.other.showdown.front_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/038-endpoints.varieties.1.sprites.other.showdown.front_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/039-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/040-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/042-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/041-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/043-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/044-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/045-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/046-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/048-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/047-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/051-endpoints.varieties.2.sprites.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/711-gourgeist-average/050-endpoints.varieties.2.sprites.back_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/711-gourgeist-average/049-endpoints.varieties.2.sprites.back_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/052-endpoints.varieties.2.sprites.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/054-endpoints.varieties.2.sprites.other.home.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/055-endpoints.varieties.2.sprites.other.home.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/711-gourgeist-average/053-endpoints.varieties.2.sprites.other.dream_world.front_default-10031.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10031.svg",
+          "jsonPath": "endpoints.varieties.2.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/711-gourgeist-average/056-endpoints.varieties.2.sprites.other.official-artwork.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/711-gourgeist-average/057-endpoints.varieties.2.sprites.other.official-artwork.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/058-endpoints.varieties.2.sprites.other.showdown.back_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/060-endpoints.varieties.2.sprites.other.showdown.front_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/061-endpoints.varieties.2.sprites.other.showdown.front_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/059-endpoints.varieties.2.sprites.other.showdown.back_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/062-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/063-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/065-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/066-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/064-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/067-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/068-endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/069-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/071-endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/070-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/711-gourgeist-average/072-endpoints.varieties.3.sprites.back_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/711-gourgeist-average/073-endpoints.varieties.3.sprites.back_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/074-endpoints.varieties.3.sprites.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/075-endpoints.varieties.3.sprites.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/711-gourgeist-average/076-endpoints.varieties.3.sprites.other.dream_world.front_default-10032.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10032.svg",
+          "jsonPath": "endpoints.varieties.3.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/077-endpoints.varieties.3.sprites.other.home.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/711-gourgeist-average/079-endpoints.varieties.3.sprites.other.official-artwork.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/711-gourgeist-average/078-endpoints.varieties.3.sprites.other.home.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/081-endpoints.varieties.3.sprites.other.showdown.back_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/711-gourgeist-average/080-endpoints.varieties.3.sprites.other.official-artwork.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/083-endpoints.varieties.3.sprites.other.showdown.front_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/082-endpoints.varieties.3.sprites.other.showdown.back_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/711-gourgeist-average/084-endpoints.varieties.3.sprites.other.showdown.front_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/085-endpoints.varieties.3.sprites.versions.generation-v.black-white.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/087-endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/086-endpoints.varieties.3.sprites.versions.generation-v.black-white.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/089-endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/088-endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/090-endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/091-endpoints.varieties.3.sprites.versions.generation-vii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/092-endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/711-gourgeist-average/093-endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/711-gourgeist-average/094-endpoints.varieties.3.sprites.versions.generation-viii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/001-endpoints.pokemon.sprites.back_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/004-endpoints.pokemon.sprites.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/002-endpoints.pokemon.sprites.back_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/003-endpoints.pokemon.sprites.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/005-endpoints.pokemon.sprites.other.dream_world.front_default-10032.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10032.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/006-endpoints.pokemon.sprites.other.home.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/007-endpoints.pokemon.sprites.other.home.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/011-endpoints.pokemon.sprites.other.showdown.back_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/010-endpoints.pokemon.sprites.other.showdown.back_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/012-endpoints.pokemon.sprites.other.showdown.front_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/014-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/013-endpoints.pokemon.sprites.other.showdown.front_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/008-endpoints.pokemon.sprites.other.official-artwork.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/016-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/017-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/018-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/021-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/019-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/020-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/024-endpoints.varieties.0.sprites.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/023-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/025-endpoints.varieties.0.sprites.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/026-endpoints.varieties.0.sprites.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/027-endpoints.varieties.0.sprites.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/028-endpoints.varieties.0.sprites.other.dream_world.front_default-711.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/711.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/029-endpoints.varieties.0.sprites.other.home.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/030-endpoints.varieties.0.sprites.other.home.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/031-endpoints.varieties.0.sprites.other.official-artwork.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/032-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/033-endpoints.varieties.0.sprites.other.showdown.back_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/034-endpoints.varieties.0.sprites.other.showdown.back_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/035-endpoints.varieties.0.sprites.other.showdown.front_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/036-endpoints.varieties.0.sprites.other.showdown.front_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/041-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/042-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/043-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/044-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/045-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/046-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/047-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/048-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": {
+        "name": "Gourgeist",
+        "formName": "regular",
+        "path": "data/models/711-gourgeist-average/01-regular-Gourgeist.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/711.glb"
+      }
+    },
+    {
+      "id": 10030,
+      "name": "gourgeist-small",
+      "displayName": "Small Gourgeist",
+      "formName": "small",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "back",
+          "path": "data/images/10030-gourgeist-small/001-endpoints.pokemon.sprites.back_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/004-endpoints.pokemon.sprites.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10030-gourgeist-small/002-endpoints.pokemon.sprites.back_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/003-endpoints.pokemon.sprites.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/006-endpoints.pokemon.sprites.other.home.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/007-endpoints.pokemon.sprites.other.home.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10030-gourgeist-small/008-endpoints.pokemon.sprites.other.official-artwork.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10030-gourgeist-small/005-endpoints.pokemon.sprites.other.dream_world.front_default-10030.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10030.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/011-endpoints.pokemon.sprites.other.showdown.back_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10030.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/012-endpoints.pokemon.sprites.other.showdown.front_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10030.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10030-gourgeist-small/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/010-endpoints.pokemon.sprites.other.showdown.back_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10030.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/014-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/013-endpoints.pokemon.sprites.other.showdown.front_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10030.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/016-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/017-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/018-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/019-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/020-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/021-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/023-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10030.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/026-endpoints.varieties.0.sprites.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10030-gourgeist-small/024-endpoints.varieties.0.sprites.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10030-gourgeist-small/025-endpoints.varieties.0.sprites.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/027-endpoints.varieties.0.sprites.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/029-endpoints.varieties.0.sprites.other.home.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10030-gourgeist-small/028-endpoints.varieties.0.sprites.other.dream_world.front_default-711.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/711.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/030-endpoints.varieties.0.sprites.other.home.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10030-gourgeist-small/031-endpoints.varieties.0.sprites.other.official-artwork.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10030-gourgeist-small/032-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/033-endpoints.varieties.0.sprites.other.showdown.back_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/034-endpoints.varieties.0.sprites.other.showdown.back_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/035-endpoints.varieties.0.sprites.other.showdown.front_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/036-endpoints.varieties.0.sprites.other.showdown.front_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10030-gourgeist-small/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10030-gourgeist-small/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/041-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/042-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/043-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/044-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/045-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/046-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/047-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/048-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10030-gourgeist-small/049-endpoints.varieties.2.sprites.back_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10030-gourgeist-small/050-endpoints.varieties.2.sprites.back_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/051-endpoints.varieties.2.sprites.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/052-endpoints.varieties.2.sprites.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10030-gourgeist-small/053-endpoints.varieties.2.sprites.other.dream_world.front_default-10031.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10031.svg",
+          "jsonPath": "endpoints.varieties.2.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/054-endpoints.varieties.2.sprites.other.home.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/055-endpoints.varieties.2.sprites.other.home.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10030-gourgeist-small/056-endpoints.varieties.2.sprites.other.official-artwork.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10030-gourgeist-small/057-endpoints.varieties.2.sprites.other.official-artwork.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/058-endpoints.varieties.2.sprites.other.showdown.back_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/059-endpoints.varieties.2.sprites.other.showdown.back_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/060-endpoints.varieties.2.sprites.other.showdown.front_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/061-endpoints.varieties.2.sprites.other.showdown.front_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/062-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/063-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/065-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/064-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/066-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/067-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/068-endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/069-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/070-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/071-endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10030-gourgeist-small/072-endpoints.varieties.3.sprites.back_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10030-gourgeist-small/073-endpoints.varieties.3.sprites.back_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/074-endpoints.varieties.3.sprites.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/075-endpoints.varieties.3.sprites.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10030-gourgeist-small/076-endpoints.varieties.3.sprites.other.dream_world.front_default-10032.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10032.svg",
+          "jsonPath": "endpoints.varieties.3.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/077-endpoints.varieties.3.sprites.other.home.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10030-gourgeist-small/078-endpoints.varieties.3.sprites.other.home.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10030-gourgeist-small/079-endpoints.varieties.3.sprites.other.official-artwork.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10030-gourgeist-small/080-endpoints.varieties.3.sprites.other.official-artwork.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/081-endpoints.varieties.3.sprites.other.showdown.back_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/082-endpoints.varieties.3.sprites.other.showdown.back_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/083-endpoints.varieties.3.sprites.other.showdown.front_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10030-gourgeist-small/084-endpoints.varieties.3.sprites.other.showdown.front_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/085-endpoints.varieties.3.sprites.versions.generation-v.black-white.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/086-endpoints.varieties.3.sprites.versions.generation-v.black-white.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/087-endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/088-endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/089-endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/090-endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/091-endpoints.varieties.3.sprites.versions.generation-vii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10030-gourgeist-small/093-endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/092-endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10030-gourgeist-small/094-endpoints.varieties.3.sprites.versions.generation-viii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/049-endpoints.varieties.1.sprites.back_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/050-endpoints.varieties.1.sprites.back_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/051-endpoints.varieties.1.sprites.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/052-endpoints.varieties.1.sprites.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/053-endpoints.varieties.1.sprites.other.dream_world.front_default-10030.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10030.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/055-endpoints.varieties.1.sprites.other.home.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/054-endpoints.varieties.1.sprites.other.home.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/057-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/056-endpoints.varieties.1.sprites.other.official-artwork.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/058-endpoints.varieties.1.sprites.other.showdown.back_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/059-endpoints.varieties.1.sprites.other.showdown.back_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/061-endpoints.varieties.1.sprites.other.showdown.front_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/060-endpoints.varieties.1.sprites.other.showdown.front_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/063-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/062-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/064-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/065-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/067-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/066-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/068-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/069-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/070-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/071-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    },
+    {
+      "id": 10031,
+      "name": "gourgeist-large",
+      "displayName": "Large Gourgeist",
+      "formName": "large",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/003-endpoints.pokemon.sprites.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/004-endpoints.pokemon.sprites.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10031-gourgeist-large/001-endpoints.pokemon.sprites.back_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10031-gourgeist-large/002-endpoints.pokemon.sprites.back_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10031-gourgeist-large/005-endpoints.pokemon.sprites.other.dream_world.front_default-10031.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10031.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10031-gourgeist-large/008-endpoints.pokemon.sprites.other.official-artwork.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/007-endpoints.pokemon.sprites.other.home.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/006-endpoints.pokemon.sprites.other.home.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10031-gourgeist-large/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/012-endpoints.pokemon.sprites.other.showdown.front_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10031.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/011-endpoints.pokemon.sprites.other.showdown.back_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10031.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/010-endpoints.pokemon.sprites.other.showdown.back_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10031.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/013-endpoints.pokemon.sprites.other.showdown.front_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10031.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/014-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/016-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/018-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/017-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/019-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/020-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/023-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/021-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10031.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10031-gourgeist-large/024-endpoints.varieties.0.sprites.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/027-endpoints.varieties.0.sprites.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/026-endpoints.varieties.0.sprites.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10031-gourgeist-large/025-endpoints.varieties.0.sprites.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10031-gourgeist-large/028-endpoints.varieties.0.sprites.other.dream_world.front_default-711.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/711.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/030-endpoints.varieties.0.sprites.other.home.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/029-endpoints.varieties.0.sprites.other.home.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10031-gourgeist-large/031-endpoints.varieties.0.sprites.other.official-artwork.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10031-gourgeist-large/032-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/034-endpoints.varieties.0.sprites.other.showdown.back_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/033-endpoints.varieties.0.sprites.other.showdown.back_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/035-endpoints.varieties.0.sprites.other.showdown.front_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/036-endpoints.varieties.0.sprites.other.showdown.front_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10031-gourgeist-large/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10031-gourgeist-large/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/042-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/041-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/043-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/044-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/047-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/046-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/048-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/045-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10031-gourgeist-large/050-endpoints.varieties.1.sprites.back_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10031-gourgeist-large/049-endpoints.varieties.1.sprites.back_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/051-endpoints.varieties.1.sprites.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/052-endpoints.varieties.1.sprites.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10031-gourgeist-large/053-endpoints.varieties.1.sprites.other.dream_world.front_default-10030.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10030.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/054-endpoints.varieties.1.sprites.other.home.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/055-endpoints.varieties.1.sprites.other.home.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10031-gourgeist-large/056-endpoints.varieties.1.sprites.other.official-artwork.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10031-gourgeist-large/057-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/058-endpoints.varieties.1.sprites.other.showdown.back_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/059-endpoints.varieties.1.sprites.other.showdown.back_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/060-endpoints.varieties.1.sprites.other.showdown.front_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/061-endpoints.varieties.1.sprites.other.showdown.front_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/062-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/063-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/064-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/065-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/066-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/067-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/068-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/069-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/070-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/071-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10031-gourgeist-large/072-endpoints.varieties.3.sprites.back_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10031-gourgeist-large/073-endpoints.varieties.3.sprites.back_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/075-endpoints.varieties.3.sprites.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/074-endpoints.varieties.3.sprites.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10031-gourgeist-large/076-endpoints.varieties.3.sprites.other.dream_world.front_default-10032.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10032.svg",
+          "jsonPath": "endpoints.varieties.3.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/077-endpoints.varieties.3.sprites.other.home.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10031-gourgeist-large/078-endpoints.varieties.3.sprites.other.home.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10031-gourgeist-large/079-endpoints.varieties.3.sprites.other.official-artwork.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10031-gourgeist-large/080-endpoints.varieties.3.sprites.other.official-artwork.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/081-endpoints.varieties.3.sprites.other.showdown.back_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/082-endpoints.varieties.3.sprites.other.showdown.back_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/083-endpoints.varieties.3.sprites.other.showdown.front_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10031-gourgeist-large/084-endpoints.varieties.3.sprites.other.showdown.front_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10032.gif",
+          "jsonPath": "endpoints.varieties.3.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/085-endpoints.varieties.3.sprites.versions.generation-v.black-white.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/086-endpoints.varieties.3.sprites.versions.generation-v.black-white.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/087-endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/089-endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/088-endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/090-endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/091-endpoints.varieties.3.sprites.versions.generation-vii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/092-endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10031-gourgeist-large/093-endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10031-gourgeist-large/094-endpoints.varieties.3.sprites.versions.generation-viii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10032.png",
+          "jsonPath": "endpoints.varieties.3.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/072-endpoints.varieties.2.sprites.back_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/073-endpoints.varieties.2.sprites.back_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/074-endpoints.varieties.2.sprites.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/075-endpoints.varieties.2.sprites.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/076-endpoints.varieties.2.sprites.other.dream_world.front_default-10031.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10031.svg",
+          "jsonPath": "endpoints.varieties.2.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/077-endpoints.varieties.2.sprites.other.home.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/078-endpoints.varieties.2.sprites.other.home.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/079-endpoints.varieties.2.sprites.other.official-artwork.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/080-endpoints.varieties.2.sprites.other.official-artwork.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/081-endpoints.varieties.2.sprites.other.showdown.back_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/083-endpoints.varieties.2.sprites.other.showdown.front_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/082-endpoints.varieties.2.sprites.other.showdown.back_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/084-endpoints.varieties.2.sprites.other.showdown.front_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/085-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/087-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/088-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/089-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/086-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/090-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/091-endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/093-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/092-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/094-endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    },
+    {
+      "id": 10032,
+      "name": "gourgeist-super",
+      "displayName": "Super Gourgeist",
+      "formName": "super",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/001-endpoints.pokemon.sprites.back_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/004-endpoints.pokemon.sprites.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/002-endpoints.pokemon.sprites.back_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/003-endpoints.pokemon.sprites.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/005-endpoints.pokemon.sprites.other.dream_world.front_default-10032.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10032.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/006-endpoints.pokemon.sprites.other.home.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/007-endpoints.pokemon.sprites.other.home.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/011-endpoints.pokemon.sprites.other.showdown.back_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/010-endpoints.pokemon.sprites.other.showdown.back_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/012-endpoints.pokemon.sprites.other.showdown.front_default-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/014-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/013-endpoints.pokemon.sprites.other.showdown.front_shiny-10032.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10032.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/008-endpoints.pokemon.sprites.other.official-artwork.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/016-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/017-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/018-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/021-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/019-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/020-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/022-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/024-endpoints.varieties.0.sprites.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/023-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-10032.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10032.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/025-endpoints.varieties.0.sprites.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/026-endpoints.varieties.0.sprites.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/027-endpoints.varieties.0.sprites.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/028-endpoints.varieties.0.sprites.other.dream_world.front_default-711.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/711.svg",
+          "jsonPath": "endpoints.varieties.0.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/029-endpoints.varieties.0.sprites.other.home.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/030-endpoints.varieties.0.sprites.other.home.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/031-endpoints.varieties.0.sprites.other.official-artwork.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/032-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/033-endpoints.varieties.0.sprites.other.showdown.back_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/034-endpoints.varieties.0.sprites.other.showdown.back_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/035-endpoints.varieties.0.sprites.other.showdown.front_default-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/036-endpoints.varieties.0.sprites.other.showdown.front_shiny-711.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/711.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/037-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/038-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/039-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/041-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/040-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/042-endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/043-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/044-endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/045-endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/046-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/047-endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/048-endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default-711.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/711.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/049-endpoints.varieties.1.sprites.back_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/050-endpoints.varieties.1.sprites.back_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/051-endpoints.varieties.1.sprites.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/052-endpoints.varieties.1.sprites.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/053-endpoints.varieties.1.sprites.other.dream_world.front_default-10030.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10030.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/055-endpoints.varieties.1.sprites.other.home.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/054-endpoints.varieties.1.sprites.other.home.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/057-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/056-endpoints.varieties.1.sprites.other.official-artwork.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/058-endpoints.varieties.1.sprites.other.showdown.back_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/059-endpoints.varieties.1.sprites.other.showdown.back_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/061-endpoints.varieties.1.sprites.other.showdown.front_shiny-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/060-endpoints.varieties.1.sprites.other.showdown.front_default-10030.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10030.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/063-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/062-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/064-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/065-endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/067-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/066-endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/068-endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/069-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/070-endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10032-gourgeist-super/072-endpoints.varieties.2.sprites.back_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10032-gourgeist-super/073-endpoints.varieties.2.sprites.back_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/071-endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default-10030.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10030.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/074-endpoints.varieties.2.sprites.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/075-endpoints.varieties.2.sprites.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10032-gourgeist-super/076-endpoints.varieties.2.sprites.other.dream_world.front_default-10031.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10031.svg",
+          "jsonPath": "endpoints.varieties.2.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/077-endpoints.varieties.2.sprites.other.home.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10032-gourgeist-super/078-endpoints.varieties.2.sprites.other.home.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10032-gourgeist-super/079-endpoints.varieties.2.sprites.other.official-artwork.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10032-gourgeist-super/080-endpoints.varieties.2.sprites.other.official-artwork.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/081-endpoints.varieties.2.sprites.other.showdown.back_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/083-endpoints.varieties.2.sprites.other.showdown.front_default-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/082-endpoints.varieties.2.sprites.other.showdown.back_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10032-gourgeist-super/084-endpoints.varieties.2.sprites.other.showdown.front_shiny-10031.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10031.gif",
+          "jsonPath": "endpoints.varieties.2.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/085-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/087-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/088-endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/089-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/086-endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/090-endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/091-endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10032-gourgeist-super/093-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/092-endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10032-gourgeist-super/094-endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default-10031.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10031.png",
+          "jsonPath": "endpoints.varieties.2.sprites.versions.generation-viii.icons.front_default"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": 900,
+  "name": "kleavor",
+  "displayName": "Kleavor",
+  "species": {
+    "id": 900,
+    "name": "kleavor"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "height": 18,
+  "weight": 890,
+  "baseExperience": 175,
+  "isDefault": true,
+  "stats": {
+    "hp": 70,
+    "attack": 135,
+    "defense": 95,
+    "specialAttack": 45,
+    "specialDefense": 70,
+    "speed": 85,
+    "total": 500,
+    "effort": {
+      "attack": 3
+    }
+  },
+  "abilities": [
+    {
+      "id": 68,
+      "name": "swarm",
+      "displayName": "Swarm",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: If the lead Pokémon has this ability, the wild encounter rate is increased.",
+      "flavorText": "Powers up Bug-type moves when the Pokémon's HP is low."
+    },
+    {
+      "id": 125,
+      "name": "sheer-force",
+      "displayName": "Sheer Force",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+      "effect": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects. An effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate. Moves that lower the user's stats are unaffected.",
+      "flavorText": "Removes any additional effects from the Pokémon's moves, but increases the moves' power."
+    },
+    {
+      "id": 292,
+      "name": "sharpness",
+      "displayName": "Sharpness",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Powers up slicing moves.",
+      "effect": "Increases the power of all 'slicing' moves by 50%.",
+      "flavorText": "Powers up slicing moves."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/scyther-scizor-kleavor.json",
+    "names": [
+      "scyther",
+      "scizor",
+      "kleavor"
+    ]
+  },
+  "forms": [
+    {
+      "id": 900,
+      "name": "kleavor",
+      "displayName": "Kleavor",
+      "formName": "kleavor",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/900-kleavor/003-endpoints.pokemon.sprites.front_default-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/900-kleavor/004-endpoints.pokemon.sprites.front_shiny-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/900-kleavor/001-endpoints.pokemon.sprites.back_default-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/900-kleavor/005-endpoints.pokemon.sprites.other.home.front_default-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/900-kleavor/002-endpoints.pokemon.sprites.back_shiny-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/900-kleavor/007-endpoints.pokemon.sprites.other.official-artwork.front_default-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/900-kleavor/006-endpoints.pokemon.sprites.other.home.front_shiny-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/900-kleavor/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/900-kleavor/011-endpoints.pokemon.sprites.other.showdown.front_default-900.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/900.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/900-kleavor/009-endpoints.pokemon.sprites.other.showdown.back_default-900.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/900.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/900-kleavor/010-endpoints.pokemon.sprites.other.showdown.back_shiny-900.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/900.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/900-kleavor/012-endpoints.pokemon.sprites.other.showdown.front_shiny-900.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/900.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/900-kleavor/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/900-kleavor/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/900-kleavor/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/900-kleavor/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/900-kleavor/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-900.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/900.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Kleavor",
+        "formName": "regular",
+        "path": "data/models/900-kleavor/01-regular-Kleavor.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/900.glb"
+      }
+    }
+  ]
+}

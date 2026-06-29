@@ -1,0 +1,186 @@
+{
+  "id": 924,
+  "name": "tandemaus",
+  "displayName": "Tandemaus",
+  "species": {
+    "id": 924,
+    "name": "tandemaus"
+  },
+  "generation": "generation-ix",
+  "types": [
+    "normal"
+  ],
+  "height": 3,
+  "weight": 18,
+  "baseExperience": 61,
+  "isDefault": true,
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 45,
+    "specialAttack": 40,
+    "specialDefense": 45,
+    "speed": 75,
+    "total": 305,
+    "effort": {
+      "speed": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 50,
+      "name": "run-away",
+      "displayName": "Run Away",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Ensures success fleeing from wild battles.",
+      "effect": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability.",
+      "flavorText": "Enables a sure getaway from wild Pokémon."
+    },
+    {
+      "id": 53,
+      "name": "pickup",
+      "displayName": "Pickup",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",
+      "effect": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one. After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The Air Balloon and Eject Button cannot be picked up. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+      "flavorText": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too."
+    },
+    {
+      "id": 20,
+      "name": "own-tempo",
+      "displayName": "Own Tempo",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Prevents confusion.",
+      "effect": "This Pokémon cannot be confused. If a Pokémon is confused and acquires this ability, its confusion will immediately be healed.",
+      "flavorText": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/tandemaus-maushold.json",
+    "names": [
+      "tandemaus",
+      "maushold"
+    ]
+  },
+  "forms": [
+    {
+      "id": 924,
+      "name": "tandemaus",
+      "displayName": "Tandemaus",
+      "formName": "tandemaus",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/924-tandemaus/003-endpoints.pokemon.sprites.front_default-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/924-tandemaus/001-endpoints.pokemon.sprites.back_default-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/924-tandemaus/002-endpoints.pokemon.sprites.back_shiny-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/924-tandemaus/004-endpoints.pokemon.sprites.front_shiny-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/924-tandemaus/006-endpoints.pokemon.sprites.other.home.front_default-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/924-tandemaus/007-endpoints.pokemon.sprites.other.home.front_shiny-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/924-tandemaus/005-endpoints.pokemon.sprites.other.dream_world.front_default-924.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/924.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/924-tandemaus/008-endpoints.pokemon.sprites.other.official-artwork.front_default-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/924-tandemaus/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/924-tandemaus/010-endpoints.pokemon.sprites.other.showdown.back_default-924.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/924.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/924-tandemaus/013-endpoints.pokemon.sprites.other.showdown.front_shiny-924.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/924.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/924-tandemaus/012-endpoints.pokemon.sprites.other.showdown.front_default-924.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/924.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/924-tandemaus/011-endpoints.pokemon.sprites.other.showdown.back_shiny-924.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/924.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/924-tandemaus/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/924-tandemaus/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/924-tandemaus/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-924.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/924.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        }
+      ],
+      "model": {
+        "name": "Tandemaus",
+        "formName": "regular",
+        "path": "data/models/924-tandemaus/01-regular-Tandemaus.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/924.glb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": 921,
+  "name": "pawmi",
+  "displayName": "Pawmi",
+  "species": {
+    "id": 921,
+    "name": "pawmi"
+  },
+  "generation": "generation-ix",
+  "types": [
+    "electric"
+  ],
+  "height": 3,
+  "weight": 25,
+  "baseExperience": 48,
+  "isDefault": true,
+  "stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 20,
+    "specialAttack": 40,
+    "specialDefense": 25,
+    "speed": 60,
+    "total": 240,
+    "effort": {
+      "speed": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 9,
+      "name": "static",
+      "displayName": "Static",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed. Pokémon that are immune to Electric-type moves can still be paralyzed by this ability. Overworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable.",
+      "flavorText": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+    },
+    {
+      "id": 30,
+      "name": "natural-cure",
+      "displayName": "Natural Cure",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Cures any major status ailment upon switching out.",
+      "effect": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon. If this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability.",
+      "flavorText": "The Pokémon's status conditions are cured when it switches out."
+    },
+    {
+      "id": 89,
+      "name": "iron-fist",
+      "displayName": "Iron Fist",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Strengthens punch-based moves to 1.2× their power.",
+      "effect": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon. Sucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\".",
+      "flavorText": "Powers up punching moves."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/pawmi-pawmo-pawmot.json",
+    "names": [
+      "pawmi",
+      "pawmo",
+      "pawmot"
+    ]
+  },
+  "forms": [
+    {
+      "id": 921,
+      "name": "pawmi",
+      "displayName": "Pawmi",
+      "formName": "pawmi",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "electric"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/921-pawmi/003-endpoints.pokemon.sprites.front_default-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/921-pawmi/004-endpoints.pokemon.sprites.front_shiny-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/921-pawmi/001-endpoints.pokemon.sprites.back_default-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/921-pawmi/002-endpoints.pokemon.sprites.back_shiny-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/921-pawmi/005-endpoints.pokemon.sprites.other.dream_world.front_default-921.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/921.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/921-pawmi/006-endpoints.pokemon.sprites.other.home.front_default-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/921-pawmi/008-endpoints.pokemon.sprites.other.official-artwork.front_default-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/921-pawmi/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/921-pawmi/007-endpoints.pokemon.sprites.other.home.front_shiny-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/921-pawmi/011-endpoints.pokemon.sprites.other.showdown.back_shiny-921.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/921.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/921-pawmi/012-endpoints.pokemon.sprites.other.showdown.front_default-921.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/921.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/921-pawmi/010-endpoints.pokemon.sprites.other.showdown.back_default-921.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/921.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/921-pawmi/013-endpoints.pokemon.sprites.other.showdown.front_shiny-921.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/921.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/921-pawmi/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/921-pawmi/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/921-pawmi/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-921.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/921.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Pawmi",
+        "formName": "regular",
+        "path": "data/models/921-pawmi/01-regular-Pawmi.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/921.glb"
+      }
+    }
+  ]
+}

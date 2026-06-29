@@ -1,0 +1,189 @@
+{
+  "id": 980,
+  "name": "clodsire",
+  "displayName": "Clodsire",
+  "species": {
+    "id": 980,
+    "name": "clodsire"
+  },
+  "generation": "generation-ix",
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "height": 18,
+  "weight": 2230,
+  "baseExperience": 151,
+  "isDefault": true,
+  "stats": {
+    "hp": 130,
+    "attack": 75,
+    "defense": 60,
+    "specialAttack": 45,
+    "specialDefense": 100,
+    "speed": 20,
+    "total": 430,
+    "effort": {
+      "hp": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 38,
+      "name": "poison-point",
+      "displayName": "Poison Point",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned.",
+      "flavorText": "Contact with the Pokémon may poison the attacker."
+    },
+    {
+      "id": 11,
+      "name": "water-absorb",
+      "displayName": "Water Absorb",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Absorbs Water moves, healing for 1/4 max HP.",
+      "effect": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it. Water moves will ignore this Pokémon's Substitute.",
+      "flavorText": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+    },
+    {
+      "id": 109,
+      "name": "unaware",
+      "displayName": "Unaware",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation.",
+      "effect": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation. Effectively, this affects modifiers of every stat except Speed. The power of Punishment and Stored Power is calculated as usual. When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual.",
+      "flavorText": "When attacking, the Pokémon ignores the target's stat changes."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/wooper-quagsire-clodsire.json",
+    "names": [
+      "wooper",
+      "quagsire",
+      "clodsire"
+    ]
+  },
+  "forms": [
+    {
+      "id": 980,
+      "name": "clodsire",
+      "displayName": "Clodsire",
+      "formName": "clodsire",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/980-clodsire/003-endpoints.pokemon.sprites.front_default-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/980-clodsire/004-endpoints.pokemon.sprites.front_shiny-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/980-clodsire/002-endpoints.pokemon.sprites.back_shiny-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/980-clodsire/001-endpoints.pokemon.sprites.back_default-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/980-clodsire/005-endpoints.pokemon.sprites.other.dream_world.front_default-980.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/980.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/980-clodsire/006-endpoints.pokemon.sprites.other.home.front_default-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/980-clodsire/007-endpoints.pokemon.sprites.other.home.front_shiny-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/980-clodsire/008-endpoints.pokemon.sprites.other.official-artwork.front_default-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/980-clodsire/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/980-clodsire/010-endpoints.pokemon.sprites.other.showdown.back_default-980.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/980.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/980-clodsire/013-endpoints.pokemon.sprites.other.showdown.front_shiny-980.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/980.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/980-clodsire/011-endpoints.pokemon.sprites.other.showdown.back_shiny-980.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/980.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/980-clodsire/012-endpoints.pokemon.sprites.other.showdown.front_default-980.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/980.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/980-clodsire/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/980-clodsire/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/980-clodsire/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-980.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/980.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Clodsire",
+        "formName": "regular",
+        "path": "data/models/980-clodsire/01-regular-Clodsire.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/980.glb"
+      }
+    }
+  ]
+}

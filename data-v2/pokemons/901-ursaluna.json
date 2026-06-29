@@ -1,0 +1,625 @@
+{
+  "id": 901,
+  "name": "ursaluna",
+  "displayName": "Ursaluna",
+  "species": {
+    "id": 901,
+    "name": "ursaluna"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "ground",
+    "normal"
+  ],
+  "height": 24,
+  "weight": 2900,
+  "baseExperience": 275,
+  "isDefault": true,
+  "stats": {
+    "hp": 130,
+    "attack": 140,
+    "defense": 105,
+    "specialAttack": 45,
+    "specialDefense": 80,
+    "speed": 50,
+    "total": 550,
+    "effort": {
+      "attack": 3
+    }
+  },
+  "abilities": [
+    {
+      "id": 62,
+      "name": "guts",
+      "displayName": "Guts",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Increases Attack to 1.5× with a major status ailment.",
+      "effect": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier.",
+      "flavorText": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+    },
+    {
+      "id": 171,
+      "name": "bulletproof",
+      "displayName": "Bulletproof",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Protects against bullet, ball, and bomb-based moves.",
+      "effect": "Protects against bullet, ball, and bomb-based moves.",
+      "flavorText": "Protects the Pokémon from ball and bomb moves."
+    },
+    {
+      "id": 127,
+      "name": "unnerve",
+      "displayName": "Unnerve",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Prevents opposing Pokémon from eating held Berries.",
+      "effect": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.",
+      "flavorText": "Unnerves opposing Pokémon and makes them unable to eat Berries."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/teddiursa-ursaring-ursaluna.json",
+    "names": [
+      "teddiursa",
+      "ursaring",
+      "ursaluna"
+    ]
+  },
+  "forms": [
+    {
+      "id": 901,
+      "name": "ursaluna",
+      "displayName": "Ursaluna",
+      "formName": "ursaluna",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ground",
+        "normal"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/003-endpoints.pokemon.sprites.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/901-ursaluna/002-endpoints.pokemon.sprites.back_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/901-ursaluna/001-endpoints.pokemon.sprites.back_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/901-ursaluna/004-endpoints.pokemon.sprites.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/901-ursaluna/005-endpoints.pokemon.sprites.other.home.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/901-ursaluna/006-endpoints.pokemon.sprites.other.home.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/901-ursaluna/007-endpoints.pokemon.sprites.other.official-artwork.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/901-ursaluna/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/009-endpoints.pokemon.sprites.other.showdown.back_default-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/901.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/011-endpoints.pokemon.sprites.other.showdown.front_default-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/901.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/010-endpoints.pokemon.sprites.other.showdown.back_shiny-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/901.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/013-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/012-endpoints.pokemon.sprites.other.showdown.front_shiny-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/901.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/901.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/901-ursaluna/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/901.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/901-ursaluna/017-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/901-ursaluna/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/901-ursaluna/019-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/901.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/901-ursaluna/021-endpoints.varieties.1.sprites.back_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/901-ursaluna/020-endpoints.varieties.1.sprites.back_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/901-ursaluna/025-endpoints.varieties.1.sprites.other.home.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/022-endpoints.varieties.1.sprites.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/901-ursaluna/023-endpoints.varieties.1.sprites.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/901-ursaluna/026-endpoints.varieties.1.sprites.other.home.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/901-ursaluna/027-endpoints.varieties.1.sprites.other.official-artwork.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/901-ursaluna/028-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/901-ursaluna/024-endpoints.varieties.1.sprites.other.dream_world.front_default-10272.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10272.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/029-endpoints.varieties.1.sprites.other.showdown.back_default-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/030-endpoints.varieties.1.sprites.other.showdown.back_shiny-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/031-endpoints.varieties.1.sprites.other.showdown.front_default-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/033-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/034-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/901-ursaluna/035-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/032-endpoints.varieties.1.sprites.other.showdown.front_shiny-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Ursaluna",
+        "formName": "regular",
+        "path": "data/models/901-ursaluna/01-regular-Ursaluna.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/901.glb"
+      }
+    },
+    {
+      "id": 10272,
+      "name": "ursaluna-bloodmoon",
+      "displayName": "Bloodmoon Ursaluna",
+      "formName": "bloodmoon",
+      "isDefault": false,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "ground",
+        "normal"
+      ],
+      "images": [
+        {
+          "kind": "backShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/002-endpoints.pokemon.sprites.back_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/004-endpoints.pokemon.sprites.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10272-ursaluna-bloodmoon/001-endpoints.pokemon.sprites.back_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10272-ursaluna-bloodmoon/003-endpoints.pokemon.sprites.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10272-ursaluna-bloodmoon/006-endpoints.pokemon.sprites.other.home.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/10272-ursaluna-bloodmoon/005-endpoints.pokemon.sprites.other.dream_world.front_default-10272.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10272.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10272-ursaluna-bloodmoon/007-endpoints.pokemon.sprites.other.home.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10272-ursaluna-bloodmoon/008-endpoints.pokemon.sprites.other.official-artwork.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/010-endpoints.pokemon.sprites.other.showdown.back_default-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10272.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/011-endpoints.pokemon.sprites.other.showdown.back_shiny-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10272.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/012-endpoints.pokemon.sprites.other.showdown.front_default-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10272.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10272-ursaluna-bloodmoon/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10272-ursaluna-bloodmoon/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10272.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/013-endpoints.pokemon.sprites.other.showdown.front_shiny-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10272.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10272-ursaluna-bloodmoon/019-endpoints.varieties.0.sprites.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10272-ursaluna-bloodmoon/017-endpoints.varieties.0.sprites.back_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/020-endpoints.varieties.0.sprites.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10272-ursaluna-bloodmoon/021-endpoints.varieties.0.sprites.other.home.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/10272-ursaluna-bloodmoon/022-endpoints.varieties.0.sprites.other.home.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/018-endpoints.varieties.0.sprites.back_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.back_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/10272-ursaluna-bloodmoon/023-endpoints.varieties.0.sprites.other.official-artwork.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/024-endpoints.varieties.0.sprites.other.official-artwork.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/025-endpoints.varieties.0.sprites.other.showdown.back_default-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/901.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/026-endpoints.varieties.0.sprites.other.showdown.back_shiny-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/901.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/028-endpoints.varieties.0.sprites.other.showdown.front_shiny-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/901.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/10272-ursaluna-bloodmoon/027-endpoints.varieties.0.sprites.other.showdown.front_default-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/901.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10272-ursaluna-bloodmoon/029-endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10272-ursaluna-bloodmoon/030-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/901.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/031-endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny-901.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/901.gif",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/10272-ursaluna-bloodmoon/032-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/033-endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/10272-ursaluna-bloodmoon/034-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/10272-ursaluna-bloodmoon/035-endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny-901.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/901.png",
+          "jsonPath": "endpoints.varieties.0.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/901-ursaluna/021-endpoints.varieties.1.sprites.back_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/901-ursaluna/020-endpoints.varieties.1.sprites.back_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/901-ursaluna/025-endpoints.varieties.1.sprites.other.home.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/022-endpoints.varieties.1.sprites.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/901-ursaluna/023-endpoints.varieties.1.sprites.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/901-ursaluna/026-endpoints.varieties.1.sprites.other.home.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/901-ursaluna/027-endpoints.varieties.1.sprites.other.official-artwork.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/901-ursaluna/028-endpoints.varieties.1.sprites.other.official-artwork.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/901-ursaluna/024-endpoints.varieties.1.sprites.other.dream_world.front_default-10272.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10272.svg",
+          "jsonPath": "endpoints.varieties.1.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/029-endpoints.varieties.1.sprites.other.showdown.back_default-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/030-endpoints.varieties.1.sprites.other.showdown.back_shiny-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/031-endpoints.varieties.1.sprites.other.showdown.front_default-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/033-endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/901-ursaluna/034-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/901-ursaluna/035-endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny-10272.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10272.png",
+          "jsonPath": "endpoints.varieties.1.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/901-ursaluna/032-endpoints.varieties.1.sprites.other.showdown.front_shiny-10272.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10272.gif",
+          "jsonPath": "endpoints.varieties.1.sprites.other.showdown.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

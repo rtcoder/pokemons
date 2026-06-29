@@ -1,0 +1,1235 @@
+{
+  "id": 586,
+  "name": "sawsbuck",
+  "displayName": "Sawsbuck",
+  "species": {
+    "id": 586,
+    "name": "sawsbuck"
+  },
+  "generation": "generation-v",
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "height": 19,
+  "weight": 925,
+  "baseExperience": 166,
+  "isDefault": true,
+  "stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 70,
+    "speed": 95,
+    "total": 475,
+    "effort": {
+      "attack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 34,
+      "name": "chlorophyll",
+      "displayName": "Chlorophyll",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Doubles Speed during strong sunlight.",
+      "effect": "This Pokémon's Speed is doubled during strong sunlight. This bonus does not count as a stat modifier.",
+      "flavorText": "Boosts the Pokémon's Speed stat in harsh sunlight."
+    },
+    {
+      "id": 157,
+      "name": "sap-sipper",
+      "displayName": "Sap Sipper",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Absorbs Grass moves, raising Attack one stage.",
+      "effect": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it.",
+      "flavorText": "The Pokémon takes no damage when hit by Grass-type moves. Instead, its Attack stat is boosted."
+    },
+    {
+      "id": 32,
+      "name": "serene-grace",
+      "displayName": "Serene Grace",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Doubles the chance of moves' extra effects occurring.",
+      "effect": "This Pokémon's moves have twice their usual effect chance. An effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected. Secret Power is unaffected.",
+      "flavorText": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/deerling-sawsbuck.json",
+    "names": [
+      "deerling",
+      "sawsbuck"
+    ]
+  },
+  "forms": [
+    {
+      "id": 586,
+      "name": "sawsbuck-spring",
+      "displayName": "Spring Sawsbuck",
+      "formName": "spring",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/003-endpoints.pokemon.sprites.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/004-endpoints.pokemon.sprites.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/002-endpoints.pokemon.sprites.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/001-endpoints.pokemon.sprites.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/006-endpoints.pokemon.sprites.other.home.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/007-endpoints.pokemon.sprites.other.home.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/586-sawsbuck/005-endpoints.pokemon.sprites.other.dream_world.front_default-586.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/586.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/586-sawsbuck/008-endpoints.pokemon.sprites.other.official-artwork.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/586-sawsbuck/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/010-endpoints.pokemon.sprites.other.showdown.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/011-endpoints.pokemon.sprites.other.showdown.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/012-endpoints.pokemon.sprites.other.showdown.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/013-endpoints.pokemon.sprites.other.showdown.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/031-endpoints.forms.1.sprites.back_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/033-endpoints.forms.1.sprites.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/034-endpoints.forms.1.sprites.front_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/032-endpoints.forms.1.sprites.back_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/036-endpoints.forms.2.sprites.back_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/037-endpoints.forms.2.sprites.back_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/038-endpoints.forms.2.sprites.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/039-endpoints.forms.2.sprites.front_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/041-endpoints.forms.3.sprites.back_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/042-endpoints.forms.3.sprites.back_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/044-endpoints.forms.3.sprites.front_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/043-endpoints.forms.3.sprites.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        }
+      ],
+      "model": {
+        "name": "Sawsbuck",
+        "formName": "regular",
+        "path": "data/models/586-sawsbuck/01-regular-Sawsbuck.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/586.glb"
+      }
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck-summer",
+      "displayName": "Summer Sawsbuck",
+      "formName": "summer",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/003-endpoints.pokemon.sprites.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/004-endpoints.pokemon.sprites.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/002-endpoints.pokemon.sprites.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/001-endpoints.pokemon.sprites.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/006-endpoints.pokemon.sprites.other.home.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/007-endpoints.pokemon.sprites.other.home.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/586-sawsbuck/005-endpoints.pokemon.sprites.other.dream_world.front_default-586.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/586.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/586-sawsbuck/008-endpoints.pokemon.sprites.other.official-artwork.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/586-sawsbuck/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/010-endpoints.pokemon.sprites.other.showdown.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/011-endpoints.pokemon.sprites.other.showdown.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/012-endpoints.pokemon.sprites.other.showdown.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/013-endpoints.pokemon.sprites.other.showdown.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/031-endpoints.forms.1.sprites.back_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/033-endpoints.forms.1.sprites.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/034-endpoints.forms.1.sprites.front_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/032-endpoints.forms.1.sprites.back_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/036-endpoints.forms.2.sprites.back_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/037-endpoints.forms.2.sprites.back_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/038-endpoints.forms.2.sprites.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/039-endpoints.forms.2.sprites.front_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/041-endpoints.forms.3.sprites.back_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/042-endpoints.forms.3.sprites.back_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/044-endpoints.forms.3.sprites.front_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/043-endpoints.forms.3.sprites.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        }
+      ],
+      "model": {
+        "name": "Sawsbuck",
+        "formName": "regular",
+        "path": "data/models/586-sawsbuck/01-regular-Sawsbuck.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/586.glb"
+      }
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck-autumn",
+      "displayName": "Autumn Sawsbuck",
+      "formName": "autumn",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/003-endpoints.pokemon.sprites.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/004-endpoints.pokemon.sprites.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/002-endpoints.pokemon.sprites.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/001-endpoints.pokemon.sprites.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/006-endpoints.pokemon.sprites.other.home.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/007-endpoints.pokemon.sprites.other.home.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/586-sawsbuck/005-endpoints.pokemon.sprites.other.dream_world.front_default-586.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/586.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/586-sawsbuck/008-endpoints.pokemon.sprites.other.official-artwork.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/586-sawsbuck/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/010-endpoints.pokemon.sprites.other.showdown.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/011-endpoints.pokemon.sprites.other.showdown.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/012-endpoints.pokemon.sprites.other.showdown.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/013-endpoints.pokemon.sprites.other.showdown.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/031-endpoints.forms.1.sprites.back_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/033-endpoints.forms.1.sprites.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/034-endpoints.forms.1.sprites.front_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/032-endpoints.forms.1.sprites.back_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/036-endpoints.forms.2.sprites.back_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/037-endpoints.forms.2.sprites.back_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/038-endpoints.forms.2.sprites.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/039-endpoints.forms.2.sprites.front_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/041-endpoints.forms.3.sprites.back_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/042-endpoints.forms.3.sprites.back_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/044-endpoints.forms.3.sprites.front_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/043-endpoints.forms.3.sprites.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        }
+      ],
+      "model": {
+        "name": "Sawsbuck",
+        "formName": "regular",
+        "path": "data/models/586-sawsbuck/01-regular-Sawsbuck.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/586.glb"
+      }
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck-winter",
+      "displayName": "Winter Sawsbuck",
+      "formName": "winter",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/003-endpoints.pokemon.sprites.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/004-endpoints.pokemon.sprites.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/002-endpoints.pokemon.sprites.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/001-endpoints.pokemon.sprites.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/006-endpoints.pokemon.sprites.other.home.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/586-sawsbuck/007-endpoints.pokemon.sprites.other.home.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/586-sawsbuck/005-endpoints.pokemon.sprites.other.dream_world.front_default-586.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/586.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/586-sawsbuck/008-endpoints.pokemon.sprites.other.official-artwork.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/586-sawsbuck/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/010-endpoints.pokemon.sprites.other.showdown.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/011-endpoints.pokemon.sprites.other.showdown.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/012-endpoints.pokemon.sprites.other.showdown.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/586-sawsbuck/013-endpoints.pokemon.sprites.other.showdown.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-586.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/586.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-586.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/586.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/031-endpoints.forms.1.sprites.back_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/033-endpoints.forms.1.sprites.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/034-endpoints.forms.1.sprites.front_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/032-endpoints.forms.1.sprites.back_shiny-586-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/036-endpoints.forms.2.sprites.back_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/037-endpoints.forms.2.sprites.back_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/038-endpoints.forms.2.sprites.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/039-endpoints.forms.2.sprites.front_shiny-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-586-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/586-sawsbuck/041-endpoints.forms.3.sprites.back_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/586-sawsbuck/042-endpoints.forms.3.sprites.back_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/586-sawsbuck/044-endpoints.forms.3.sprites.front_shiny-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/586-sawsbuck/043-endpoints.forms.3.sprites.front_default-586-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        }
+      ],
+      "model": {
+        "name": "Sawsbuck",
+        "formName": "regular",
+        "path": "data/models/586-sawsbuck/01-regular-Sawsbuck.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/586.glb"
+      }
+    }
+  ]
+}

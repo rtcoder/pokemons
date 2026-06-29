@@ -1,0 +1,1235 @@
+{
+  "id": 585,
+  "name": "deerling",
+  "displayName": "Deerling",
+  "species": {
+    "id": 585,
+    "name": "deerling"
+  },
+  "generation": "generation-v",
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "height": 6,
+  "weight": 195,
+  "baseExperience": 67,
+  "isDefault": true,
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 50,
+    "speed": 75,
+    "total": 335,
+    "effort": {
+      "speed": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 34,
+      "name": "chlorophyll",
+      "displayName": "Chlorophyll",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Doubles Speed during strong sunlight.",
+      "effect": "This Pokémon's Speed is doubled during strong sunlight. This bonus does not count as a stat modifier.",
+      "flavorText": "Boosts the Pokémon's Speed stat in harsh sunlight."
+    },
+    {
+      "id": 157,
+      "name": "sap-sipper",
+      "displayName": "Sap Sipper",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Absorbs Grass moves, raising Attack one stage.",
+      "effect": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it.",
+      "flavorText": "The Pokémon takes no damage when hit by Grass-type moves. Instead, its Attack stat is boosted."
+    },
+    {
+      "id": 32,
+      "name": "serene-grace",
+      "displayName": "Serene Grace",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Doubles the chance of moves' extra effects occurring.",
+      "effect": "This Pokémon's moves have twice their usual effect chance. An effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected. Secret Power is unaffected.",
+      "flavorText": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/deerling-sawsbuck.json",
+    "names": [
+      "deerling",
+      "sawsbuck"
+    ]
+  },
+  "forms": [
+    {
+      "id": 585,
+      "name": "deerling-spring",
+      "displayName": "Spring Deerling",
+      "formName": "spring",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/003-endpoints.pokemon.sprites.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/004-endpoints.pokemon.sprites.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/002-endpoints.pokemon.sprites.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/006-endpoints.pokemon.sprites.other.home.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/001-endpoints.pokemon.sprites.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/585-deerling/005-endpoints.pokemon.sprites.other.dream_world.front_default-585.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/585.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/585-deerling/008-endpoints.pokemon.sprites.other.official-artwork.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/007-endpoints.pokemon.sprites.other.home.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/585-deerling/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/010-endpoints.pokemon.sprites.other.showdown.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/011-endpoints.pokemon.sprites.other.showdown.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/012-endpoints.pokemon.sprites.other.showdown.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/013-endpoints.pokemon.sprites.other.showdown.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/031-endpoints.forms.1.sprites.back_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/032-endpoints.forms.1.sprites.back_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/034-endpoints.forms.1.sprites.front_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/033-endpoints.forms.1.sprites.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/036-endpoints.forms.2.sprites.back_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/038-endpoints.forms.2.sprites.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/037-endpoints.forms.2.sprites.back_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/039-endpoints.forms.2.sprites.front_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/041-endpoints.forms.3.sprites.back_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/042-endpoints.forms.3.sprites.back_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/043-endpoints.forms.3.sprites.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/044-endpoints.forms.3.sprites.front_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        }
+      ],
+      "model": {
+        "name": "Deerling",
+        "formName": "regular",
+        "path": "data/models/585-deerling/01-regular-Deerling.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/585.glb"
+      }
+    },
+    {
+      "id": 585,
+      "name": "deerling-summer",
+      "displayName": "Summer Deerling",
+      "formName": "summer",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/003-endpoints.pokemon.sprites.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/004-endpoints.pokemon.sprites.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/002-endpoints.pokemon.sprites.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/006-endpoints.pokemon.sprites.other.home.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/001-endpoints.pokemon.sprites.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/585-deerling/005-endpoints.pokemon.sprites.other.dream_world.front_default-585.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/585.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/585-deerling/008-endpoints.pokemon.sprites.other.official-artwork.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/007-endpoints.pokemon.sprites.other.home.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/585-deerling/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/010-endpoints.pokemon.sprites.other.showdown.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/011-endpoints.pokemon.sprites.other.showdown.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/012-endpoints.pokemon.sprites.other.showdown.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/013-endpoints.pokemon.sprites.other.showdown.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/031-endpoints.forms.1.sprites.back_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/032-endpoints.forms.1.sprites.back_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/034-endpoints.forms.1.sprites.front_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/033-endpoints.forms.1.sprites.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/036-endpoints.forms.2.sprites.back_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/038-endpoints.forms.2.sprites.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/037-endpoints.forms.2.sprites.back_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/039-endpoints.forms.2.sprites.front_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/041-endpoints.forms.3.sprites.back_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/042-endpoints.forms.3.sprites.back_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/043-endpoints.forms.3.sprites.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/044-endpoints.forms.3.sprites.front_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        }
+      ],
+      "model": {
+        "name": "Deerling",
+        "formName": "regular",
+        "path": "data/models/585-deerling/01-regular-Deerling.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/585.glb"
+      }
+    },
+    {
+      "id": 585,
+      "name": "deerling-autumn",
+      "displayName": "Autumn Deerling",
+      "formName": "autumn",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/003-endpoints.pokemon.sprites.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/004-endpoints.pokemon.sprites.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/002-endpoints.pokemon.sprites.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/006-endpoints.pokemon.sprites.other.home.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/001-endpoints.pokemon.sprites.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/585-deerling/005-endpoints.pokemon.sprites.other.dream_world.front_default-585.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/585.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/585-deerling/008-endpoints.pokemon.sprites.other.official-artwork.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/007-endpoints.pokemon.sprites.other.home.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/585-deerling/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/010-endpoints.pokemon.sprites.other.showdown.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/011-endpoints.pokemon.sprites.other.showdown.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/012-endpoints.pokemon.sprites.other.showdown.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/013-endpoints.pokemon.sprites.other.showdown.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/031-endpoints.forms.1.sprites.back_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/032-endpoints.forms.1.sprites.back_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/034-endpoints.forms.1.sprites.front_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/033-endpoints.forms.1.sprites.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/036-endpoints.forms.2.sprites.back_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/038-endpoints.forms.2.sprites.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/037-endpoints.forms.2.sprites.back_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/039-endpoints.forms.2.sprites.front_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/041-endpoints.forms.3.sprites.back_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/042-endpoints.forms.3.sprites.back_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/043-endpoints.forms.3.sprites.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/044-endpoints.forms.3.sprites.front_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        }
+      ],
+      "model": {
+        "name": "Deerling",
+        "formName": "regular",
+        "path": "data/models/585-deerling/01-regular-Deerling.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/585.glb"
+      }
+    },
+    {
+      "id": 585,
+      "name": "deerling-winter",
+      "displayName": "Winter Deerling",
+      "formName": "winter",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/003-endpoints.pokemon.sprites.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/004-endpoints.pokemon.sprites.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/002-endpoints.pokemon.sprites.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/006-endpoints.pokemon.sprites.other.home.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/001-endpoints.pokemon.sprites.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/585-deerling/005-endpoints.pokemon.sprites.other.dream_world.front_default-585.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/585.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/585-deerling/008-endpoints.pokemon.sprites.other.official-artwork.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/585-deerling/007-endpoints.pokemon.sprites.other.home.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/585-deerling/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/010-endpoints.pokemon.sprites.other.showdown.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/011-endpoints.pokemon.sprites.other.showdown.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/012-endpoints.pokemon.sprites.other.showdown.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/585-deerling/013-endpoints.pokemon.sprites.other.showdown.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/018-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-585.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/585.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/020-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/024-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/022-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/027-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/026-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/029-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/030-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-585.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/585.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/031-endpoints.forms.1.sprites.back_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/032-endpoints.forms.1.sprites.back_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/034-endpoints.forms.1.sprites.front_shiny-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/033-endpoints.forms.1.sprites.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/035-endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default-585-summer.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-summer.png",
+          "jsonPath": "endpoints.forms.1.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/036-endpoints.forms.2.sprites.back_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/038-endpoints.forms.2.sprites.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/037-endpoints.forms.2.sprites.back_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.back_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/039-endpoints.forms.2.sprites.front_shiny-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/040-endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default-585-autumn.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-autumn.png",
+          "jsonPath": "endpoints.forms.2.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/585-deerling/041-endpoints.forms.3.sprites.back_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/585-deerling/042-endpoints.forms.3.sprites.back_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/043-endpoints.forms.3.sprites.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/585-deerling/044-endpoints.forms.3.sprites.front_shiny-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/585-deerling/045-endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default-585-winter.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/585-winter.png",
+          "jsonPath": "endpoints.forms.3.sprites.versions.generation-ix.scarlet-violet.front_default"
+        }
+      ],
+      "model": {
+        "name": "Deerling",
+        "formName": "regular",
+        "path": "data/models/585-deerling/01-regular-Deerling.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/585.glb"
+      }
+    }
+  ]
+}

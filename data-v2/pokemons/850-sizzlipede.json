@@ -1,0 +1,189 @@
+{
+  "id": 850,
+  "name": "sizzlipede",
+  "displayName": "Sizzlipede",
+  "species": {
+    "id": 850,
+    "name": "sizzlipede"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "height": 7,
+  "weight": 10,
+  "baseExperience": 61,
+  "isDefault": true,
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 50,
+    "specialDefense": 50,
+    "speed": 45,
+    "total": 305,
+    "effort": {
+      "attack": 1
+    }
+  },
+  "abilities": [
+    {
+      "id": 18,
+      "name": "flash-fire",
+      "displayName": "Flash Fire",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Protects against Fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+      "effect": "This Pokémon is immune to Fire-type moves. Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle. This ability has no effect while the Pokémon is frozen. The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled. Fire moves will ignore this Pokémon's Substitute. This ability takes effect even on non-damaging moves, i.e. Will-O-Wisp.",
+      "flavorText": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+    },
+    {
+      "id": 73,
+      "name": "white-smoke",
+      "displayName": "White Smoke",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Prevents stats from being lowered by other Pokémon.",
+      "effect": "This Pokémon cannot have its stats lowered by other Pokémon. This ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis; nor self-inflicted stat drops, such as the Special Attack drop from Overheat; nor opponent-triggered stat boosts, such as the Attack boost from Swagger. This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap. This ability functions identically to Clear Body in battle. Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved.",
+      "flavorText": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats."
+    },
+    {
+      "id": 49,
+      "name": "flame-body",
+      "displayName": "Flame Body",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Has a 30% chance of burning attacking Pokémon on contact.",
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned. Overworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly. This effect does not stack if multiple Pokémon have this ability or Magma Armor.",
+      "flavorText": "Contact with the Pokémon may burn the attacker."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/sizzlipede-centiskorch.json",
+    "names": [
+      "sizzlipede",
+      "centiskorch"
+    ]
+  },
+  "forms": [
+    {
+      "id": 850,
+      "name": "sizzlipede",
+      "displayName": "Sizzlipede",
+      "formName": "sizzlipede",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "fire",
+        "bug"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/850-sizzlipede/003-endpoints.pokemon.sprites.front_default-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/850-sizzlipede/004-endpoints.pokemon.sprites.front_shiny-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/850-sizzlipede/002-endpoints.pokemon.sprites.back_shiny-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/850-sizzlipede/001-endpoints.pokemon.sprites.back_default-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/850-sizzlipede/008-endpoints.pokemon.sprites.other.official-artwork.front_shiny-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/850-sizzlipede/005-endpoints.pokemon.sprites.other.home.front_default-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/850-sizzlipede/006-endpoints.pokemon.sprites.other.home.front_shiny-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/850-sizzlipede/007-endpoints.pokemon.sprites.other.official-artwork.front_default-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/850-sizzlipede/009-endpoints.pokemon.sprites.other.showdown.back_default-850.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/850.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/850-sizzlipede/011-endpoints.pokemon.sprites.other.showdown.front_default-850.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/850.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/850-sizzlipede/012-endpoints.pokemon.sprites.other.showdown.front_shiny-850.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/850.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/850-sizzlipede/013-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/850-sizzlipede/010-endpoints.pokemon.sprites.other.showdown.back_shiny-850.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/850.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/850-sizzlipede/014-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/850-sizzlipede/015-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/850-sizzlipede/017-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/850-sizzlipede/016-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-850.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/850.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": null
+    }
+  ]
+}

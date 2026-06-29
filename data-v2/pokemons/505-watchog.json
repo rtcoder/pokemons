@@ -1,0 +1,264 @@
+{
+  "id": 505,
+  "name": "watchog",
+  "displayName": "Watchog",
+  "species": {
+    "id": 505,
+    "name": "watchog"
+  },
+  "generation": "generation-v",
+  "types": [
+    "normal"
+  ],
+  "height": 11,
+  "weight": 270,
+  "baseExperience": 147,
+  "isDefault": true,
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 69,
+    "specialAttack": 60,
+    "specialDefense": 69,
+    "speed": 77,
+    "total": 420,
+    "effort": {
+      "attack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 35,
+      "name": "illuminate",
+      "displayName": "Illuminate",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Doubles the wild encounter rate.",
+      "effect": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled. This ability has no effect in battle.",
+      "flavorText": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered."
+    },
+    {
+      "id": 51,
+      "name": "keen-eye",
+      "displayName": "Keen Eye",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Prevents accuracy from being lowered.",
+      "effect": "This Pokémon cannot have its accuracy lowered. This ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate. This Pokémon can still be passed negative accuracy modifiers through Heart Swap. Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+      "flavorText": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+    },
+    {
+      "id": 148,
+      "name": "analytic",
+      "displayName": "Analytic",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Strengthens moves to 1.3× their power when moving last.",
+      "effect": "This Pokémon's moves have 1.3× their power when it moves last in a turn. Future Sight and Doom Desire are unaffected.",
+      "flavorText": "Boosts the power of the Pokémon's move if it is the last to act that turn."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/patrat-watchog.json",
+    "names": [
+      "patrat",
+      "watchog"
+    ]
+  },
+  "forms": [
+    {
+      "id": 505,
+      "name": "watchog",
+      "displayName": "Watchog",
+      "formName": "watchog",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "normal"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/003-endpoints.pokemon.sprites.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/505-watchog/004-endpoints.pokemon.sprites.front_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/505-watchog/001-endpoints.pokemon.sprites.back_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/505-watchog/002-endpoints.pokemon.sprites.back_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/505-watchog/005-endpoints.pokemon.sprites.other.dream_world.front_default-505.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/505.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/505-watchog/006-endpoints.pokemon.sprites.other.home.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/505-watchog/008-endpoints.pokemon.sprites.other.official-artwork.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/505-watchog/007-endpoints.pokemon.sprites.other.home.front_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/505-watchog/010-endpoints.pokemon.sprites.other.showdown.back_default-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/505-watchog/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/505-watchog/012-endpoints.pokemon.sprites.other.showdown.front_default-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/505-watchog/011-endpoints.pokemon.sprites.other.showdown.back_shiny-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/505-watchog/013-endpoints.pokemon.sprites.other.showdown.front_shiny-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/505-watchog/014-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/505-watchog/015-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/016-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/505-watchog/018-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/505-watchog/019-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/020-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/505-watchog/017-endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny-505.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/505.gif",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.animated.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/505-watchog/021-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/022-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/024-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/026-endpoints.pokemon.sprites.versions.generation-vii.icons.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/505-watchog/025-endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.x-y.front_shiny"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/505-watchog/023-endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/029-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/505-watchog/027-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/505-watchog/028-endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny-505.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/505.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Watchog",
+        "formName": "regular",
+        "path": "data/models/505-watchog/01-regular-Watchog.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/505.glb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": 857,
+  "name": "hattrem",
+  "displayName": "Hattrem",
+  "species": {
+    "id": 857,
+    "name": "hattrem"
+  },
+  "generation": "generation-viii",
+  "types": [
+    "psychic"
+  ],
+  "height": 6,
+  "weight": 48,
+  "baseExperience": 130,
+  "isDefault": true,
+  "stats": {
+    "hp": 57,
+    "attack": 40,
+    "defense": 65,
+    "specialAttack": 86,
+    "specialDefense": 73,
+    "speed": 49,
+    "total": 370,
+    "effort": {
+      "specialAttack": 2
+    }
+  },
+  "abilities": [
+    {
+      "id": 131,
+      "name": "healer",
+      "displayName": "Healer",
+      "slot": 1,
+      "isHidden": false,
+      "shortEffect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+      "effect": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn.",
+      "flavorText": "Sometimes cures the status conditions of the Pokémon's allies."
+    },
+    {
+      "id": 107,
+      "name": "anticipation",
+      "displayName": "Anticipation",
+      "slot": 2,
+      "isHidden": false,
+      "shortEffect": "Notifies all trainers upon entering battle if an opponent has a super-effective move, Self-Destruct, Explosion, or a one-hit KO move.",
+      "effect": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified. The move itself is not revealed; only that there is such a move. Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types. Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability.",
+      "flavorText": "The Pokémon can sense an opposing Pokémon's dangerous moves."
+    },
+    {
+      "id": 156,
+      "name": "magic-bounce",
+      "displayName": "Magic Bounce",
+      "slot": 3,
+      "isHidden": true,
+      "shortEffect": "Reflects most non-damaging moves back at their user.",
+      "effect": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user. All reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable. A move reflected by this ability or Magic Coat cannot be reflected back.",
+      "flavorText": "The Pokémon reflects status moves instead of getting hit by them."
+    }
+  ],
+  "evolution": {
+    "file": "../evolutions/hatenna-hattrem-hatterene.json",
+    "names": [
+      "hatenna",
+      "hattrem",
+      "hatterene"
+    ]
+  },
+  "forms": [
+    {
+      "id": 857,
+      "name": "hattrem",
+      "displayName": "Hattrem",
+      "formName": "hattrem",
+      "isDefault": true,
+      "isMega": false,
+      "isBattleOnly": false,
+      "types": [
+        "psychic"
+      ],
+      "images": [
+        {
+          "kind": "front",
+          "path": "data/images/857-hattrem/003-endpoints.pokemon.sprites.front_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/857-hattrem/004-endpoints.pokemon.sprites.front_shiny-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.front_shiny"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/857-hattrem/002-endpoints.pokemon.sprites.back_shiny-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_shiny"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/857-hattrem/001-endpoints.pokemon.sprites.back_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.back_default"
+        },
+        {
+          "kind": "dreamWorld",
+          "path": "data/images/857-hattrem/005-endpoints.pokemon.sprites.other.dream_world.front_default-857.svg",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/857.svg",
+          "jsonPath": "endpoints.pokemon.sprites.other.dream_world.front_default"
+        },
+        {
+          "kind": "officialArtworkShiny",
+          "path": "data/images/857-hattrem/009-endpoints.pokemon.sprites.other.official-artwork.front_shiny-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_shiny"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/857-hattrem/006-endpoints.pokemon.sprites.other.home.front_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_default"
+        },
+        {
+          "kind": "officialArtwork",
+          "path": "data/images/857-hattrem/008-endpoints.pokemon.sprites.other.official-artwork.front_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.official-artwork.front_default"
+        },
+        {
+          "kind": "home",
+          "path": "data/images/857-hattrem/007-endpoints.pokemon.sprites.other.home.front_shiny-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.other.home.front_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/857-hattrem/010-endpoints.pokemon.sprites.other.showdown.back_default-857.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/857.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_default"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/857-hattrem/011-endpoints.pokemon.sprites.other.showdown.back_shiny-857.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/857.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/857-hattrem/012-endpoints.pokemon.sprites.other.showdown.front_default-857.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/857.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/857-hattrem/014-endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-ix.scarlet-violet.front_default"
+        },
+        {
+          "kind": "back",
+          "path": "data/images/857-hattrem/015-endpoints.pokemon.sprites.versions.generation-v.black-white.back_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_default"
+        },
+        {
+          "kind": "backShiny",
+          "path": "data/images/857-hattrem/016-endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.back_shiny"
+        },
+        {
+          "kind": "showdown",
+          "path": "data/images/857-hattrem/013-endpoints.pokemon.sprites.other.showdown.front_shiny-857.gif",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/857.gif",
+          "jsonPath": "endpoints.pokemon.sprites.other.showdown.front_shiny"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/857-hattrem/017-endpoints.pokemon.sprites.versions.generation-v.black-white.front_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_default"
+        },
+        {
+          "kind": "front",
+          "path": "data/images/857-hattrem/019-endpoints.pokemon.sprites.versions.generation-viii.icons.front_default-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-viii.icons.front_default"
+        },
+        {
+          "kind": "frontShiny",
+          "path": "data/images/857-hattrem/018-endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny-857.png",
+          "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/857.png",
+          "jsonPath": "endpoints.pokemon.sprites.versions.generation-v.black-white.front_shiny"
+        }
+      ],
+      "model": {
+        "name": "Hattrem",
+        "formName": "regular",
+        "path": "data/models/857-hattrem/01-regular-Hattrem.glb",
+        "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/regular/857.glb"
+      }
+    }
+  ]
+}
