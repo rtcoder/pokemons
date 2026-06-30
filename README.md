@@ -89,6 +89,27 @@ The compact records omit encounters, held items, and moves. Stats and abilities
 are simplified, forms include local image references, and models are attached only
 when the local model file exists and was not marked as failed.
 
+## Run full data flow
+
+Run the complete local data pipeline in order:
+
+```sh
+node scripts/run-full-flow.mjs
+```
+
+Preview the commands without running them:
+
+```sh
+node scripts/run-full-flow.mjs --dry-run
+```
+
+Useful variants:
+
+```sh
+node scripts/run-full-flow.mjs --limit 20 --skip-models
+node scripts/run-full-flow.mjs --skip-pokeapi --skip-images --skip-models
+```
+
 ## Review small raster images
 
 Move small raster images into per-Pokemon `ready-to-delete` folders for manual
@@ -123,6 +144,8 @@ Remove image references from compact Pokemon JSON files when the local image fil
 no longer exists.
 
 ```sh
+node scripts/clean-data-v2-missing-images.mjs --dry-run --limit 10
+node scripts/clean-data-v2-missing-images.mjs
 node scripts/clean-missing-image-refs.mjs --dry-run --limit 10
 node scripts/clean-missing-image-refs.mjs
 ```
