@@ -1,103 +1,45 @@
-# pokemons
-simple pokemon database
+# Pokemon Database
 
-## Download PokeAPI data
+Static Pokemon database built from local PokeAPI data, downloaded artwork, and
+downloaded GLB models. The app is designed to run directly on GitHub Pages:
+there is no server-side code, build server, database, or API required at runtime.
 
-Download accumulated JSON files, one file per Pokemon:
+## What the app shows
 
-```sh
-node scripts/download-pokeapi.mjs --limit 10
-```
+- A searchable, filterable list of regular Pokemon.
+- A details panel with stats, abilities, evolution chain, variants, artwork, and
+  a 3D model when a local GLB exists.
+- Variants such as Mega Charizard X are not shown as separate top-level cards,
+  but they are available from the regular Pokemon details panel. When selected,
+  a variant shows its own types, stats, artwork, and model.
+- All runtime data is loaded from static JSON files in `data-v2`.
 
-By default files are written to `data/pokeapi`:
+## Quick Start
 
-- `pokemon-list.json` - cached list of all Pokemon, so the script does not fetch it again
-- `pokemons/[id]-[name].json` - accumulated Pokemon data
-- `manifest.json` - last run summary
-
-Each Pokemon file includes core Pokemon data, species, evolution chain, encounters,
-forms, varieties, variety forms, abilities, moves, types, held items, and stats.
-
-The script skips existing Pokemon files, so you can grow the local dataset:
+Serve the repository over HTTP and open `index.html`:
 
 ```sh
-node scripts/download-pokeapi.mjs --limit 10
-node scripts/download-pokeapi.mjs --limit 40
+python3 -m http.server 8765
 ```
 
-See all options:
+Then open:
 
-```sh
-node scripts/download-pokeapi.mjs --help
+```text
+http://localhost:8765/
 ```
 
-## Download Pokemon images
+Do not open `index.html` directly from the filesystem. The UI uses `fetch()` for
+JSON files, so it needs HTTP, just like it will have on GitHub Pages.
 
-Extract Pokemon sprite URLs from downloaded Pokemon JSON files and save them per Pokemon:
+## Full Data Flow
 
-```sh
-node scripts/download-pokemon-images.mjs --limit 10
-```
-
-Images are written to `data/images/[id]-[name]/`. By default the script downloads
-Pokemon sprites, form sprites, variety sprites, and variety form sprites. Each
-directory also gets an `images.json` file with source URL, JSON path, local
-filename, and download status.
-
-The script skips existing files and URLs that previously failed, so you can grow
-the image dataset:
-
-```sh
-node scripts/download-pokemon-images.mjs --limit 10
-node scripts/download-pokemon-images.mjs --limit 40
-```
-
-## Download Pokemon 3D models
-
-Download GLB models from `https://pokemon-3d-api.onrender.com/v1/pokemon`:
-
-```sh
-node scripts/download-pokemon-models.mjs --limit 10
-```
-
-Models are written to `data/models/[id]-[name]/`. Each directory also gets a
-`models.json` file with form name, source URL, local filename, and download
-status. The script skips existing files and URLs that previously failed, so you
-can grow the model dataset:
-
-```sh
-node scripts/download-pokemon-models.mjs --limit 10
-node scripts/download-pokemon-models.mjs --limit 40
-```
-
-## Build compact app data
-
-Build normalized data for the app from downloaded PokeAPI JSON files, images, and
-models:
-
-```sh
-node scripts/build-data-v2.mjs
-```
-
-Output is written to `data-v2`:
-
-- `pokemons/[id]-[name].json` - compact Pokemon records for the app
-- `evolutions/*.json` - shared evolution chains referenced by Pokemon records
-- `manifest.json` - last build summary
-
-The compact records omit encounters, held items, and moves. Stats and abilities
-are simplified, forms include local image references, and models are attached only
-when the local model file exists and was not marked as failed.
-
-## Run full data flow
-
-Run the complete local data pipeline in order:
+Run the complete data pipeline:
 
 ```sh
 node scripts/run-full-flow.mjs
 ```
 
-Preview the commands without running them:
+Preview the commands without changing anything:
 
 ```sh
 node scripts/run-full-flow.mjs --dry-run
@@ -110,46 +52,149 @@ node scripts/run-full-flow.mjs --limit 20 --skip-models
 node scripts/run-full-flow.mjs --skip-pokeapi --skip-images --skip-models
 ```
 
-## Review small raster images
+The full flow runs, in order:
 
-Move small raster images into per-Pokemon `ready-to-delete` folders for manual
-review. SVG files are ignored.
+1. Download PokeAPI data into `data/pokeapi`.
+2. Download Pokemon images into `data/images`.
+3. Download Pokemon 3D models into `data/models`.
+4. Build compact app data into `data-v2`.
+5. Remove missing image references from `data-v2/pokemons`.
+6. Build `data-v2/pokemon-index.json` for the static UI.
+
+## Runtime Files
+
+These files are needed by the GitHub Pages app:
+
+- `index.html` - the whole UI.
+- `data-v2/pokemon-index.json` - list/search index plus variant metadata.
+- `data-v2/pokemons/*.json` - full Pokemon and variant records.
+- `data-v2/evolutions/*.json` - evolution chains.
+- `data/images/**` - local artwork and sprites.
+- `data/models/**` - local GLB models.
+- `vendor/three/**` - local Three.js, GLTFLoader, OrbitControls, and Draco
+  decoder files used by the 3D viewer.
+
+The app intentionally avoids CDN dependencies so GitHub Pages can serve it as a
+self-contained static site.
+
+## Data Model Notes
+
+`data-v2/pokemon-index.json` contains all records needed for navigation:
+
+- `count` - number of regular Pokemon shown in the main list.
+- `entryCount` - number of all indexed records, including variants.
+- `entries[]` - regular Pokemon and variants.
+
+Each entry includes:
+
+- `isDefault` - `true` for regular Pokemon shown in the main grid.
+- `species` - used to group variants with their regular Pokemon.
+- `image` and `images` - verified local image paths.
+- `modelPath` and `modelName` - verified local GLB model info when available.
+- `types`, `statsTotal`, `height`, `weight`, and `generation`.
+
+The main grid filters to `isDefault: true`. The details panel can select any
+entry, including variants, so a variant can show its own stats and model.
+
+## Common Commands
+
+### Build only app data
+
+```sh
+node scripts/build-data-v2.mjs
+```
+
+Writes:
+
+- `data-v2/pokemons/[id]-[name].json`
+- `data-v2/evolutions/*.json`
+- `data-v2/manifest.json`
+
+### Rebuild only the UI index
+
+```sh
+node scripts/build-ui-index.mjs
+```
+
+Run this after changing `data-v2`, images, or models.
+
+### Remove missing image references
+
+```sh
+node scripts/clean-data-v2-missing-images.mjs --dry-run
+node scripts/clean-data-v2-missing-images.mjs
+```
+
+This scans `data-v2/pokemons` and removes `forms[].images` entries whose local
+files no longer exist. It writes `missing-image-refs-manifest.json` in the
+Pokemon JSON directory.
+
+### Download PokeAPI data
+
+```sh
+node scripts/download-pokeapi.mjs --limit 10
+node scripts/download-pokeapi.mjs --help
+```
+
+Writes accumulated source data to `data/pokeapi`.
+
+### Download images
+
+```sh
+node scripts/download-pokemon-images.mjs --limit 10
+node scripts/download-pokemon-images.mjs --help
+```
+
+Writes images and `images.json` files to `data/images/[id]-[name]/`.
+
+### Download 3D models
+
+```sh
+node scripts/download-pokemon-models.mjs --limit 10
+node scripts/download-pokemon-models.mjs --help
+```
+
+Writes GLB models and `models.json` files to `data/models/[id]-[name]/`.
+
+## Image Cleanup Helpers
+
+These scripts help review noisy local assets before rebuilding `data-v2`.
+
+### Small raster images
 
 ```sh
 node scripts/move-small-images.mjs --dry-run --limit 5
 node scripts/move-small-images.mjs --min-width 128 --min-height 128
 ```
 
-By default images smaller than `128x128` are moved to
-`data/images/[id]-[name]/ready-to-delete/`. A `small-images-manifest.json` summary
-is written in the image root.
+Moves small raster images into `data/images/[id]-[name]/ready-to-delete/`.
+SVG files are ignored.
 
-## Review mostly transparent PNGs
-
-Move PNG images where the visible Pokemon is tiny because most pixels are
-transparent. SVG, GIF, JPG, JPEG, and WebP files are ignored.
+### Mostly transparent PNGs
 
 ```sh
 node scripts/move-transparent-images.mjs --dry-run --limit 5
 node scripts/move-transparent-images.mjs --ratio 0.6
 ```
 
-By default PNGs with more than `60%` fully transparent pixels are moved to
-`data/images/[id]-[name]/ready-to-delete/`. A `transparent-images-manifest.json`
-summary is written in the image root.
+Moves PNGs with more than the configured transparent-pixel ratio into
+`ready-to-delete/`. SVG, GIF, JPG, JPEG, and WebP files are ignored.
 
-## Clean missing image references
+## GitHub Pages
 
-Remove image references from compact Pokemon JSON files when the local image file
-no longer exists.
+The app can be deployed from the repository root. Make sure these are committed:
+
+- `index.html`
+- `data-v2/**`
+- `data/images/**`
+- `data/models/**`
+- `vendor/three/**`
+
+After any data refresh, run:
 
 ```sh
-node scripts/clean-data-v2-missing-images.mjs --dry-run --limit 10
-node scripts/clean-data-v2-missing-images.mjs
-node scripts/clean-missing-image-refs.mjs --dry-run --limit 10
-node scripts/clean-missing-image-refs.mjs
+node scripts/run-full-flow.mjs --skip-pokeapi --skip-images --skip-models
 ```
 
-By default the script scans `data-v2/pokemons` and removes missing
-`forms[].images` entries. A `missing-image-refs-manifest.json` summary is written
-in the Pokemon JSON directory.
+That rebuilds compact data, removes missing image references, and refreshes the
+UI index without re-downloading source assets.
