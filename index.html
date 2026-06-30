@@ -1,10 +1,1401 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pokémon Database</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Database</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --panel-soft: #eef6f5;
+      --ink: #17202a;
+      --muted: #657184;
+      --line: #dce2ea;
+      --accent: #d64242;
+      --accent-2: #197b75;
+      --focus: #2f6fdd;
+      --shadow: 0 16px 48px rgba(23, 32, 42, 0.12);
+      --radius: 8px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-width: 320px;
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .shell {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 420px;
+    }
+
+    .browser {
+      min-width: 0;
+      border-right: 1px solid var(--line);
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 4;
+      background: rgba(247, 248, 251, 0.94);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+    }
+
+    .topbar-inner {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 22px 0 18px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4.8rem);
+      line-height: 0.9;
+      letter-spacing: 0;
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 0.95rem;
+      white-space: nowrap;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) 170px 160px 150px;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .field {
+      min-width: 0;
+      height: 42px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      color: var(--ink);
+      padding: 0 12px;
+      outline: none;
+    }
+
+    .field:focus {
+      border-color: var(--focus);
+      box-shadow: 0 0 0 3px rgba(47, 111, 221, 0.16);
+    }
+
+    .grid-wrap {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 22px 0 56px;
+    }
+
+    .pokemon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      min-width: 0;
+      display: grid;
+      gap: 10px;
+      min-height: 248px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      color: var(--ink);
+      text-align: left;
+      box-shadow: 0 1px 0 rgba(23, 32, 42, 0.04);
+      transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+    }
+
+    .card:hover,
+    .card:focus-visible {
+      transform: translateY(-2px);
+      border-color: rgba(25, 123, 117, 0.5);
+      box-shadow: var(--shadow);
+      outline: none;
+    }
+
+    .sprite-stage {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      display: grid;
+      place-items: center;
+      border-radius: 6px;
+      background:
+        linear-gradient(135deg, rgba(25, 123, 117, 0.12), rgba(214, 66, 66, 0.08)),
+        #f8fafc;
+      overflow: hidden;
+    }
+
+    .sprite-stage img {
+      width: 82%;
+      height: 82%;
+      object-fit: contain;
+      image-rendering: auto;
+    }
+
+    .missing-image {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .card-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: baseline;
+    }
+
+    .card h2 {
+      min-width: 0;
+      margin: 0;
+      font-size: 1.02rem;
+      line-height: 1.15;
+      overflow-wrap: anywhere;
+    }
+
+    .number {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      font-size: 0.86rem;
+      white-space: nowrap;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-height: 25px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(23, 32, 42, 0.12);
+      background: #f3f5f8;
+      color: #253041;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .type-grass { background: #dff3df; color: #255d28; }
+    .type-poison { background: #f0dff8; color: #68317a; }
+    .type-fire { background: #ffe2d0; color: #8b3512; }
+    .type-water { background: #dcecff; color: #1c4f89; }
+    .type-electric { background: #fff3bc; color: #725a00; }
+    .type-psychic { background: #ffe0ed; color: #8b2d59; }
+    .type-ice { background: #ddf8f8; color: #24656b; }
+    .type-dragon { background: #e2e2ff; color: #36368a; }
+    .type-dark { background: #ded9d4; color: #40362f; }
+    .type-fairy { background: #ffe3f7; color: #7b356c; }
+    .type-normal { background: #eeeeea; color: #53534b; }
+    .type-fighting { background: #f5d7d2; color: #7b2a1f; }
+    .type-flying { background: #e7e7ff; color: #454b86; }
+    .type-ground { background: #f3e7c7; color: #695119; }
+    .type-rock { background: #eee5bf; color: #63551e; }
+    .type-bug { background: #edf4c9; color: #4d6218; }
+    .type-ghost { background: #e7def0; color: #50406f; }
+    .type-steel { background: #e4e9ef; color: #405163; }
+
+    .meta-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .empty {
+      display: none;
+      padding: 48px 0;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .detail {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      background: var(--panel);
+      overflow: hidden;
+    }
+
+    .detail-head {
+      min-width: 0;
+      padding: 22px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .detail-title {
+      min-width: 0;
+    }
+
+    .detail-title h2 {
+      margin: 0 0 6px;
+      font-size: 1.45rem;
+      line-height: 1.1;
+      overflow-wrap: anywhere;
+    }
+
+    .detail-body {
+      min-width: 0;
+      overflow: auto;
+      padding: 22px;
+    }
+
+    .detail-placeholder {
+      height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .close-detail {
+      display: none;
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      color: var(--ink);
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+
+    .hero-image {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      display: grid;
+      place-items: center;
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, rgba(25, 123, 117, 0.14), rgba(214, 66, 66, 0.1)),
+        #f8fafc;
+      margin-bottom: 18px;
+      overflow: hidden;
+    }
+
+    .hero-image img {
+      width: 82%;
+      height: 82%;
+      object-fit: contain;
+    }
+
+    .model-viewer {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at 50% 42%, rgba(25, 123, 117, 0.15), transparent 42%),
+        linear-gradient(135deg, #f8fafc, #eef3f7);
+      overflow: hidden;
+    }
+
+    .model-viewer canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .model-status {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 18px;
+      color: var(--muted);
+      text-align: center;
+      pointer-events: none;
+    }
+
+    .model-link {
+      color: var(--accent-2);
+      font-weight: 800;
+      pointer-events: auto;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: 18px 0;
+    }
+
+    .fact {
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfd;
+    }
+
+    .fact b {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .section {
+      margin-top: 22px;
+    }
+
+    .section h3 {
+      margin: 0 0 10px;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .stat-row {
+      display: grid;
+      grid-template-columns: 112px 42px 1fr;
+      gap: 8px;
+      align-items: center;
+      margin: 8px 0;
+      font-size: 0.88rem;
+    }
+
+    .bar {
+      height: 9px;
+      border-radius: 999px;
+      background: #e6ebf1;
+      overflow: hidden;
+    }
+
+    .bar span {
+      display: block;
+      height: 100%;
+      width: var(--value);
+      background: linear-gradient(90deg, var(--accent-2), var(--accent));
+    }
+
+    .ability {
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .ability:first-child {
+      border-top: 0;
+    }
+
+    .ability strong {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 5px;
+    }
+
+    .ability strong span {
+      color: var(--accent-2);
+      font-size: 0.76rem;
+      text-transform: uppercase;
+    }
+
+    .ability p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
+      gap: 8px;
+    }
+
+    .variant-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(142px, 1fr));
+      gap: 8px;
+    }
+
+    .variant-card {
+      min-width: 0;
+      display: grid;
+      gap: 8px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfd;
+      color: var(--ink);
+      text-align: left;
+    }
+
+    .variant-card:hover,
+    .variant-card:focus-visible {
+      border-color: rgba(25, 123, 117, 0.55);
+      outline: none;
+    }
+
+    .variant-card.is-current {
+      border-color: rgba(214, 66, 66, 0.48);
+      box-shadow: inset 0 0 0 1px rgba(214, 66, 66, 0.22);
+    }
+
+    .variant-card .sprite-stage {
+      border-radius: 6px;
+    }
+
+    .variant-name {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: baseline;
+      font-weight: 800;
+      line-height: 1.15;
+      overflow-wrap: anywhere;
+    }
+
+    .variant-id,
+    .variant-bst {
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .evolution-paths {
+      display: grid;
+      gap: 10px;
+    }
+
+    .evolution-path {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .evolution-node {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 38px;
+      padding: 5px 10px 5px 6px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfd;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .evolution-node:hover,
+    .evolution-node:focus-visible {
+      border-color: rgba(25, 123, 117, 0.55);
+      outline: none;
+    }
+
+    .evolution-node img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+    }
+
+    .evolution-arrow {
+      color: var(--muted);
+    }
+
+    .thumb {
+      aspect-ratio: 1 / 1;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #f8fafc;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .thumb img {
+      width: 86%;
+      height: 86%;
+      object-fit: contain;
+    }
+
+    .loading {
+      opacity: 0.72;
+      pointer-events: none;
+    }
+
+    @media (max-width: 980px) {
+      .shell {
+        display: block;
+      }
+
+      .browser {
+        border-right: 0;
+      }
+
+      .controls {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .detail {
+        position: fixed;
+        inset: 0;
+        z-index: 8;
+        transform: translateX(100%);
+        transition: transform 180ms ease;
+        box-shadow: var(--shadow);
+      }
+
+      .detail.open {
+        transform: translateX(0);
+      }
+
+      .close-detail {
+        display: inline-grid;
+        place-items: center;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .topbar-inner,
+      .grid-wrap {
+        width: min(100% - 20px, 1180px);
+      }
+
+      .brand-row {
+        display: grid;
+        gap: 8px;
+      }
+
+      .count {
+        white-space: normal;
+      }
+
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .pokemon-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .card {
+        min-height: 218px;
+        padding: 10px;
+      }
+
+      .facts {
+        grid-template-columns: 1fr;
+      }
+
+      .stat-row {
+        grid-template-columns: 96px 36px 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
+  <main class="shell">
+    <section class="browser" aria-label="Pokemon browser">
+      <header class="topbar">
+        <div class="topbar-inner">
+          <div class="brand-row">
+            <h1>Pokemon Database</h1>
+            <div class="count" id="result-count">Loading Pokemon...</div>
+          </div>
+          <div class="controls" aria-label="Filters">
+            <input class="field" id="search" type="search" placeholder="Search name or #id" autocomplete="off">
+            <select class="field" id="type-filter" aria-label="Filter by type">
+              <option value="">All types</option>
+            </select>
+            <select class="field" id="generation-filter" aria-label="Filter by generation">
+              <option value="">All generations</option>
+            </select>
+            <select class="field" id="sort-order" aria-label="Sort Pokemon">
+              <option value="id">National #</option>
+              <option value="name">Name</option>
+              <option value="stats">Stats total</option>
+              <option value="forms">Forms count</option>
+            </select>
+          </div>
+        </div>
+      </header>
+      <div class="grid-wrap">
+        <div class="pokemon-grid" id="pokemon-grid"></div>
+        <p class="empty" id="empty-state">No Pokemon match these filters.</p>
+      </div>
+    </section>
 
+    <aside class="detail" id="detail-panel" aria-live="polite">
+      <div class="detail-head">
+        <div class="detail-title">
+          <h2 id="detail-heading">Choose a Pokemon</h2>
+          <div class="chips" id="detail-types"></div>
+        </div>
+        <button class="close-detail" id="close-detail" type="button" aria-label="Close details">&times;</button>
+      </div>
+      <div class="detail-body" id="detail-body">
+        <div class="detail-placeholder">Select any card to inspect stats, abilities, forms, and local artwork.</div>
+      </div>
+    </aside>
+  </main>
+
+  <script type="module">
+    const state = {
+      entries: [],
+      selected: null,
+      query: "",
+      type: "",
+      generation: "",
+      sort: "id",
+      modelCleanup: null,
+    };
+
+    let threeRuntimePromise = null;
+
+    const elements = {
+      search: document.querySelector("#search"),
+      typeFilter: document.querySelector("#type-filter"),
+      generationFilter: document.querySelector("#generation-filter"),
+      sortOrder: document.querySelector("#sort-order"),
+      grid: document.querySelector("#pokemon-grid"),
+      empty: document.querySelector("#empty-state"),
+      count: document.querySelector("#result-count"),
+      detailPanel: document.querySelector("#detail-panel"),
+      detailHeading: document.querySelector("#detail-heading"),
+      detailTypes: document.querySelector("#detail-types"),
+      detailBody: document.querySelector("#detail-body"),
+      closeDetail: document.querySelector("#close-detail"),
+    };
+
+    const statLabels = {
+      hp: "HP",
+      attack: "Attack",
+      defense: "Defense",
+      specialAttack: "Sp. Attack",
+      specialDefense: "Sp. Defense",
+      speed: "Speed",
+    };
+
+    init();
+
+    async function init() {
+      bindControls();
+
+      try {
+        const response = await fetch("data-v2/pokemon-index.json");
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const index = await response.json();
+        state.entries = index.entries ?? [];
+        populateFilters();
+        renderGrid();
+      } catch (error) {
+        elements.count.textContent = "Could not load data-v2/pokemon-index.json";
+        elements.grid.innerHTML = "";
+        elements.empty.textContent = "Run node scripts/build-ui-index.mjs, then serve this folder over HTTP.";
+        elements.empty.style.display = "block";
+      }
+    }
+
+    function bindControls() {
+      elements.search.addEventListener("input", () => {
+        state.query = elements.search.value.trim().toLowerCase();
+        renderGrid();
+      });
+
+      elements.typeFilter.addEventListener("change", () => {
+        state.type = elements.typeFilter.value;
+        renderGrid();
+      });
+
+      elements.generationFilter.addEventListener("change", () => {
+        state.generation = elements.generationFilter.value;
+        renderGrid();
+      });
+
+      elements.sortOrder.addEventListener("change", () => {
+        state.sort = elements.sortOrder.value;
+        renderGrid();
+      });
+
+      elements.closeDetail.addEventListener("click", () => {
+        elements.detailPanel.classList.remove("open");
+      });
+    }
+
+    function populateFilters() {
+      const entries = listEntries();
+      const types = [...new Set(entries.flatMap((entry) => entry.types))].sort();
+      const generations = [...new Set(entries.map((entry) => entry.generation).filter(Boolean))]
+        .sort(compareGeneration);
+
+      elements.typeFilter.append(...types.map((type) => option(type, titleCase(type))));
+      elements.generationFilter.append(
+        ...generations.map((generation) => option(generation, formatGeneration(generation))),
+      );
+    }
+
+    function renderGrid() {
+      const entries = filteredEntries();
+      elements.count.textContent = `${entries.length.toLocaleString()} / ${listEntries().length.toLocaleString()} Pokemon`;
+      elements.empty.style.display = entries.length ? "none" : "block";
+      elements.grid.innerHTML = entries.map(cardTemplate).join("");
+
+      for (const card of elements.grid.querySelectorAll(".card")) {
+        card.addEventListener("click", () => selectPokemon(card.dataset.file));
+      }
+    }
+
+    function listEntries() {
+      return state.entries.filter((entry) => entry.isDefault);
+    }
+
+    function filteredEntries() {
+      const query = state.query;
+
+      return state.entries
+        .filter((entry) => entry.isDefault)
+        .filter((entry) => {
+          const matchesQuery =
+            !query ||
+            entry.name.includes(query) ||
+            entry.displayName.toLowerCase().includes(query) ||
+            String(entry.id) === query ||
+            String(entry.id).padStart(3, "0") === query;
+
+          const matchesType = !state.type || entry.types.includes(state.type);
+          const matchesGeneration = !state.generation || entry.generation === state.generation;
+
+          return matchesQuery && matchesType && matchesGeneration;
+        })
+        .sort(compareEntries);
+    }
+
+    function compareEntries(left, right) {
+      if (state.sort === "name") {
+        return left.displayName.localeCompare(right.displayName);
+      }
+
+      if (state.sort === "stats") {
+        return (right.statsTotal ?? 0) - (left.statsTotal ?? 0) || left.id - right.id;
+      }
+
+      if (state.sort === "forms") {
+        return (right.formsCount ?? 0) - (left.formsCount ?? 0) || left.id - right.id;
+      }
+
+      return left.id - right.id || left.name.localeCompare(right.name);
+    }
+
+    function cardTemplate(entry) {
+      return `
+        <button class="card" type="button" data-file="${escapeAttribute(entry.file)}">
+          <div class="sprite-stage">${imageTemplate(entry.image, entry.displayName)}</div>
+          <div class="card-title">
+            <h2>${escapeHtml(entry.displayName)}</h2>
+            <span class="number">#${String(entry.id).padStart(4, "0")}</span>
+          </div>
+          <div class="chips">${typeChips(entry.types)}</div>
+          <div class="meta-line">
+            <span>${formatGeneration(entry.generation)}</span>
+            <span>${entry.statsTotal ?? "-"} BST</span>
+          </div>
+        </button>
+      `;
+    }
+
+    async function selectPokemon(file) {
+      const entry = state.entries.find((item) => item.file === file);
+      if (!entry) {
+        return;
+      }
+
+      cleanupModelViewer();
+      state.selected = entry;
+      elements.detailPanel.classList.add("open");
+      elements.detailHeading.textContent = entry.displayName;
+      elements.detailTypes.innerHTML = typeChips(entry.types);
+      elements.detailBody.classList.add("loading");
+      elements.detailBody.innerHTML = `<div class="detail-placeholder">Loading ${escapeHtml(entry.displayName)}...</div>`;
+
+      try {
+        const response = await fetch(file);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const pokemon = await response.json();
+        const evolution = await loadEvolution(pokemon, file);
+        renderDetails(pokemon, evolution);
+      } catch (error) {
+        elements.detailBody.innerHTML = `<div class="detail-placeholder">Could not load ${escapeHtml(file)}.</div>`;
+      } finally {
+        elements.detailBody.classList.remove("loading");
+      }
+    }
+
+    async function loadEvolution(pokemon, pokemonFile) {
+      if (!pokemon.evolution?.file) {
+        return null;
+      }
+
+      const evolutionFile = resolveRelativePath(pokemonFile, pokemon.evolution.file);
+      const response = await fetch(evolutionFile);
+      if (!response.ok) {
+        return null;
+      }
+
+      return {
+        file: evolutionFile,
+        data: await response.json(),
+      };
+    }
+
+    function renderDetails(pokemon, evolution) {
+      const currentForm = findCurrentForm(pokemon);
+      const heroImage = state.selected?.image ?? pickImage(currentForm.images ?? [])?.path;
+      const gallery = galleryImages(state.selected?.images ?? [], heroImage);
+      const variants = variantEntriesFor(state.selected);
+
+      elements.detailBody.innerHTML = `
+        <div class="hero-image">${imageTemplate(heroImage, pokemon.displayName)}</div>
+
+        <div class="facts">
+          <div class="fact"><b>Height</b>${formatHeight(pokemon.height)}</div>
+          <div class="fact"><b>Weight</b>${formatWeight(pokemon.weight)}</div>
+          <div class="fact"><b>Forms</b>${pokemon.forms?.length ?? 0}</div>
+        </div>
+
+        <section class="section">
+          <h3>Base Stats</h3>
+          ${statsTemplate(pokemon.stats)}
+        </section>
+
+        <section class="section">
+          <h3>Abilities</h3>
+          ${(pokemon.abilities ?? []).map(abilityTemplate).join("") || "<p>No abilities listed.</p>"}
+        </section>
+
+        <section class="section">
+          <h3>Evolution</h3>
+          ${evolutionTemplate(evolution)}
+        </section>
+
+        ${modelTemplate(state.selected)}
+
+        <section class="section">
+          <h3>Variants</h3>
+          ${variantsTemplate(variants, state.selected)}
+        </section>
+
+        <section class="section">
+          <h3>Forms</h3>
+          <div class="chips">${(pokemon.forms ?? []).map((form) => chip(form.displayName ?? form.name)).join("")}</div>
+        </section>
+
+        <section class="section">
+          <h3>Artwork</h3>
+          <div class="image-strip">
+            ${gallery.map((image) => `<a class="thumb" href="${escapeAttribute(image.path)}" target="_blank" rel="noreferrer">${imageTemplate(image.path, image.kind)}</a>`).join("")}
+          </div>
+        </section>
+      `;
+
+      for (const button of elements.detailBody.querySelectorAll(".evolution-node[data-file]")) {
+        button.addEventListener("click", () => selectPokemon(button.dataset.file));
+      }
+
+      for (const button of elements.detailBody.querySelectorAll(".variant-card[data-file]")) {
+        button.addEventListener("click", () => selectPokemon(button.dataset.file));
+      }
+
+      initModelViewer(state.selected);
+    }
+
+    function modelTemplate(entry) {
+      if (!entry?.modelPath) {
+        return "";
+      }
+
+      return `
+        <section class="section">
+          <h3>3D Model</h3>
+          <div class="model-viewer" data-model-path="${escapeAttribute(entry.modelPath)}" data-model-name="${escapeAttribute(entry.modelName ?? entry.displayName)}">
+            <div class="model-status">Loading 3D model...</div>
+          </div>
+        </section>
+      `;
+    }
+
+    async function initModelViewer(entry) {
+      const container = elements.detailBody.querySelector(".model-viewer");
+      if (!container || !entry?.modelPath) {
+        return;
+      }
+
+      const status = container.querySelector(".model-status");
+
+      try {
+        const runtime = await loadThreeRuntime();
+        if (state.selected?.file !== entry.file) {
+          return;
+        }
+
+        state.modelCleanup = await renderModel(container, entry, runtime);
+      } catch (error) {
+        if (status) {
+          status.innerHTML = `3D preview unavailable. <a class="model-link" href="${escapeAttribute(entry.modelPath)}" target="_blank" rel="noreferrer">Open GLB</a>`;
+        }
+      }
+    }
+
+    async function loadThreeRuntime() {
+      threeRuntimePromise ??= Promise.all([
+        import("./vendor/three/build/three.module.js"),
+        import("./vendor/three/examples/jsm/loaders/GLTFLoader.js"),
+        import("./vendor/three/examples/jsm/loaders/DRACOLoader.js"),
+        import("./vendor/three/examples/jsm/controls/OrbitControls.js"),
+      ]).then(([THREE, loaderModule, dracoModule, controlsModule]) => ({
+        THREE,
+        GLTFLoader: loaderModule.GLTFLoader,
+        DRACOLoader: dracoModule.DRACOLoader,
+        OrbitControls: controlsModule.OrbitControls,
+      }));
+
+      return threeRuntimePromise;
+    }
+
+    function renderModel(container, entry, runtime) {
+      const { THREE, GLTFLoader, DRACOLoader, OrbitControls } = runtime;
+      const width = container.clientWidth || 360;
+      const height = container.clientHeight || Math.round(width * 0.75);
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(35, width / height, 0.01, 100);
+      const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      const controls = new OrbitControls(camera, renderer.domElement);
+      const dracoLoader = new DRACOLoader();
+      const loader = new GLTFLoader();
+      const lights = [
+        new THREE.HemisphereLight(0xffffff, 0x8aa0aa, 2.6),
+        new THREE.DirectionalLight(0xffffff, 2.1),
+      ];
+      let frameId = null;
+      let resizeObserver = null;
+      let disposed = false;
+      const disposables = [];
+
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      renderer.setSize(width, height, false);
+      renderer.outputColorSpace = THREE.SRGBColorSpace;
+      container.append(renderer.domElement);
+
+      lights[1].position.set(3, 4, 5);
+      scene.add(...lights);
+      controls.enableDamping = true;
+      controls.autoRotate = true;
+      controls.autoRotateSpeed = 1.6;
+      dracoLoader.setDecoderPath("vendor/three/examples/jsm/libs/draco/");
+      loader.setDRACOLoader(dracoLoader);
+
+      loader.load(
+        entry.modelPath,
+        (gltf) => {
+          if (disposed) {
+            disposeObject(gltf.scene);
+            return;
+          }
+
+          const model = gltf.scene;
+          const box = new THREE.Box3().setFromObject(model);
+          const size = box.getSize(new THREE.Vector3());
+          const center = box.getCenter(new THREE.Vector3());
+          const maxSize = Math.max(size.x, size.y, size.z) || 1;
+          const distance = maxSize * 2.4;
+
+          model.position.sub(center);
+          model.traverse((object) => {
+            if (object.isMesh) {
+              object.castShadow = true;
+              object.receiveShadow = true;
+              disposables.push(object.geometry, object.material);
+            }
+          });
+
+          scene.add(model);
+          container.querySelector(".model-status")?.remove();
+          camera.position.set(distance, maxSize * 0.45, distance);
+          camera.near = Math.max(0.01, distance / 100);
+          camera.far = distance * 10;
+          camera.updateProjectionMatrix();
+          controls.target.set(0, 0, 0);
+          controls.update();
+        },
+        undefined,
+        (error) => {
+          console.error("Could not load 3D model", error);
+          const status = container.querySelector(".model-status");
+          if (status) {
+            status.innerHTML = `Could not load 3D model. <a class="model-link" href="${escapeAttribute(entry.modelPath)}" target="_blank" rel="noreferrer">Open GLB</a>`;
+          }
+        },
+      );
+
+      resizeObserver = new ResizeObserver(() => {
+        const nextWidth = container.clientWidth || width;
+        const nextHeight = container.clientHeight || height;
+        camera.aspect = nextWidth / nextHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(nextWidth, nextHeight, false);
+      });
+      resizeObserver.observe(container);
+
+      const animate = () => {
+        controls.update();
+        renderer.render(scene, camera);
+        frameId = window.requestAnimationFrame(animate);
+      };
+      animate();
+
+      return () => {
+        disposed = true;
+        if (frameId) {
+          window.cancelAnimationFrame(frameId);
+        }
+        resizeObserver?.disconnect();
+        controls.dispose();
+        dracoLoader.dispose();
+        scene.traverse(disposeObject);
+        for (const item of disposables) {
+          disposeItem(item);
+        }
+        renderer.dispose();
+        renderer.domElement.remove();
+      };
+    }
+
+    function cleanupModelViewer() {
+      state.modelCleanup?.();
+      state.modelCleanup = null;
+    }
+
+    function disposeObject(object) {
+      if (!object?.isMesh) {
+        return;
+      }
+
+      disposeItem(object.geometry);
+      disposeItem(object.material);
+    }
+
+    function disposeItem(item) {
+      if (Array.isArray(item)) {
+        item.forEach(disposeItem);
+        return;
+      }
+
+      item?.dispose?.();
+    }
+
+    function findCurrentForm(pokemon) {
+      return (
+        pokemon.forms?.find((form) => form.id === pokemon.id) ??
+        pokemon.forms?.find((form) => form.name === pokemon.name) ??
+        pokemon.forms?.find((form) => form.isDefault) ??
+        pokemon.forms?.[0] ??
+        {}
+      );
+    }
+
+    function variantEntriesFor(entry) {
+      if (!entry?.species) {
+        return [];
+      }
+
+      return state.entries
+        .filter((candidate) => {
+          if (!candidate.species) {
+            return false;
+          }
+
+          return candidate.species.id === entry.species.id || candidate.species.name === entry.species.name;
+        })
+        .sort((left, right) => {
+          if (left.isDefault !== right.isDefault) {
+            return left.isDefault ? -1 : 1;
+          }
+
+          return left.id - right.id || left.displayName.localeCompare(right.displayName);
+        });
+    }
+
+    function variantsTemplate(variants, selected) {
+      if (variants.length <= 1) {
+        return "<p>No variants listed.</p>";
+      }
+
+      return `
+        <div class="variant-grid">
+          ${variants.map((variant) => variantCardTemplate(variant, selected)).join("")}
+        </div>
+      `;
+    }
+
+    function variantCardTemplate(variant, selected) {
+      const current = variant.file === selected?.file;
+      const disabled = current ? " disabled" : "";
+
+      return `
+        <button class="variant-card${current ? " is-current" : ""}" type="button" data-file="${escapeAttribute(variant.file)}"${disabled}>
+          <div class="sprite-stage">${imageTemplate(variant.image, variant.displayName)}</div>
+          <div class="variant-name">
+            <span>${escapeHtml(variant.displayName)}</span>
+            <span class="variant-id">#${String(variant.id).padStart(4, "0")}</span>
+          </div>
+          <div class="chips">${typeChips(variant.types)}</div>
+          <div class="variant-bst">${variant.statsTotal ?? "-"} BST</div>
+        </button>
+      `;
+    }
+
+    function statsTemplate(stats = {}) {
+      return Object.entries(statLabels).map(([key, label]) => {
+        const value = stats[key] ?? 0;
+        const width = Math.min(100, Math.round((value / 180) * 100));
+        return `
+          <div class="stat-row">
+            <span>${label}</span>
+            <strong>${value}</strong>
+            <div class="bar" aria-hidden="true"><span style="--value: ${width}%"></span></div>
+          </div>
+        `;
+      }).join("") + `
+        <div class="stat-row">
+          <span>Total</span>
+          <strong>${stats.total ?? 0}</strong>
+          <div class="bar" aria-hidden="true"><span style="--value: ${Math.min(100, Math.round(((stats.total ?? 0) / 720) * 100))}%"></span></div>
+        </div>
+      `;
+    }
+
+    function abilityTemplate(ability) {
+      const hidden = ability.isHidden ? "<span>Hidden</span>" : "";
+
+      return `
+        <div class="ability">
+          <strong>${escapeHtml(ability.displayName ?? ability.name)}${hidden}</strong>
+          <p>${escapeHtml(ability.shortEffect ?? ability.flavorText ?? ability.effect ?? "")}</p>
+        </div>
+      `;
+    }
+
+    function evolutionTemplate(evolution) {
+      if (!evolution?.data?.paths?.length) {
+        return "<p>No evolution chain listed.</p>";
+      }
+
+      return `
+        <div class="evolution-paths">
+          ${evolution.data.paths.map((path) => `
+            <div class="evolution-path">
+              ${path.map((name, index) => {
+                const pokemon = findEvolutionPokemon(evolution, name);
+                const entry = pokemon ? findIndexEntry(pokemon) : null;
+                const node = evolutionNodeTemplate(name, entry);
+                return `${index ? '<span class="evolution-arrow">-></span>' : ""}${node}`;
+              }).join("")}
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    function evolutionNodeTemplate(name, entry) {
+      if (!entry) {
+        return `<span class="evolution-node">${escapeHtml(titleCase(name.replaceAll("-", " ")))}</span>`;
+      }
+
+      return `
+        <button class="evolution-node" type="button" data-file="${escapeAttribute(entry.file)}">
+          ${entry.image ? `<img src="${escapeAttribute(entry.image)}" alt="" loading="lazy">` : ""}
+          <span>${escapeHtml(entry.displayName)}</span>
+        </button>
+      `;
+    }
+
+    function findEvolutionPokemon(evolution, name) {
+      return evolution.data.pokemon?.find((pokemon) => pokemon.name === name) ?? null;
+    }
+
+    function findIndexEntry(pokemon) {
+      const resolvedFile = resolveRelativePath("data-v2/evolutions/evolution.json", pokemon.file);
+      return state.entries.find((entry) => entry.file === resolvedFile || entry.id === pokemon.id || entry.name === pokemon.name) ?? null;
+    }
+
+    function galleryImages(images, verifiedImage) {
+      const seen = new Set();
+      const gallery = [];
+
+      if (verifiedImage) {
+        seen.add(verifiedImage);
+        gallery.push({ kind: "selected", path: verifiedImage });
+      }
+
+      const preferred = images
+        .filter((image) => image.path)
+        .filter((image) => {
+          if (seen.has(image.path)) {
+            return false;
+          }
+          seen.add(image.path);
+          return true;
+        });
+
+      return [...gallery, ...preferred].slice(0, 18);
+    }
+
+    function pickImage(images) {
+      for (const kind of ["officialArtwork", "home", "dreamWorld", "front", "showdown", "sprite"]) {
+        const match = images.find((image) => image.kind === kind && image.path);
+        if (match) {
+          return match;
+        }
+      }
+
+      return images.find((image) => image.path) ?? null;
+    }
+
+    function imageTemplate(src, alt) {
+      if (!src) {
+        return `<span class="missing-image">No image</span>`;
+      }
+
+      return `<img src="${escapeAttribute(src)}" alt="${escapeAttribute(alt)}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'), { className: 'missing-image', textContent: 'No image' }))">`;
+    }
+
+    function typeChips(types = []) {
+      return types.map((type) => `<span class="chip type-${escapeAttribute(type)}">${escapeHtml(type)}</span>`).join("");
+    }
+
+    function chip(label) {
+      return `<span class="chip">${escapeHtml(label)}</span>`;
+    }
+
+    function option(value, label) {
+      const element = document.createElement("option");
+      element.value = value;
+      element.textContent = label;
+      return element;
+    }
+
+    function formatGeneration(generation) {
+      if (!generation) {
+        return "Unknown";
+      }
+
+      return generation.replace("generation-", "Gen ").toUpperCase();
+    }
+
+    function compareGeneration(left, right) {
+      return generationNumber(left) - generationNumber(right);
+    }
+
+    function generationNumber(generation) {
+      const roman = generation.replace("generation-", "");
+      const values = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9 };
+      return values[roman] ?? 99;
+    }
+
+    function formatHeight(value) {
+      return value === null || value === undefined ? "-" : `${(value / 10).toFixed(1)} m`;
+    }
+
+    function formatWeight(value) {
+      return value === null || value === undefined ? "-" : `${(value / 10).toFixed(1)} kg`;
+    }
+
+    function titleCase(value) {
+      return value
+        .split(" ")
+        .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+        .join(" ");
+    }
+
+    function resolveRelativePath(baseFile, relativeFile) {
+      const parts = baseFile.split("/");
+      parts.pop();
+
+      for (const part of relativeFile.split("/")) {
+        if (!part || part === ".") {
+          continue;
+        }
+
+        if (part === "..") {
+          parts.pop();
+        } else {
+          parts.push(part);
+        }
+      }
+
+      return parts.join("/");
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function escapeAttribute(value) {
+      return escapeHtml(value).replaceAll("`", "&#096;");
+    }
+  </script>
 </body>
 </html>
