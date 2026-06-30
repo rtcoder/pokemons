@@ -46,7 +46,9 @@ for (const fileName of files) {
     imageKind: image?.kind ?? null,
     images,
     formsCount: pokemon.forms?.length ?? 0,
-    hasModel: Boolean(currentForm.model?.path),
+    modelPath: modelPath(currentForm),
+    modelName: currentForm.model?.name ?? currentForm.displayName ?? pokemon.displayName,
+    hasModel: Boolean(modelPath(currentForm)),
   });
 }
 
@@ -69,6 +71,10 @@ function findCurrentForm(pokemon) {
     pokemon.forms?.[0] ??
     {}
   );
+}
+
+function modelPath(form) {
+  return form.model?.path && existsSync(form.model.path) ? form.model.path : null;
 }
 
 function pickImages(images) {
